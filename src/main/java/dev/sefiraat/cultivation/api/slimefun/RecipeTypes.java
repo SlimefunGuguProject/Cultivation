@@ -35,10 +35,10 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.TRIPWIRE_HOOK,
             CultivationThemes.RECIPE_TYPE,
-            "Plant Harvesting",
+            "从植物收获",
             List.of(
-                "This item can be harvested from a",
-                "Cultivation Plant"
+                "该物品可从农耕工艺的",
+                "植物收获"
             )
         )
     );
@@ -49,10 +49,10 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.TRIPWIRE_HOOK,
             CultivationThemes.RECIPE_TYPE,
-            "Bush Harvesting",
+            "从灌木丛收获",
             List.of(
-                "This item can be harvested from a",
-                "Cultivation Bush"
+                "该物品可从农耕工艺的",
+                "灌木丛收获"
             )
         )
     );
@@ -63,10 +63,10 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.ACACIA_SAPLING,
             CultivationThemes.RECIPE_TYPE,
-            "Tree Harvesting",
+            "从树木收获",
             List.of(
-                "This item can be harvested from a",
-                "Cultivation Tree"
+                "该物品可从农耕工艺的",
+                "树木收获"
             )
         )
     );
@@ -77,10 +77,10 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.VILLAGER_SPAWN_EGG,
             CultivationThemes.RECIPE_TYPE,
-            "Villager Trading",
+            "村民交易",
             List.of(
-                "This item can be bought from a",
-                "farming villager."
+                "该物品可从",
+                "农夫村民购买"
             )
         )
     );
@@ -91,10 +91,10 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.VILLAGER_SPAWN_EGG,
             CultivationThemes.RECIPE_TYPE,
-            "Villager Trading",
+            "村民交易",
             List.of(
-                "This item can be bought from a",
-                "fletching villager."
+                "该物品可从",
+                "制箭师购买"
             )
         )
     );
@@ -105,10 +105,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.ZOMBIE_HEAD,
             CultivationThemes.RECIPE_TYPE,
-            "Mob Drop",
+            "生物掉落",
             List.of(
-                "This item has a chance to drop from",
-                "the following mob(s)."
+                "该物品有几率从指定生物掉落"
             )
         )
     );
@@ -119,18 +118,19 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.FLOWER_POT,
             CultivationThemes.RECIPE_TYPE,
-            "Plant Breeding",
+            "植物培育",
             List.of(
-                "This seed is found via breeding.",
-                "You breed plants by placing",
-                "two plants down with an air block",
-                "between them.",
+                "该种子通过培育获得.",
                 "",
-                "The breeding dictionary can be used",
-                "to track your discoveries.",
+                "在两个种子中间",
+                "留一个空气方块",
+                "来进行培育.",
                 "",
-                "Hint: Black particles mean the",
-                "two plants CANNOT breed."
+                "植物宝典可用来记录",
+                "你目前的发现.",
+                "",
+                "提示: 黑色粒子表示",
+                "两株植物无法培育."
             )
         )
     );
@@ -141,7 +141,7 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.SWEET_BERRIES,
             CultivationThemes.RECIPE_TYPE,
-            "Bush Trimming",
+            "修剪灌木",
             List.of(
                 "Hi"
                 // todo
@@ -155,8 +155,8 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.BROWN_DYE,
             CultivationThemes.RECIPE_TYPE,
-            "World Drop",
-            List.of("Drops from blocks when broken in the world.")
+            "方块掉落",
+            List.of("破坏方块时有几率掉落.")
         )
     );
 
@@ -166,8 +166,8 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.BUCKET,
             CultivationThemes.RECIPE_TYPE,
-            "World Drop",
-            List.of("Drops from the world when using a bucket.")
+            "水桶掉落",
+            List.of("当使用水桶时掉落")
         )
     );
 
@@ -177,10 +177,11 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.FEATHER,
             CultivationThemes.RECIPE_TYPE,
-            "Air Time",
+            "不死奖励",
             List.of(
-                "Has a chance to drop when you gain air time",
-                "without dying."
+                "当你在空中到达一定时间",
+                "且没有死亡时",
+                "有几率获得."
             )
         )
     );
@@ -191,9 +192,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.IRON_SWORD,
             CultivationThemes.RECIPE_TYPE,
-            "Chopped",
+            "切碎",
             List.of(
-                "Simply chop with a knife!"
+                "用刀来切碎!"
             )
         )
     );
@@ -204,9 +205,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.COMPOSTER,
             CultivationThemes.RECIPE_TYPE,
-            "Mashed",
+            "捣碎",
             List.of(
-                "Mash Mash Mash"
+                "捣!捣!捣!"
             )
         )
     );
@@ -217,9 +218,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.GLASS,
             CultivationThemes.RECIPE_TYPE,
-            "Blended",
+            "混合",
             List.of(
-                "Is made by putting an item in the blender."
+                "在混合台中制作"
             )
         )
     );
@@ -230,9 +231,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.SHEARS,
             CultivationThemes.RECIPE_TYPE,
-            "Sliced",
+            "切片",
             List.of(
-                "So thin and delicate"
+                "如此薄而细腻"
             )
         )
     );
@@ -243,9 +244,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.BONE,
             CultivationThemes.RECIPE_TYPE,
-            "Ground",
+            "剁碎",
             List.of(
-                "To a fine degree"
+                "精细处理"
             )
         )
     );
@@ -256,9 +257,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.CAULDRON,
             CultivationThemes.RECIPE_TYPE,
-            "Boiled",
+            "煮熟",
             List.of(
-                "Hot hot hot!"
+                "烫烫烫!"
             )
         )
     );
@@ -269,9 +270,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.BLACK_CONCRETE,
             CultivationThemes.RECIPE_TYPE,
-            "Fried",
+            "油炸",
             List.of(
-                "Crispy Perfection."
+                "完美的酥脆."
             )
         )
     );
@@ -282,9 +283,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.POLISHED_BLACKSTONE,
             CultivationThemes.RECIPE_TYPE,
-            "Grilled",
+            "烤制",
             List.of(
-                "Juicy and Tender."
+                "鲜嫩多汁."
             )
         )
     );
@@ -295,9 +296,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.POLISHED_DIORITE,
             CultivationThemes.RECIPE_TYPE,
-            "Finishing",
+            "上菜",
             List.of(
-                "Use the kitchen's finishing counter to make this item."
+                "使用厨房的上菜柜台来制作该物品."
             )
         )
     );
@@ -308,9 +309,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.FURNACE,
             CultivationThemes.RECIPE_TYPE,
-            "Baking",
+            "烘焙",
             List.of(
-                "Use the kitchen's oven counter to make this item."
+                "使用厨房的烘培柜台来制作该物品"
             )
         )
     );
@@ -434,7 +435,7 @@ public final class RecipeTypes {
         final ItemStack itemStack = Theme.themedItemStack(
             Material.SKELETON_SKULL,
             CultivationThemes.RECIPE_TYPE,
-            "Drops From",
+            "从该生物掉落:",
             lore
         );
         MobDropListener.addDrop(new MobDropListener.MobDrop(stackToDrop, types, dropChance));

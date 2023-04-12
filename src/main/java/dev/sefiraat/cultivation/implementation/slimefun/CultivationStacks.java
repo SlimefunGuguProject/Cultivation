@@ -43,9 +43,9 @@ public final class CultivationStacks {
         "CLT_TREE_BANANA",
         new ItemStack(Material.ACACIA_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Banana",
+        "农耕工艺 - 树木: 香蕉",
         List.of(
-            "A tree that grows fingers, grim!"
+            "一棵能长出手指的树，emm!"
         )
     );
 
@@ -53,9 +53,9 @@ public final class CultivationStacks {
         "CLT_TREE_LEMON",
         new ItemStack(Material.ACACIA_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Lemon",
+        "农耕工艺 - 树木: 柠檬",
         List.of(
-            "Just looking at this tree taste sour."
+            "这棵树看上去很酸."
         )
     );
 
@@ -63,9 +63,9 @@ public final class CultivationStacks {
         "CLT_TREE_ORANGE",
         new ItemStack(Material.JUNGLE_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Orange",
+        "农耕工艺 - 树木: 橘子",
         List.of(
-            "Little orbs of sunshine."
+            "阳光小球."
         )
     );
 
@@ -73,9 +73,9 @@ public final class CultivationStacks {
         "CLT_TREE_GREEN_APPLE",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Green Apple",
+        "农耕工艺 - 树木: 青苹果",
         List.of(
-            "Grows large and crisp green apples."
+            "培育又大又清脆的青苹果."
         )
     );
 
@@ -83,9 +83,9 @@ public final class CultivationStacks {
         "CLT_TREE_PINEAPPLE",
         new ItemStack(Material.JUNGLE_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Pineapple",
+        "农耕工艺 - 树木: 菠萝",
         List.of(
-            "WHERE IS MY PIZZA?"
+            "披萨，哪里有披萨?"
         )
     );
 
@@ -93,9 +93,9 @@ public final class CultivationStacks {
         "CLT_TREE_MANGO",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Mango",
+        "农耕工艺 - 树木: 芒果",
         List.of(
-            "Best when at it's ripest."
+            "成熟的时候最好吃."
         )
     );
 
@@ -103,9 +103,9 @@ public final class CultivationStacks {
         "CLT_TREE_PEACH",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Peach",
+        "农耕工艺 - 树木: 桃子",
         List.of(
-            "James was looking for this, I think?"
+            "我觉得詹姆斯正在找这个?"
         )
     );
 
@@ -113,9 +113,9 @@ public final class CultivationStacks {
         "CLT_TREE_APRICOT",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Apricot",
+        "农耕工艺 - 树木: 杏子",
         List.of(
-            "Inside is a single pit of despair."
+            "里面只有一个个坑."
         )
     );
 
@@ -123,9 +123,9 @@ public final class CultivationStacks {
         "CLT_TREE_PEAR",
         new ItemStack(Material.ACACIA_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Pear",
+        "农耕工艺 - 树木: 梨子",
         List.of(
-            "A Pair of Pears were paired for parity."
+            "一对梨为了平衡而搭配."
         )
     );
 
@@ -133,7 +133,7 @@ public final class CultivationStacks {
         "CLT_TREE_CHERRY",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Cherry",
+        "农耕工艺 - 树木: 樱桃",
         List.of(
             "Tie the knot!"
         )
@@ -143,7 +143,7 @@ public final class CultivationStacks {
         "CLT_TREE_KIWI",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Kiwi",
+        "农耕工艺 - 树木: Kiwi",
         List.of(
             "A New Zealand Tree? Have I got that right?"
         )
@@ -153,7 +153,7 @@ public final class CultivationStacks {
         "CLT_TREE_LIME",
         new ItemStack(Material.JUNGLE_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Lime",
+        "农耕工艺 - 树木: Lime",
         List.of(
             "Did you know Limes are just Lemons holding their breath?"
         )
@@ -163,7 +163,7 @@ public final class CultivationStacks {
         "CLT_TREE_CHESTNUT",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Chestnut",
+        "农耕工艺 - 树木: Chestnut",
         List.of(
             "A tree clearly designed to be climbed."
         )
@@ -173,7 +173,7 @@ public final class CultivationStacks {
         "CLT_TREE_HAZELNUT",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Hazelnut",
+        "农耕工艺 - 树木: Hazelnut",
         List.of(
             "Shaking this tree is a childhood past-time."
         )
@@ -187,7 +187,7 @@ public final class CultivationStacks {
         "CLT_BUSH_GRAPE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Grape",
+        "农耕工艺 - 灌木: Grape",
         List.of(
             "Ripe and juicy grapes that practically fall",
             "off the bush."
@@ -198,7 +198,7 @@ public final class CultivationStacks {
         "CLT_BUSH_PEANUTS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Peanuts",
+        "农耕工艺 - 灌木: Peanuts",
         List.of(
             "Solid and fragrant and full of protein."
         )
@@ -208,7 +208,7 @@ public final class CultivationStacks {
         "CLT_BUSH_STRAWBERRY",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Strawberry",
+        "农耕工艺 - 灌木: Strawberry",
         List.of(
             "Solid and fragrant and full of protein."
         )
@@ -218,7 +218,7 @@ public final class CultivationStacks {
         "CLT_BUSH_RICE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Rice",
+        "农耕工艺 - 灌木: Rice",
         List.of(
             "The ultimate staple food."
         )
@@ -228,7 +228,7 @@ public final class CultivationStacks {
         "CLT_BUSH_GARLIC",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Garlic",
+        "农耕工艺 - 灌木: Garlic",
         List.of(
             "This bush has simply the worst breath."
         )
@@ -238,7 +238,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CAYENNE_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Cayenne Pepper",
+        "农耕工艺 - 灌木: Cayenne Pepper",
         List.of(
             "A bush with a peppery attitude."
         )
@@ -248,7 +248,7 @@ public final class CultivationStacks {
         "CLT_BUSH_TOMATO",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Tomato",
+        "农耕工艺 - 灌木: Tomato",
         List.of(
             "Ripe and ready."
         )
@@ -258,7 +258,7 @@ public final class CultivationStacks {
         "CLT_BUSH_BELL_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Bell Pepper",
+        "农耕工艺 - 灌木: Bell Pepper",
         List.of(
             "Careful walking by this, you may ring",
             "the bell."
@@ -269,7 +269,7 @@ public final class CultivationStacks {
         "CLT_BUSH_ONION",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Onion",
+        "农耕工艺 - 灌木: Onion",
         List.of(
             "Does this bush look like it's tearing up?"
         )
@@ -279,7 +279,7 @@ public final class CultivationStacks {
         "CLT_BUSH_PEA",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Peas",
+        "农耕工艺 - 灌木: Peas",
         List.of(
             "I prefer Q's"
         )
@@ -289,7 +289,7 @@ public final class CultivationStacks {
         "CLT_BUSH_RAPESEED",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Rapeseed",
+        "农耕工艺 - 灌木: Rapeseed",
         List.of(
             "This bush is exuding some oily substance."
         )
@@ -299,7 +299,7 @@ public final class CultivationStacks {
         "CLT_BUSH_LETTUCE",
         Skins.SPIKEY_GREEN_4.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Lettuce",
+        "农耕工艺 - 灌木: Lettuce",
         List.of(
             "Does lettuce even grow on bushes?",
             "Spoiler: No, it doesn't."
@@ -310,7 +310,7 @@ public final class CultivationStacks {
         "CLT_BUSH_MUSTARD",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Mustard Seeds",
+        "农耕工艺 - 灌木: Mustard Seeds",
         List.of(
             "Like fire in your mouth."
         )
@@ -320,7 +320,7 @@ public final class CultivationStacks {
         "CLT_BUSH_BROCCOLI",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Broccoli",
+        "农耕工艺 - 灌木: Broccoli",
         List.of(
             "Tiny trees you can eat? Who invented this!?"
         )
@@ -330,7 +330,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CINNAMON",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Cinnamon",
+        "农耕工艺 - 灌木: Cinnamon",
         List.of(
             "A delightfully fragrant bush."
         )
@@ -340,7 +340,7 @@ public final class CultivationStacks {
         "CLT_BUSH_BASIL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Basil",
+        "农耕工艺 - 灌木: Basil",
         List.of(
             "A light hearted bush full of whimsy."
         )
@@ -350,7 +350,7 @@ public final class CultivationStacks {
         "CLT_BUSH_BAY_LEAF",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Bay Leaf",
+        "农耕工艺 - 灌木: Bay Leaf",
         List.of(
             "The smell of this bush travels for miles."
         )
@@ -360,7 +360,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CILANTRO",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Cilantro",
+        "农耕工艺 - 灌木: Cilantro",
         List.of(
             "A faint citrus and spice smell comes from this bush."
         )
@@ -370,7 +370,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CHICORY",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Chicory",
+        "农耕工艺 - 灌木: Chicory",
         List.of(
             "I thought chicory was a root? Does this addon",
             "even do it's research!?"
@@ -381,7 +381,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CHIVES",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Chives",
+        "农耕工艺 - 灌木: Chives",
         List.of(
             "A bush that produces what is, effectively, the world's",
             "smallest onion."
@@ -392,7 +392,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CLOVE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Clove",
+        "农耕工艺 - 灌木: Clove",
         List.of(
             "A bush that just reminds me of Christmas."
         )
@@ -402,7 +402,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CUMIN",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Cumin",
+        "农耕工艺 - 灌木: Cumin",
         List.of(
             "A bush that lets of a warm citrus aroma."
         )
@@ -412,7 +412,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CHILLI_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Chilli Pepper",
+        "农耕工艺 - 灌木: Chilli Pepper",
         List.of(
             "Just looking at this bush burns my tongue."
         )
@@ -422,7 +422,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CURRY_LEAF",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Curry Leaf",
+        "农耕工艺 - 灌木: Curry Leaf",
         List.of(
             "Best when dry roasted."
         )
@@ -432,7 +432,7 @@ public final class CultivationStacks {
         "CLT_BUSH_DILL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Dill",
+        "农耕工艺 - 灌木: Dill",
         List.of(
             "This bush grows much faster than others."
         )
@@ -442,7 +442,7 @@ public final class CultivationStacks {
         "CLT_BUSH_FENNEL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Fennel",
+        "农耕工艺 - 灌木: Fennel",
         List.of(
             "Why does this bush repel bugs!?"
         )
@@ -452,7 +452,7 @@ public final class CultivationStacks {
         "CLT_BUSH_GINGER",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Ginger",
+        "农耕工艺 - 灌木: Ginger",
         List.of(
             "This bush is nice when boiled whole."
         )
@@ -462,7 +462,7 @@ public final class CultivationStacks {
         "CLT_BUSH_HORSERADISH",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Horseradish",
+        "农耕工艺 - 灌木: Horseradish",
         List.of(
             "Again, this growing on a bush just doesn't make sense."
         )
@@ -472,7 +472,7 @@ public final class CultivationStacks {
         "CLT_BUSH_JASMINE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Jasmine",
+        "农耕工艺 - 灌木: Jasmine",
         List.of(
             "The scent from this bush is so soft and mellow."
         )
@@ -482,7 +482,7 @@ public final class CultivationStacks {
         "CLT_BUSH_JUNIPER_BERRY",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Juniper Berry",
+        "农耕工艺 - 灌木: Juniper Berry",
         List.of(
             "So sweet on the bush, peppery when dried."
         )
@@ -492,7 +492,7 @@ public final class CultivationStacks {
         "CLT_BUSH_KAFFIR_LIME",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Kaffir Lime",
+        "农耕工艺 - 灌木: Kaffir Lime",
         List.of(
             "A bush whose leafs are more wanted than it's fruit."
         )
@@ -502,7 +502,7 @@ public final class CultivationStacks {
         "CLT_BUSH_LAVENDER",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Lavender",
+        "农耕工艺 - 灌木: Lavender",
         List.of(
             "This bush wafts it's smell everywhere."
         )
@@ -512,7 +512,7 @@ public final class CultivationStacks {
         "CLT_BUSH_LICORICE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Licorice",
+        "农耕工艺 - 灌木: Licorice",
         List.of(
             "Gross"
         )
@@ -522,7 +522,7 @@ public final class CultivationStacks {
         "CLT_BUSH_MACE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Mace",
+        "农耕工艺 - 灌木: Mace",
         List.of(
             "This bush seems to be repelling attackers?"
         )
@@ -532,7 +532,7 @@ public final class CultivationStacks {
         "CLT_BUSH_MARJORAM",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Marjoram",
+        "农耕工艺 - 灌木: Marjoram",
         List.of(
             "A large woody smelling bush."
         )
@@ -542,7 +542,7 @@ public final class CultivationStacks {
         "CLT_BUSH_MINT",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Mint",
+        "农耕工艺 - 灌木: Mint",
         List.of(
             "Simply the best smelling bush."
         )
@@ -552,7 +552,7 @@ public final class CultivationStacks {
         "CLT_BUSH_OREGANO",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Oregano",
+        "农耕工艺 - 灌木: Oregano",
         List.of(
             "This pungent smelling bush deters visitors."
         )
@@ -562,7 +562,7 @@ public final class CultivationStacks {
         "CLT_BUSH_PARSLEY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Parsley",
+        "农耕工艺 - 灌木: Parsley",
         List.of(
             "Throw this bush in lava, now :D"
         )
@@ -572,7 +572,7 @@ public final class CultivationStacks {
         "CLT_BUSH_ROSEMARY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Rosemary",
+        "农耕工艺 - 灌木: Rosemary",
         List.of(
             "A bush whose smell reminds people of sunday lunches."
         )
@@ -582,7 +582,7 @@ public final class CultivationStacks {
         "CLT_BUSH_SASSAFRAS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Sassafras",
+        "农耕工艺 - 灌木: Sassafras",
         List.of(
             "This bush love to be planted near small bodies",
             "of water."
@@ -593,7 +593,7 @@ public final class CultivationStacks {
         "CLT_BUSH_SHISO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Shiso",
+        "农耕工艺 - 灌木: Shiso",
         List.of(
             "I like to think this bush is the love child",
             "of a mint bush and a basil bush. Too bad",
@@ -605,7 +605,7 @@ public final class CultivationStacks {
         "CLT_BUSH_STAR_ANISE",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Star Anise",
+        "农耕工艺 - 灌木: Star Anise",
         List.of(
             "A small comes off this bush that is so unique",
             "to anise, you can't even believe."
@@ -616,7 +616,7 @@ public final class CultivationStacks {
         "CLT_BUSH_TARRAGON",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Tarragon",
+        "农耕工艺 - 灌木: Tarragon",
         List.of(
             "This bush doesn't like to draw too much attention."
         )
@@ -626,7 +626,7 @@ public final class CultivationStacks {
         "CLT_BUSH_THYME",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Thyme",
+        "农耕工艺 - 灌木: Thyme",
         List.of(
             "This bush is always running out of... Thyme... *cough*"
         )
@@ -636,7 +636,7 @@ public final class CultivationStacks {
         "CLT_BUSH_TURMERIC",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Turmeric",
+        "农耕工艺 - 灌木: Turmeric",
         List.of(
             "A waft of spice hits your nose just",
             "holding this bush."
@@ -647,7 +647,7 @@ public final class CultivationStacks {
         "CLT_BUSH_VANILLA",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Vanilla",
+        "农耕工艺 - 灌木: Vanilla",
         List.of(
             "This bush grows natively near StarBucks locations."
         )
@@ -657,7 +657,7 @@ public final class CultivationStacks {
         "CLT_BUSH_WASABI",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Wasabi",
+        "农耕工艺 - 灌木: Wasabi",
         List.of(
             "Another root growing off of a bush?",
             "Sigh..."
@@ -668,7 +668,7 @@ public final class CultivationStacks {
         "CLT_BUSH_ARTICHOKE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Artichoke",
+        "农耕工艺 - 灌木: Artichoke",
         List.of(
             "By far the best bush to strangle an",
             "artist with. Sigh. Puns be hard."
@@ -679,7 +679,7 @@ public final class CultivationStacks {
         "CLT_BUSH_AUBERGINE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Aubergine",
+        "农耕工艺 - 灌木: Aubergine",
         List.of(
             "I refuse to use the word eggplant. I just do."
         )
@@ -689,7 +689,7 @@ public final class CultivationStacks {
         "CLT_BUSH_ASPARAGUS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Asparagus",
+        "农耕工艺 - 灌木: Asparagus",
         List.of(
             "This asparagus bush makes a good",
             "stalker!"
@@ -700,7 +700,7 @@ public final class CultivationStacks {
         "CLT_BUSH_BRUSSELS_SPROUTS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Brussels Sprouts",
+        "农耕工艺 - 灌木: Brussels Sprouts",
         List.of(
             "A bush that can sometimes produce noxious",
             "gas."
@@ -711,7 +711,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CABBAGE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Cabbage",
+        "农耕工艺 - 灌木: Cabbage",
         List.of(
             "A bush that comes with a large amount of",
             "emotional cabbage."
@@ -722,7 +722,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CAULIFLOWER",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Cauliflower",
+        "农耕工艺 - 灌木: Cauliflower",
         List.of(
             "A bush capable of producing little clouds",
             "of delight."
@@ -733,7 +733,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CELERY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Celery",
+        "农耕工艺 - 灌木: Celery",
         List.of(
             "This bush is redundant.",
             "Sefi doesn't like Celery."
@@ -744,7 +744,7 @@ public final class CultivationStacks {
         "CLT_BUSH_KALE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Kale",
+        "农耕工艺 - 灌木: Kale",
         List.of(
             "When you plant this bush, you get the feeling",
             "that everything is going to be o-kale."
@@ -755,7 +755,7 @@ public final class CultivationStacks {
         "CLT_BUSH_SPINACH",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Spinach",
+        "农耕工艺 - 灌木: Spinach",
         List.of(
             "This bush is Popeye's best friend."
         )
@@ -765,7 +765,7 @@ public final class CultivationStacks {
         "CLT_BUSH_BLACK_BEANS",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Black Beans",
+        "农耕工艺 - 灌木: Black Beans",
         List.of(
             "This bush gently whispers to you:",
             "You are a great human bean."
@@ -776,7 +776,7 @@ public final class CultivationStacks {
         "CLT_BUSH_GREEN_BEANS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Green Beans",
+        "农耕工艺 - 灌木: Green Beans",
         List.of(
             "Throw tomato sauce over this bush to make",
             "baked beans."
@@ -787,7 +787,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CHICKPEAS",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Chickpeas",
+        "农耕工艺 - 灌木: Chickpeas",
         List.of(
             "A bush made by breeding a chicken with",
             "a pea. SCIENCE."
@@ -798,7 +798,7 @@ public final class CultivationStacks {
         "CLT_BUSH_SOY_BEANS",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Soy Beans",
+        "农耕工艺 - 灌木: Soy Beans",
         List.of(
             "This bush is a friendly delight. It makes",
             "me soy happy."
@@ -809,7 +809,7 @@ public final class CultivationStacks {
         "CLT_BUSH_PINTO_BEANS",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Pinto Beans",
+        "农耕工艺 - 灌木: Pinto Beans",
         List.of(
             "It wont be long until we successfully breed",
             "a direct-burrito bush, right?"
@@ -820,7 +820,7 @@ public final class CultivationStacks {
         "CLT_BUSH_RUNNER_BEANS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Runner Beans",
+        "农耕工艺 - 灌木: Runner Beans",
         List.of(
             "This bush has feet o.o?"
         )
@@ -830,7 +830,7 @@ public final class CultivationStacks {
         "CLT_BUSH_NETTLES",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Nettles",
+        "农耕工艺 - 灌木: Nettles",
         List.of(
             "Be careful when walking through this bush!"
         )
@@ -840,7 +840,7 @@ public final class CultivationStacks {
         "CLT_BUSH_OKRA",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Okra",
+        "农耕工艺 - 灌木: Okra",
         List.of(
             "Voted the number 1 vegetable according to",
             "Okra Winfrey's Vegetable Club."
@@ -851,7 +851,7 @@ public final class CultivationStacks {
         "CLT_BUSH_LEEK",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Leek",
+        "农耕工艺 - 灌木: Leek",
         List.of(
             "Did you know a leek is just an onion that",
             "wears a corset? True story."
@@ -862,7 +862,7 @@ public final class CultivationStacks {
         "CLT_BUSH_SHALLOT",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Shallot",
+        "农耕工艺 - 灌木: Shallot",
         List.of(
             "This bush rapidly produces lovely mini onions.",
             "Luckily you don't need a shallot."
@@ -873,7 +873,7 @@ public final class CultivationStacks {
         "CLT_BUSH_JALAPENO",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Jalapeno",
+        "农耕工艺 - 灌木: Jalapeno",
         List.of(
             "Just holding this bush gives you a",
             "1% change to set ablaze."
@@ -884,7 +884,7 @@ public final class CultivationStacks {
         "CLT_BUSH_RADICCHIO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Radicchio",
+        "农耕工艺 - 灌木: Radicchio",
         List.of(
             "Want to sound fancy? But Radicchio into any",
             "meal - it's basically like cabbage but",
@@ -896,7 +896,7 @@ public final class CultivationStacks {
         "CLT_BUSH_RHUBARB",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Rhubarb",
+        "农耕工艺 - 灌木: Rhubarb",
         List.of(
             "Did you know rhubarb was a vegetable?",
             "I thought it was a type of hammer."
@@ -907,7 +907,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CELERIAC",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Celeriac",
+        "农耕工艺 - 灌木: Celeriac",
         List.of(
             "Yet another root growing off of a bush?",
             "SefiDumb™"
@@ -918,7 +918,7 @@ public final class CultivationStacks {
         "CLT_BUSH_PARSNIP",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Parsnip",
+        "农耕工艺 - 灌木: Parsnip",
         List.of(
             "Just skip the middleman and roast the bush",
             "directly."
@@ -929,7 +929,7 @@ public final class CultivationStacks {
         "CLT_BUSH_RUTABAGA",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Rutabaga",
+        "农耕工艺 - 灌木: Rutabaga",
         List.of(
             "Swede. Its a swede."
         )
@@ -939,7 +939,7 @@ public final class CultivationStacks {
         "CLT_BUSH_RADDISH",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Raddish",
+        "农耕工艺 - 灌木: Raddish",
         List.of(
             "This plant just did a skateboarding trick.",
             "Totally Rad...ish."
@@ -950,7 +950,7 @@ public final class CultivationStacks {
         "CLT_BUSH_SWEET_POTATO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Sweet Potato",
+        "农耕工艺 - 灌木: Sweet Potato",
         List.of(
             "This bush is just so sweet. I heard it",
             "complimenting you while you weren't listening."
@@ -961,7 +961,7 @@ public final class CultivationStacks {
         "CLT_BUSH_TURNIP",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Turnip",
+        "农耕工艺 - 灌木: Turnip",
         List.of(
             "According to the British Government",
             "this bush will solve all our problems."
@@ -972,7 +972,7 @@ public final class CultivationStacks {
         "CLT_BUSH_SWEETCORN",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Sweetcorn",
+        "农耕工艺 - 灌木: Sweetcorn",
         List.of(
             "This bush is just crying out to be built into",
             "a maze."
@@ -983,7 +983,7 @@ public final class CultivationStacks {
         "CLT_BUSH_COURGETTE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Courgette",
+        "农耕工艺 - 灌木: Courgette",
         List.of(
             "Why does this bush just keep shouting the",
             "word Zucchini? I guess it must be american?"
@@ -994,7 +994,7 @@ public final class CultivationStacks {
         "CLT_BUSH_CUCUMBER",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Cucumber",
+        "农耕工艺 - 灌木: Cucumber",
         List.of(
             "This bush was designed solely for the purposes",
             "of your lovely summer salads."
@@ -1005,7 +1005,7 @@ public final class CultivationStacks {
         "CLT_BUSH_MARROW",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Marrow",
+        "农耕工艺 - 灌木: Marrow",
         List.of(
             "I'm surprised this bush can hold it's",
             "own weight."
@@ -1020,7 +1020,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DARKNESS",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Darkness",
+        "农耕工艺 - 植物: Darkness",
         List.of(
             "A plant that seethes in unbridled",
             "rage."
@@ -1031,7 +1031,7 @@ public final class CultivationStacks {
         "CLT_PLANT_LIGHT",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Light",
+        "农耕工艺 - 植物: Light",
         List.of(
             "A plant that exudes an aura",
             "of pure love."
@@ -1042,7 +1042,7 @@ public final class CultivationStacks {
         "CLT_PLANT_EARTH",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Earth",
+        "农耕工艺 - 植物: Earth",
         List.of(
             "A plant that enriches the world",
             "surrounding it."
@@ -1053,7 +1053,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WATER",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Water",
+        "农耕工艺 - 植物: Water",
         List.of(
             "A plant that nurtures and provides",
             "life to the surrounding area."
@@ -1064,7 +1064,7 @@ public final class CultivationStacks {
         "CLT_PLANT_FIRE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Fire",
+        "农耕工艺 - 植物: Fire",
         List.of(
             "A plant that both provides the",
             "sources of destruction as well as",
@@ -1076,7 +1076,7 @@ public final class CultivationStacks {
         "CLT_PLANT_AIR",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Air",
+        "农耕工艺 - 植物: Air",
         List.of(
             "A plant that quietly hums with",
             "the melody of the surrounding nature."
@@ -1087,7 +1087,7 @@ public final class CultivationStacks {
         "CLT_PLANT_POWER",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Power",
+        "农耕工艺 - 植物: Power",
         List.of(
             "A plant that positively exudes power."
         )
@@ -1097,7 +1097,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WEALTH",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Wealth",
+        "农耕工艺 - 植物: Wealth",
         List.of(
             "A plant that just screams exuberant wealth."
         )
@@ -1107,7 +1107,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SPECTRUM",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Spectrum",
+        "农耕工艺 - 植物: Spectrum",
         List.of(
             "A plant that slightly shifts it's color."
         )
@@ -1117,7 +1117,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DIRT",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Dirt",
+        "农耕工艺 - 植物: Dirt",
         List.of(
             "Dirty on the surface but holding the",
             "building blocks for life itself."
@@ -1128,7 +1128,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GRASS",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Grass",
+        "农耕工艺 - 植物: Grass",
         List.of(
             "The burgeoning life bound fourth",
             "from the ground."
@@ -1139,7 +1139,7 @@ public final class CultivationStacks {
         "CLT_PLANT_FLOWER",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Flowering",
+        "农耕工艺 - 植物: Flowering",
         List.of(
             "A beautiful cornucopia presented well."
         )
@@ -1149,7 +1149,7 @@ public final class CultivationStacks {
         "CLT_PLANT_VINE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Vine",
+        "农耕工艺 - 植物: Vine",
         List.of(
             "A plant that instantly tangles itself",
             "up."
@@ -1160,7 +1160,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SAND",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Sand",
+        "农耕工艺 - 植物: Sand",
         List.of(
             "This plant can sometimes crumble apart",
             "at a single touch."
@@ -1171,7 +1171,7 @@ public final class CultivationStacks {
         "CLT_PLANT_RED_SAND",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Red Sand",
+        "农耕工艺 - 植物: Red Sand",
         List.of(
             "This plant can sometimes crumble apart",
             "at a single touch - but... red-er."
@@ -1182,7 +1182,7 @@ public final class CultivationStacks {
         "CLT_PLANT_MOSS",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Moss",
+        "农耕工艺 - 植物: Moss",
         List.of(
             "This plant tends to spread uncontrollably."
         )
@@ -1192,7 +1192,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SAPLING",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Sapling",
+        "农耕工艺 - 植物: Sapling",
         List.of(
             "This plant doesn't even make sense..."
         )
@@ -1202,7 +1202,7 @@ public final class CultivationStacks {
         "CLT_PLANT_MUSHROOM",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Mushroom",
+        "农耕工艺 - 植物: Mushroom",
         List.of(
             "Yup, a plant that makes mushrooms.",
             "Everything is totally normal over here."
@@ -1213,7 +1213,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WITHER_ROSE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Wither Rose",
+        "农耕工艺 - 植物: Wither Rose",
         List.of(
             "This plant, somehow, pulsates a harmful",
             "aura around itself."
@@ -1224,7 +1224,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DARK_FLORA",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Dark Flora",
+        "农耕工艺 - 植物: Dark Flora",
         List.of(
             "A silent evil sits within this simple seed."
         )
@@ -1234,7 +1234,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GLOWING_VINE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Glowing Vine",
+        "农耕工艺 - 植物: Glowing Vine",
         List.of(
             "A faint light emits from within this seed."
         )
@@ -1244,7 +1244,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DIM_LIT",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Dim Lit",
+        "农耕工艺 - 植物: Dim Lit",
         List.of(
             "A very dim light emits from within this seed."
         )
@@ -1254,7 +1254,7 @@ public final class CultivationStacks {
         "CLT_PLANT_COW",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Cow",
+        "农耕工艺 - 植物: Cow",
         List.of(
             "If you hold this seed up to your ear",
             "and listen very carefully, you can hear",
@@ -1266,7 +1266,7 @@ public final class CultivationStacks {
         "CLT_PLANT_CHICKEN",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Chicken",
+        "农耕工艺 - 植物: Chicken",
         List.of(
             "Rumour says that if you hold this",
             "seed above your head and jump from a",
@@ -1279,7 +1279,7 @@ public final class CultivationStacks {
         "CLT_PLANT_FISH",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Fish",
+        "农耕工艺 - 植物: Fish",
         List.of(
             "A ripe smell emanates from this seed."
         )
@@ -1289,7 +1289,7 @@ public final class CultivationStacks {
         "CLT_PLANT_TURTLE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Turtle",
+        "农耕工艺 - 植物: Turtle",
         List.of(
             "A seed surrounded by a rock hard shell."
         )
@@ -1299,7 +1299,7 @@ public final class CultivationStacks {
         "CLT_PLANT_VILLAGER",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Villager",
+        "农耕工艺 - 植物: Villager",
         List.of(
             "Yup, we condensed the essence of a villager",
             "into a plant. Apparently it hurt a lot."
@@ -1310,7 +1310,7 @@ public final class CultivationStacks {
         "CLT_PLANT_RABBIT",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Rabbit",
+        "农耕工艺 - 植物: Rabbit",
         List.of(
             "Bugs would be proud."
         )
@@ -1320,7 +1320,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SHEEP",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Sheep",
+        "农耕工艺 - 植物: Sheep",
         List.of(
             "A plant with a coarse woolly texture."
         )
@@ -1330,7 +1330,7 @@ public final class CultivationStacks {
         "CLT_PLANT_PIG",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Pig",
+        "农耕工艺 - 植物: Pig",
         List.of(
             "A plant that snorts randomly."
         )
@@ -1340,7 +1340,7 @@ public final class CultivationStacks {
         "CLT_PLANT_BEE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Bee",
+        "农耕工艺 - 植物: Bee",
         List.of(
             "A plant with a very small, delicate, set of wings."
         )
@@ -1350,7 +1350,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SQUID",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Squid",
+        "农耕工艺 - 植物: Squid",
         List.of(
             "Be careful, just touching this plant",
             "has the chance to explode ink all over",
@@ -1362,7 +1362,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GLOW_SQUID",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Glow Squid",
+        "农耕工艺 - 植物: Glow Squid",
         List.of(
             "A glittering plant with a faint glow."
         )
@@ -1372,7 +1372,7 @@ public final class CultivationStacks {
         "CLT_PLANT_FROG",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Frog",
+        "农耕工艺 - 植物: Frog",
         List.of(
             "Ribbit!"
         )
@@ -1382,7 +1382,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GOAT",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Goat",
+        "农耕工艺 - 植物: Goat",
         List.of(
             "A randomly violent plant that loves",
             "to jump around."
@@ -1393,7 +1393,7 @@ public final class CultivationStacks {
         "CLT_PLANT_RAINBOW",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Rainbow",
+        "农耕工艺 - 植物: Rainbow",
         List.of(
             "There may or may not be a pot of gold",
             "at the end of this plant."
@@ -1404,7 +1404,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WAXY",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Waxy",
+        "农耕工艺 - 植物: Waxy",
         List.of(
             "The sap from this plant forms into",
             "perfect candle shaped wax."
@@ -1415,7 +1415,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WOOLLY",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Woolly",
+        "农耕工艺 - 植物: Woolly",
         List.of(
             "A woolly plant, from root to petals!."
         )
@@ -1425,7 +1425,7 @@ public final class CultivationStacks {
         "CLT_PLANT_TERRA",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Terra",
+        "农耕工艺 - 植物: Terra",
         List.of(
             "A hard earthy plant that cracks under pressure."
         )
@@ -1435,7 +1435,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GLAZED",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Glazed",
+        "农耕工艺 - 植物: Glazed",
         List.of(
             "A plant that grows with an intricate design."
         )
@@ -1445,7 +1445,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DUSTY",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Dusty",
+        "农耕工艺 - 植物: Dusty",
         List.of(
             "This plant needs special care, the slightest",
             "strong breeze can be enough to make it fall",
@@ -1457,7 +1457,7 @@ public final class CultivationStacks {
         "CLT_PLANT_CONCRETE",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Concrete",
+        "农耕工艺 - 植物: Concrete",
         List.of(
             "This plant struggle to grow as it",
             "hardens so quickly."
@@ -1468,7 +1468,7 @@ public final class CultivationStacks {
         "CLT_PLANT_STAINED",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Stained",
+        "农耕工艺 - 植物: Stained",
         List.of(
             "This plant splits light into a veritable",
             "spectrum to nearby objects."
@@ -1479,7 +1479,7 @@ public final class CultivationStacks {
         "CLT_PLANT_COBBLESTONE",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Cobblestone",
+        "农耕工艺 - 植物: Cobblestone",
         List.of(
             "This plant is hard as a rock."
         )
@@ -1489,7 +1489,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GRAVEL",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Gravel",
+        "农耕工艺 - 植物: Gravel",
         List.of(
             "This plant really doesn't know how",
             "to keep itself together."
@@ -1500,7 +1500,7 @@ public final class CultivationStacks {
         "CLT_PLANT_CLAY",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Clay",
+        "农耕工艺 - 植物: Clay",
         List.of(
             "This plant can be formed and reshaped freely.",
             "That doesn't mean it's a good idea to do so,",
@@ -1512,7 +1512,7 @@ public final class CultivationStacks {
         "CLT_PLANT_IGNEOUS",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Igneous",
+        "农耕工艺 - 植物: Igneous",
         List.of(
             "This plant has been formed by heat and",
             "pressure. Don't look at me like that! All",
@@ -1524,7 +1524,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DEEPSLATE",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Deepslate",
+        "农耕工艺 - 植物: Deepslate",
         List.of(
             "Deep, slatey, <insert lore here>."
         )
@@ -1534,7 +1534,7 @@ public final class CultivationStacks {
         "CLT_PLANT_REINFORCED",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Reinforced",
+        "农耕工艺 - 植物: Reinforced",
         List.of(
             "A plant that is able to hold itself up",
             "through anything."
@@ -1545,7 +1545,7 @@ public final class CultivationStacks {
         "CLT_PLANT_BLACKSTONE",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Blackstone",
+        "农耕工艺 - 植物: Blackstone",
         List.of(
             "A plant that has been known to absorb light."
         )
@@ -1555,7 +1555,7 @@ public final class CultivationStacks {
         "CLT_PLANT_NETHERRACK",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Netherrack",
+        "农耕工艺 - 植物: Netherrack",
         List.of(
             "A tough hardy plant able to survive",
             "in most locales."
@@ -1566,7 +1566,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DARK_GRASS",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Dark Grass",
+        "农耕工艺 - 植物: Dark Grass",
         List.of(
             "A plant that has really lost it's",
             "identity."
@@ -1577,7 +1577,7 @@ public final class CultivationStacks {
         "CLT_PLANT_MAGMA",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Magma",
+        "农耕工艺 - 植物: Magma",
         List.of(
             "A plant that's so hot it burns it's",
             "surroundings."
@@ -1588,7 +1588,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SOUL",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Soul",
+        "农耕工艺 - 植物: Soul",
         List.of(
             "A plant that can be heard screaming",
             "when its quiet."
@@ -1599,7 +1599,7 @@ public final class CultivationStacks {
         "CLT_PLANT_BASALT",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Basalt",
+        "农耕工艺 - 植物: Basalt",
         List.of(
             "A very boring and dull plant."
         )
@@ -1609,7 +1609,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GLASS",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Glass",
+        "农耕工艺 - 植物: Glass",
         List.of(
             "At the right angle, you could",
             "swear you can see through this plant."
@@ -1620,7 +1620,7 @@ public final class CultivationStacks {
         "CLT_PLANT_MUD",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Mud",
+        "农耕工艺 - 植物: Mud",
         List.of(
             "A plant that is nearly as dirty as",
             "the ground it comes from."
@@ -1631,7 +1631,7 @@ public final class CultivationStacks {
         "CLT_PLANT_END_STONE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: End Stone",
+        "农耕工艺 - 植物: End Stone",
         List.of(
             "A plant that hums with the void."
         )
@@ -1641,7 +1641,7 @@ public final class CultivationStacks {
         "CLT_PLANT_PURPUR",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Purpur",
+        "农耕工艺 - 植物: Purpur",
         List.of(
             "An odd plant, seems far lighter",
             "than most."
@@ -1652,7 +1652,7 @@ public final class CultivationStacks {
         "CLT_PLANT_COAL",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Coal",
+        "农耕工艺 - 植物: Coal",
         List.of(
             "A plant that holds such potential."
         )
@@ -1662,7 +1662,7 @@ public final class CultivationStacks {
         "CLT_PLANT_RAW_IRON",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Raw Iron",
+        "农耕工艺 - 植物: Raw Iron",
         List.of(
             "A sturdy plant able to withstand most",
             "environments."
@@ -1673,7 +1673,7 @@ public final class CultivationStacks {
         "CLT_PLANT_RAW_COPPER",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Raw Copper",
+        "农耕工艺 - 植物: Raw Copper",
         List.of(
             "If left alone, this plant sometimes",
             "attracts lightning."
@@ -1684,7 +1684,7 @@ public final class CultivationStacks {
         "CLT_PLANT_RAW_GOLD",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Raw Gold",
+        "农耕工艺 - 植物: Raw Gold",
         List.of(
             "This plant is commonly stolen by piglins",
             "if nearby."
@@ -1695,7 +1695,7 @@ public final class CultivationStacks {
         "CLT_PLANT_REDSTONE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Redstone",
+        "农耕工艺 - 植物: Redstone",
         List.of(
             "A plant brimming with power throughout."
         )
@@ -1705,7 +1705,7 @@ public final class CultivationStacks {
         "CLT_PLANT_LAPIS",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Lapis",
+        "农耕工艺 - 植物: Lapis",
         List.of(
             "A plant with a faint magical aura."
         )
@@ -1715,7 +1715,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DIAMOND",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Diamond",
+        "农耕工艺 - 植物: Diamond",
         List.of(
             "A plant that just speaks of riches."
         )
@@ -1725,7 +1725,7 @@ public final class CultivationStacks {
         "CLT_PLANT_EMERALD",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Emerald",
+        "农耕工艺 - 植物: Emerald",
         List.of(
             "Owners of this plant have to jump",
             "through hoops just to be able to afford it."
@@ -1736,7 +1736,7 @@ public final class CultivationStacks {
         "CLT_PLANT_NETHER_QUARTZ",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Nether Quartz",
+        "农耕工艺 - 植物: Nether Quartz",
         List.of(
             "This plant has thorns so sharp that",
             "it's hard to work with."
@@ -1747,7 +1747,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SCRAPPY",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Scrappy",
+        "农耕工艺 - 植物: Scrappy",
         List.of(
             "This plant really is the pinnacle of",
             "horticulturalism."
@@ -1758,7 +1758,7 @@ public final class CultivationStacks {
         "CLT_PLANT_AMETHYST",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Amethyst",
+        "农耕工艺 - 植物: Amethyst",
         List.of(
             "This plant loves to flourish in deep, dark",
             "locales."
@@ -1769,7 +1769,7 @@ public final class CultivationStacks {
         "CLT_PLANT_ECHO",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Echo",
+        "农耕工艺 - 植物: Echo",
         List.of(
             "This plant always knows how to find",
             "its way home."
@@ -1780,7 +1780,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SKELETON",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Skeleton",
+        "农耕工艺 - 植物: Skeleton",
         List.of(
             "A plant that rattles as it sways."
         )
@@ -1790,7 +1790,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SPIDER",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Spider",
+        "农耕工艺 - 植物: Spider",
         List.of(
             "Kill it, kill it NAO!"
         )
@@ -1800,7 +1800,7 @@ public final class CultivationStacks {
         "CLT_PLANT_CREEPER",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Creeper",
+        "农耕工艺 - 植物: Creeper",
         List.of(
             "Tsssssssssttt..."
         )
@@ -1810,7 +1810,7 @@ public final class CultivationStacks {
         "CLT_PLANT_ZOMBIE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Zombie",
+        "农耕工艺 - 植物: Zombie",
         List.of(
             "This plant is dripping... something..."
         )
@@ -1820,7 +1820,7 @@ public final class CultivationStacks {
         "CLT_PLANT_DROWNED",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Drowned",
+        "农耕工艺 - 植物: Drowned",
         List.of(
             "A Plant that is dripping wet, all",
             "the time."
@@ -1831,7 +1831,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GUARDIAN",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Guardian",
+        "农耕工艺 - 植物: Guardian",
         List.of(
             "When touched, this plant releases",
             "spines."
@@ -1842,7 +1842,7 @@ public final class CultivationStacks {
         "CLT_PLANT_ELDER_GUARDIAN",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Elder Guardian",
+        "农耕工艺 - 植物: Elder Guardian",
         List.of(
             "Being near this plants makes people",
             "sluggish."
@@ -1853,7 +1853,7 @@ public final class CultivationStacks {
         "CLT_PLANT_GHAST",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Ghast",
+        "农耕工艺 - 植物: Ghast",
         List.of(
             "A plant that has been known to",
             "randomly shoot fire balls."
@@ -1864,7 +1864,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SLIME",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Slime",
+        "农耕工艺 - 植物: Slime",
         List.of(
             "Why is it so sticky?"
         )
@@ -1874,7 +1874,7 @@ public final class CultivationStacks {
         "CLT_PLANT_MAGMA_CUBE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Magma Cube",
+        "农耕工艺 - 植物: Magma Cube",
         List.of(
             "When not being watched, this plant",
             "likes to bounce up and down."
@@ -1885,7 +1885,7 @@ public final class CultivationStacks {
         "CLT_PLANT_BLAZE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Blaze",
+        "农耕工艺 - 植物: Blaze",
         List.of(
             "A plant that is scorched around the edges."
         )
@@ -1895,7 +1895,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WITHER_SKELETON",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Wither Skeleton",
+        "农耕工艺 - 植物: Wither Skeleton",
         List.of(
             "A plant known to be elusive and hardy."
         )
@@ -1905,7 +1905,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WITHER",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Wither",
+        "农耕工艺 - 植物: Wither",
         List.of(
             "A deadly plant that must be treated",
             "with care."
@@ -1916,7 +1916,7 @@ public final class CultivationStacks {
         "CLT_PLANT_PHANTOM",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Phantom",
+        "农耕工艺 - 植物: Phantom",
         List.of(
             "A plant with lofty leaves."
         )
@@ -1926,7 +1926,7 @@ public final class CultivationStacks {
         "CLT_PLANT_SHULKER",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Shulker",
+        "农耕工艺 - 植物: Shulker",
         List.of(
             "A plant that often levitates off",
             "of the ground."
@@ -1937,7 +1937,7 @@ public final class CultivationStacks {
         "CLT_PLANT_ENDERMAN",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Enderman",
+        "农耕工艺 - 植物: Enderman",
         List.of(
             "If not treated carefully, this plant",
             "may teleport randomly!"
@@ -1948,7 +1948,7 @@ public final class CultivationStacks {
         "CLT_PLANT_ENDER_DRAGON",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Ender Dragon",
+        "农耕工艺 - 植物: Ender Dragon",
         List.of(
             "A real boss of a plant."
         )
@@ -1958,7 +1958,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WITCH",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "Cultivation Plant: Witch",
+        "农耕工艺 - 植物: Witch",
         List.of(
             "A plant that sounds like it's softly",
             "muttering spells."
@@ -2058,7 +2058,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_NOTHING",
         Material.STRIPPED_DARK_OAK_LOG,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Empty",
+        "厨房柜台: Empty",
         "Just for decoration!"
     );
 
@@ -2066,7 +2066,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_CHOPPING",
         Material.SMITHING_TABLE,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Chopping Board",
+        "厨房柜台: Chopping Board",
         "Right click this block to chop produce."
     );
 
@@ -2074,7 +2074,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_SLICING",
         Material.CARTOGRAPHY_TABLE,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Slicing Board",
+        "厨房柜台: Slicing Board",
         "Right click this block to slice produce."
     );
 
@@ -2082,7 +2082,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_MASHER",
         Material.CRAFTING_TABLE,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Mashing Bowl",
+        "厨房柜台: Mashing Bowl",
         "Right click this block to mash produce."
     );
 
@@ -2090,7 +2090,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_GRINDER",
         Material.CAULDRON,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Grinding Pestle and Mortar",
+        "厨房柜台: Grinding Pestle and Mortar",
         "Right click this block to grind produce."
     );
 
@@ -2098,7 +2098,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_BLENDER",
         Material.FLETCHING_TABLE,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Blender",
+        "厨房柜台: Blender",
         "Right click this block to blend produce."
     );
 
@@ -2106,7 +2106,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_OVEN",
         Material.FURNACE,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Oven",
+        "厨房柜台: Oven",
         "Can bake certain produce items."
     );
 
@@ -2114,7 +2114,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_FRYING",
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Frying Pan",
+        "厨房柜台: Frying Pan",
         "Can fry certain produce items."
     );
 
@@ -2122,7 +2122,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_BOILING",
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Boiling Pot",
+        "厨房柜台: Boiling Pot",
         "Can boil certain items."
     );
 
@@ -2130,7 +2130,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_GRILL",
         Material.CAMPFIRE,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Grill",
+        "厨房柜台: Grill",
         "Can grill certain produce items."
     );
 
@@ -2138,7 +2138,7 @@ public final class CultivationStacks {
         "CLT_COUNTER_FINISHING",
         Material.CRAFTING_TABLE,
         CultivationThemes.MACHINE,
-        "Kitchen Counter: Finishing",
+        "厨房柜台: Finishing",
         "Used to craft products/by-products into",
         "other by-products or finished foods."
     );

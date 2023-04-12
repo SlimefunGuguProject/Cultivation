@@ -43,7 +43,7 @@ public class CultivationCommands extends BaseCommand {
 
     @Default
     public void onDefault(CommandSender sender) {
-        sender.sendMessage(Theme.ERROR + "Please provide a valid subcommand.");
+        sender.sendMessage(Theme.ERROR + "指令无效.");
     }
 
     //TODO apply permissions
@@ -51,9 +51,9 @@ public class CultivationCommands extends BaseCommand {
     public void onPos1(CommandSender sender) {
         if (sender instanceof Player player) {
             Registry.getInstance().addPositionOne(player);
-            System.out.println("pos1 set");
+            System.out.println("已设置位置1");
         } else {
-            sender.sendMessage(Theme.applyThemeToString(Theme.WARNING, "Must be executed by a player"));
+            sender.sendMessage(Theme.applyThemeToString(Theme.WARNING, "该指令只能由玩家执行"));
         }
     }
 
@@ -61,9 +61,9 @@ public class CultivationCommands extends BaseCommand {
     public void onPos2(CommandSender sender) {
         if (sender instanceof Player player) {
             Registry.getInstance().addPositionTwo(player);
-            System.out.println("pos2 set");
+            System.out.println("已设置位置2");
         } else {
-            sender.sendMessage(Theme.applyThemeToString(Theme.WARNING, "Must be executed by a player"));
+            sender.sendMessage(Theme.applyThemeToString(Theme.WARNING, "该指令只能由玩家执行"));
         }
     }
 
@@ -143,7 +143,7 @@ public class CultivationCommands extends BaseCommand {
         } catch (IOException ioException) {
             Cultivation.logError(ioException.getMessage());
         }
-        System.out.println("saved");
+        System.out.println("已保存结构");
     }
 
     @CommandCompletion("name")
