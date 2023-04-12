@@ -43,7 +43,7 @@ public class Food extends SimpleSlimefunItem<ItemUseHandler> {
                 boolean lemonDrop = getId().equals(CultivationStacks.LEMON_DROP.getItemId());
                 if (Cooldowns.isOnCooldown(Keys.SATIATED, player) && !lemonDrop) {
                     player.sendMessage(Theme.WARNING.apply(
-                        "You aren't hungry yet! You can only eat once every half a day (10 mins)"));
+                        "你现在还不能吃! 每10分钟才能吃一次!"));
                     return;
                 }
                 if (!lemonDrop) {
@@ -52,7 +52,7 @@ public class Food extends SimpleSlimefunItem<ItemUseHandler> {
                     PersistentDataAPI.remove(player, Keys.SATIATED);
                 }
                 e.getItem().setAmount(e.getItem().getAmount() - 1);
-                player.sendMessage(Theme.SUCCESS.apply("Lovely! You're all full up."));
+                player.sendMessage(Theme.SUCCESS.apply("好!你吃饱了!"));
                 eatingEffects.accept(player);
             }
         };
