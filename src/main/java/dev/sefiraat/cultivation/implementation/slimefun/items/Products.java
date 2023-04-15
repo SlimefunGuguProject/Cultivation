@@ -100,6 +100,12 @@ public final class Products {
         RecipeTypes.TREE
     ).buildRegister(Cultivation.getInstance());
 
+    public static final ProduceCore PECAN = new ProduceCore(
+        CultivationGroups.PRODUCE,
+        CultivationStacks.PECAN,
+        RecipeTypes.TREE
+    ).buildRegister(Cultivation.getInstance());
+
     public static final ProduceCore GRAPE = new ProduceCore(
         CultivationGroups.PRODUCE,
         CultivationStacks.GRAPE,
@@ -571,6 +577,12 @@ public final class Products {
     public static final ProduceCore MARROW = new ProduceCore(
         CultivationGroups.PRODUCE,
         CultivationStacks.MARROW,
+        RecipeTypes.BUSH
+    ).buildRegister(Cultivation.getInstance());
+
+    public static final ProduceCore AVOCADO = new ProduceCore(
+        CultivationGroups.PRODUCE,
+        CultivationStacks.AVOCADO,
         RecipeTypes.BUSH
     ).buildRegister(Cultivation.getInstance());
 

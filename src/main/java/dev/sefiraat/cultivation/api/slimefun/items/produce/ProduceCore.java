@@ -3,7 +3,6 @@ package dev.sefiraat.cultivation.api.slimefun.items.produce;
 import dev.sefiraat.cultivation.Cultivation;
 import dev.sefiraat.cultivation.api.slimefun.RecipeTypes;
 import dev.sefiraat.cultivation.api.utils.CultivationThemes;
-import dev.sefiraat.cultivation.implementation.slimefun.items.Machines;
 import dev.sefiraat.sefilib.string.Theme;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
@@ -28,11 +27,14 @@ public class ProduceCore extends SlimefunItem {
     private ByProduct fried;
     private ByProduct grilled;
 
-    public ProduceCore(ItemGroup itemGroup,
-                       SlimefunItemStack item,
-                       RecipeType recipeType
-    ) {
+    @ParametersAreNonnullByDefault
+    public ProduceCore(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType) {
         super(itemGroup, item, recipeType, new ItemStack[0]);
+    }
+
+    @ParametersAreNonnullByDefault
+    public ProduceCore(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+        super(itemGroup, item, recipeType, recipe);
     }
 
     @Nonnull
@@ -144,39 +146,6 @@ public class ProduceCore extends SlimefunItem {
             recipeType,
             this.getItem()
         );
-
-        if (recipeType == RecipeTypes.CHOPPED) {
-            Machines.COUNTER_CHOPPING.addRecipe(this.getId(), byProduct.getItem());
-        }
-
-        if (recipeType == RecipeTypes.BLENDED) {
-            Machines.COUNTER_BLENDER.addRecipe(this.getId(), byProduct.getItem());
-        }
-
-        if (recipeType == RecipeTypes.MASHED) {
-            Machines.COUNTER_MASHER.addRecipe(this.getId(), byProduct.getItem());
-        }
-
-        if (recipeType == RecipeTypes.GROUND) {
-            Machines.COUNTER_GRINDER.addRecipe(this.getId(), byProduct.getItem());
-        }
-
-        if (recipeType == RecipeTypes.SLICED) {
-            Machines.COUNTER_SLICING.addRecipe(this.getId(), byProduct.getItem());
-        }
-
-        if (recipeType == RecipeTypes.BOILED) {
-            Machines.COUNTER_BOILING.addRecipe(this.getId(), byProduct.getItem());
-        }
-
-        if (recipeType == RecipeTypes.FRIED) {
-            Machines.COUNTER_FRYER.addRecipe(this.getId(), byProduct.getItem());
-        }
-
-        if (recipeType == RecipeTypes.GRILLED) {
-            Machines.COUNTER_GRILL.addRecipe(this.getId(), byProduct.getItem());
-        }
-
         return byProduct.buildRegister(Cultivation.getInstance());
     }
 

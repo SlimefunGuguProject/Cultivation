@@ -4,11 +4,11 @@ import dev.sefiraat.cultivation.api.utils.CultivationThemes;
 import dev.sefiraat.cultivation.implementation.listeners.CustomDropListener;
 import dev.sefiraat.cultivation.implementation.listeners.MobDropListener;
 import dev.sefiraat.cultivation.implementation.slimefun.items.Machines;
-import dev.sefiraat.cultivation.implementation.tasks.AirTimeTask;
+import dev.sefiraat.cultivation.implementation.slimefun.machines.KitchenRecipeMachineSimple;
 import dev.sefiraat.cultivation.implementation.utils.Keys;
-import dev.sefiraat.cultivation.managers.TaskManager;
 import dev.sefiraat.sefilib.entity.LivingEntityDefinition;
 import dev.sefiraat.sefilib.string.Theme;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.WordUtils;
 import org.bukkit.Material;
@@ -28,20 +28,6 @@ public final class RecipeTypes {
     private RecipeTypes() {
         throw new IllegalStateException("Utility class");
     }
-
-    @Nonnull
-    public static final RecipeType PLANT_HARVEST = new RecipeType(
-        Keys.newKey("plant_harvest"),
-        Theme.themedItemStack(
-            Material.TRIPWIRE_HOOK,
-            CultivationThemes.RECIPE_TYPE,
-            "从植物收获",
-            List.of(
-                "该物品可从农耕工艺的",
-                "植物收获"
-            )
-        )
-    );
 
     @Nonnull
     public static final RecipeType BUSH = new RecipeType(
@@ -136,20 +122,6 @@ public final class RecipeTypes {
     );
 
     @Nonnull
-    public static final RecipeType BUSH_TRIMMING = new RecipeType(
-        Keys.newKey("bush_trimming"),
-        Theme.themedItemStack(
-            Material.SWEET_BERRIES,
-            CultivationThemes.RECIPE_TYPE,
-            "修剪灌木",
-            List.of(
-                "Hi"
-                // todo
-            )
-        )
-    );
-
-    @Nonnull
     public static final RecipeType VANILLA_DROP = new RecipeType(
         Keys.newKey("vanilla_block_drop"),
         Theme.themedItemStack(
@@ -172,21 +144,6 @@ public final class RecipeTypes {
     );
 
     @Nonnull
-    public static final RecipeType AIR_TIME = new RecipeType(
-        Keys.newKey("air_time"),
-        Theme.themedItemStack(
-            Material.FEATHER,
-            CultivationThemes.RECIPE_TYPE,
-            "不死奖励",
-            List.of(
-                "当你在空中到达一定时间",
-                "且没有死亡时",
-                "有几率获得."
-            )
-        )
-    );
-
-    @Nonnull
     public static final RecipeType CHOPPED = new RecipeType(
         Keys.newKey("chopped"),
         Theme.themedItemStack(
@@ -196,7 +153,8 @@ public final class RecipeTypes {
             List.of(
                 "用刀来切碎!"
             )
-        )
+        ),
+        (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_CHOPPING, itemStacks, itemStack)
     );
 
     @Nonnull
@@ -209,7 +167,8 @@ public final class RecipeTypes {
             List.of(
                 "捣!捣!捣!"
             )
-        )
+        ),
+        (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_MASHER, itemStacks, itemStack)
     );
 
     @Nonnull
@@ -222,7 +181,8 @@ public final class RecipeTypes {
             List.of(
                 "在混合台中制作"
             )
-        )
+        ),
+        (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_BLENDER, itemStacks, itemStack)
     );
 
     @Nonnull
@@ -235,7 +195,8 @@ public final class RecipeTypes {
             List.of(
                 "如此薄而细腻"
             )
-        )
+        ),
+        (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_SLICING, itemStacks, itemStack)
     );
 
     @Nonnull
@@ -248,7 +209,8 @@ public final class RecipeTypes {
             List.of(
                 "精细处理"
             )
-        )
+        ),
+        (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_GRINDER, itemStacks, itemStack)
     );
 
     @Nonnull
@@ -261,7 +223,8 @@ public final class RecipeTypes {
             List.of(
                 "烫烫烫!"
             )
-        )
+        ),
+        (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_BOILING, itemStacks, itemStack)
     );
 
     @Nonnull
@@ -274,7 +237,8 @@ public final class RecipeTypes {
             List.of(
                 "完美的酥脆."
             )
-        )
+        ),
+        (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_FRYER, itemStacks, itemStack)
     );
 
     @Nonnull
@@ -287,7 +251,8 @@ public final class RecipeTypes {
             List.of(
                 "鲜嫩多汁."
             )
-        )
+        ),
+        (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_GRILL, itemStacks, itemStack)
     );
 
     @Nonnull
@@ -300,7 +265,8 @@ public final class RecipeTypes {
             List.of(
                 "使用厨房的上菜柜台来制作该物品."
             )
-        )
+        ),
+        RecipeTypes::createFoodFinishingRecipe
     );
 
     @Nonnull
@@ -313,8 +279,21 @@ public final class RecipeTypes {
             List.of(
                 "使用厨房的烘培柜台来制作该物品"
             )
-        )
+        ),
+        RecipeTypes::createFoodBakingRecipe
     );
+
+    private static void addRecipeToSimpleMachine(KitchenRecipeMachineSimple machine, ItemStack[] recipe, ItemStack output) {
+        ItemStack input = recipe[4];
+        if (input == null) {
+            return;
+        }
+        SlimefunItem slimefunItem = SlimefunItem.getByItem(input);
+        machine.addRecipe(
+            slimefunItem != null ? slimefunItem.getId() : input.getType().name(),
+            output
+        );
+    }
 
     /**
      * This method both registers the drop and returns an ItemStack array that can be used
@@ -446,31 +425,11 @@ public final class RecipeTypes {
         };
     }
 
-    /**
-     * This method both registers the drop and returns a blank ItemStack array that can be used
-     * for Slimefun's recipe system. {@link RecipeTypes#AIR_TIME}
-     *
-     * @param stackToDrop         The {@link ItemStack} that will drop if roll succeeds.
-     * @param fullOddsTimeSeconds The time, in seconds, of air time required for a 100% drop chance.
-     * @return A Blank ItemStack array as is required for the SlimefunItem constructor.
-     * @see AirTimeTask
-     */
-    @Nonnull
-    public static ItemStack[] createAirTimeRecipe(@Nonnull ItemStack stackToDrop, double fullOddsTimeSeconds) {
-        AirTimeTask.AirTimeDrop drop = new AirTimeTask.AirTimeDrop(stackToDrop, fullOddsTimeSeconds);
-        TaskManager.getInstance().getAirTimeTask().addDrop(drop);
-        return new ItemStack[0];
-    }
-
-    @Nonnull
-    public static ItemStack[] createFoodFinishingRecipe(@Nonnull ItemStack result, ItemStack[] recipe) {
+    public static void createFoodFinishingRecipe(@Nonnull ItemStack[] recipe, @Nonnull ItemStack result) {
         Machines.COUNTER_FINISHING.addRecipe(recipe, result);
-        return recipe;
     }
 
-    @Nonnull
-    public static ItemStack[] createFoodBakingRecipe(@Nonnull ItemStack result, ItemStack[] recipe) {
+    public static void createFoodBakingRecipe(@Nonnull ItemStack[] recipe, @Nonnull ItemStack result) {
         Machines.COUNTER_OVEN.addRecipe(recipe, result);
-        return recipe;
     }
 }
