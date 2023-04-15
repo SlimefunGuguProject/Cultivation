@@ -177,9 +177,9 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.GLASS,
             CultivationThemes.RECIPE_TYPE,
-            "混合",
+            "搅拌",
             List.of(
-                "在混合台中制作"
+                "在搅拌机中制作"
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_BLENDER, itemStacks, itemStack)

@@ -149,6 +149,21 @@ public class ProduceCore extends SlimefunItem {
         return byProduct.buildRegister(Cultivation.getInstance());
     }
 
+    @ParametersAreNonnullByDefault
+    private ByProduct registerByProduct(String id, String name, RecipeType recipeType, Material material) {
+        ByProduct byProduct = new ByProduct(
+            Theme.themedSlimefunItemStack(
+                "CLT_" + id.toUpperCase(Locale.ROOT) + "_" + this.getId().substring(4),
+                material,
+                CultivationThemes.BY_PRODUCT,
+                name + " " + this.getItemName()
+            ),
+            recipeType,
+            this.getItem()
+        );
+        return byProduct.buildRegister(Cultivation.getInstance());
+    }
+
     public ProduceCore buildRegister(@Nonnull SlimefunAddon addon) {
         this.register(addon);
         return this;

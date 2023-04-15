@@ -87,11 +87,11 @@ public class CraftingKitchenMachine extends KitchenRecipeMachineComplex {
             public void init() {
                 ItemStack backgroundOutput = new CustomItemStack(
                     Material.ORANGE_STAINED_GLASS_PANE,
-                    Theme.PASSIVE.apply("Finished Food")
+                    Theme.PASSIVE.apply("做好的食物")
                 );
                 ItemStack cookButton = new CustomItemStack(
                     Material.RED_STAINED_GLASS_PANE,
-                    Theme.CLICK_INFO.apply("Prepare Food")
+                    Theme.CLICK_INFO.apply("准备食物")
                 );
                 drawBackground(BACKGROUND);
                 drawBackground(backgroundOutput, OUTPUT_SLOT_BACKGROUND);
@@ -108,11 +108,11 @@ public class CraftingKitchenMachine extends KitchenRecipeMachineComplex {
                     ItemStack result = testRecipe(itemStacks);
                     SlimefunItem slimefunItem = SlimefunItem.getByItem(result);
                     if (slimefunItem != null && slimefunItem.isDisabled()) {
-                        p.sendMessage(Theme.ERROR.apply("This recipe is disabled."));
+                        p.sendMessage(Theme.ERROR.apply("配方不可用."));
                         return false;
                     }
                     if (result == null || !menu.fits(result, OUTPUT_SLOT)) {
-                        p.sendMessage(Theme.ERROR.apply("No matching recipe."));
+                        p.sendMessage(Theme.ERROR.apply("没有合适的配方."));
                         return false;
                     }
 
@@ -128,7 +128,7 @@ public class CraftingKitchenMachine extends KitchenRecipeMachineComplex {
                             inputItem.setAmount(inputItem.getAmount() - 1);
                         }
                     }
-                    p.sendMessage(Theme.SUCCESS.apply("Tasty!"));
+                    p.sendMessage(Theme.SUCCESS.apply("美味新鲜出炉!"));
                     return false;
                 });
             }

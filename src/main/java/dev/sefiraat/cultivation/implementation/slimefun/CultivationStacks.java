@@ -1999,24 +1999,23 @@ public final class CultivationStacks {
         "CLT_CROP_STICKS",
         Material.STICK,
         CultivationThemes.TOOL,
-        "Crop Sticks",
-        "Crop sticks must be applied to a",
-        "placed seed in order for it to grow.",
-        "Placing a second set will cross-crop",
-        "the plant allowing it to spread and/or",
-        "breed."
+        "作物架",
+        "必须给放置的种子添加作物架",
+        "才能让种子生长.",
+        "放置第二个作物架",
+        "可以进行作物培育."
     );
 
     public static final SlimefunItemStack HARVESTING_TOOL_SIMPLE = Theme.themedSlimefunItemStack(
         "CLT_HARVESTING_TOOL_SIMPLE",
         Material.TRIPWIRE_HOOK,
         CultivationThemes.TOOL,
-        "Simple Harvesting Tool",
-        "A very basic tool that allows",
-        "the user to harvest Cultivation Plants.",
-        Theme.WARNING + "Works on Tier 1 plants",
+        "简易收获工具",
+        "一个非常简单的工具",
+        "可以收集农耕工艺植物.",
+        Theme.WARNING + "仅适用于 T1 植物",
         "",
-        Theme.applyThemeAsTitle(Theme.CLICK_INFO, "Right Click", "Harvests a fully grown Cultivation Plant"),
+        Theme.applyThemeAsTitle(Theme.CLICK_INFO, "右键点击", "收获完全生长的农耕工艺植物"),
         "",
         LoreBuilder.usesLeft(50)
     );
@@ -2025,11 +2024,11 @@ public final class CultivationStacks {
         "CLT_TRIMMING_TOOL_SIMPLE",
         Material.SHEARS,
         CultivationThemes.TOOL,
-        "Simple Trimming Tool",
-        "A very basic tool that allows",
-        "the user to trim Cultivation Bushes.",
+        "简易修剪工具",
+        "一个非常简单的工具",
+        "可以收集农耕工艺灌木.",
         "",
-        Theme.applyThemeAsTitle(Theme.CLICK_INFO, "Right Click", "Takes a trimming of a fully grown Cultivation Bush"),
+        Theme.applyThemeAsTitle(Theme.CLICK_INFO, "右键点击", "收获农耕工艺灌木"),
         "",
         LoreBuilder.usesLeft(50)
     );
@@ -2038,27 +2037,27 @@ public final class CultivationStacks {
         "CLT_PLANT_ANALYSER",
         Material.DIAMOND,
         CultivationThemes.TOOL,
-        "Plant Analyser",
-        "A very basic tool that allows",
-        "you to see a growing plant's details",
+        "植物分析仪",
+        "一个基本的工具",
+        "可以查看植物的信息",
         "",
         Theme.applyThemeAsTitle(
             Theme.CLICK_INFO,
-            "Right Click",
-            "Lets you know the species and growth details of a plant."
+            "右键点击",
+            "查看植物种类与生长情况."
         ),
-        Theme.applyThemeAsTitle(Theme.CLICK_INFO, "Shift Right Click", "Displays a plant or bushes name.")
+        Theme.applyThemeAsTitle(Theme.CLICK_INFO, "Shift + 右键点击", "显示植物/灌木的名称.")
     );
 
     public static final SlimefunItemStack RECIPE_UNLOCK = Theme.themedSlimefunItemStack(
         "CLT_RECIPE_UNLOCK",
         Material.PAPER,
         CultivationThemes.TOOL,
-        "Cultivation Knowledge Script",
-        "Right click to learn a Cultivation",
-        "breeding recipe.",
+        "农耕工艺知识",
+        "右键点击来学习一个",
+        "农耕工艺的培育配方",
         "",
-        Theme.CLICK_INFO.asTitle("Unlocks", "{0}")
+        Theme.CLICK_INFO.asTitle("解锁", "{0}")
     );
 
     // endregion
@@ -2069,99 +2068,99 @@ public final class CultivationStacks {
         "CLT_GARDEN_CLOCHE",
         Material.GLASS,
         CultivationThemes.MACHINE,
-        "Garden Cloche",
-        "Grows plants inside it automatically.",
+        "园艺玻璃罩",
+        "自动种植植物.",
         "",
-        Theme.CLICK_INFO.asTitle("Power per Tick", 100)
+        Theme.CLICK_INFO.asTitle("每粘液刻消耗电力", 100)
     );
 
     public static final SlimefunItemStack COUNTER_NOTHING = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_NOTHING",
         Material.STRIPPED_DARK_OAK_LOG,
         CultivationThemes.MACHINE,
-        "厨房柜台: Empty",
-        "Just for decoration!"
+        "厨房柜台: 空",
+        "仅用于装饰!"
     );
 
     public static final SlimefunItemStack COUNTER_CHOPPING = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_CHOPPING",
         Material.SMITHING_TABLE,
         CultivationThemes.MACHINE,
-        "厨房柜台: Chopping Board",
-        "Right click this block to chop produce."
+        "厨房柜台: 砧板",
+        "右键点击进行切碎."
     );
 
     public static final SlimefunItemStack COUNTER_SLICING = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_SLICING",
         Material.CARTOGRAPHY_TABLE,
         CultivationThemes.MACHINE,
-        "厨房柜台: Slicing Board",
-        "Right click this block to slice produce."
+        "厨房柜台: 切片板",
+        "右键点击进行切片."
     );
 
     public static final SlimefunItemStack COUNTER_MASHER = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_MASHER",
         Material.CRAFTING_TABLE,
         CultivationThemes.MACHINE,
-        "厨房柜台: Mashing Bowl",
-        "Right click this block to mash produce."
+        "厨房柜台: 捣碎碗",
+        "右键点击进行捣碎."
     );
 
     public static final SlimefunItemStack COUNTER_GRINDER = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_GRINDER",
         Material.CAULDRON,
         CultivationThemes.MACHINE,
-        "厨房柜台: Grinding Pestle and Mortar",
-        "Right click this block to grind produce."
+        "厨房柜台: 研磨杵和研钵",
+        "右键点击进行剁碎."
     );
 
     public static final SlimefunItemStack COUNTER_BLENDER = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_BLENDER",
         Material.FLETCHING_TABLE,
         CultivationThemes.MACHINE,
-        "厨房柜台: Blender",
-        "Right click this block to blend produce."
+        "厨房柜台: 搅拌机",
+        "右键点击进行搅拌."
     );
 
     public static final SlimefunItemStack COUNTER_OVEN = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_OVEN",
         Material.FURNACE,
         CultivationThemes.MACHINE,
-        "厨房柜台: Oven",
-        "Can bake certain produce items."
+        "厨房柜台: 烤箱",
+        "可以进行烘焙."
     );
 
     public static final SlimefunItemStack COUNTER_FRYER = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_FRYING",
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
-        "厨房柜台: Frying Pan",
-        "Can fry certain produce items."
+        "厨房柜台: 煎锅",
+        "可进行油炸."
     );
 
     public static final SlimefunItemStack COUNTER_BOILING = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_BOILING",
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
-        "厨房柜台: Boiling Pot",
-        "Can boil certain items."
+        "厨房柜台: 大锅",
+        "可以进行煮沸."
     );
 
     public static final SlimefunItemStack COUNTER_GRILL = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_GRILL",
         Material.CAMPFIRE,
         CultivationThemes.MACHINE,
-        "厨房柜台: Grill",
-        "Can grill certain produce items."
+        "厨房柜台: 烤架",
+        "可进行烧烤."
     );
 
     public static final SlimefunItemStack COUNTER_FINISHING = Theme.themedSlimefunItemStack(
         "CLT_COUNTER_FINISHING",
         Material.CRAFTING_TABLE,
         CultivationThemes.MACHINE,
-        "厨房柜台: Finishing",
-        "Used to craft products/by-products into",
-        "other by-products or finished foods."
+        "厨房柜台: 上菜",
+        "可将产品/副产品制作为",
+        "食物或其他副产品."
     );
 
     // endregion
