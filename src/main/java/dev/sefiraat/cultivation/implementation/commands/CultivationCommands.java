@@ -3,6 +3,7 @@ package dev.sefiraat.cultivation.implementation.commands;
 import co.aikar.commands.BaseCommand;
 import co.aikar.commands.annotation.CommandAlias;
 import co.aikar.commands.annotation.CommandCompletion;
+import co.aikar.commands.annotation.CommandPermission;
 import co.aikar.commands.annotation.Default;
 import co.aikar.commands.annotation.Subcommand;
 import com.google.gson.Gson;
@@ -13,10 +14,16 @@ import com.google.gson.JsonPrimitive;
 import com.google.gson.stream.JsonReader;
 import dev.sefiraat.cultivation.Cultivation;
 import dev.sefiraat.cultivation.Registry;
+import dev.sefiraat.cultivation.api.datatypes.SeedPackDataType;
+import dev.sefiraat.cultivation.api.datatypes.instances.FloraLevelProfile;
+import dev.sefiraat.cultivation.api.datatypes.instances.SeedPackInstance;
 import dev.sefiraat.cultivation.api.slimefun.items.trees.TreeBlockDescriptor;
+import dev.sefiraat.cultivation.implementation.slimefun.tools.SeedPack;
+import dev.sefiraat.sefilib.entity.display.DisplayGroup;
 import dev.sefiraat.sefilib.string.Theme;
 import io.github.bakedlibs.dough.blocks.BlockPosition;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.FluidCollisionMode;
 import org.bukkit.Location;
@@ -25,8 +32,10 @@ import org.bukkit.block.Block;
 import org.bukkit.block.data.BlockData;
 import org.bukkit.block.data.Orientable;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Interaction;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 
 import javax.annotation.Nonnull;
 import java.io.BufferedWriter;
@@ -48,6 +57,7 @@ public class CultivationCommands extends BaseCommand {
 
     //TODO apply permissions
     @Subcommand("pos1")
+    @CommandPermission("cultivation.admin.structures")
     public void onPos1(CommandSender sender) {
         if (sender instanceof Player player) {
             Registry.getInstance().addPositionOne(player);
@@ -58,6 +68,7 @@ public class CultivationCommands extends BaseCommand {
     }
 
     @Subcommand("pos2")
+    @CommandPermission("cultivation.admin.structures")
     public void onPos2(CommandSender sender) {
         if (sender instanceof Player player) {
             Registry.getInstance().addPositionTwo(player);
@@ -69,6 +80,7 @@ public class CultivationCommands extends BaseCommand {
 
     @CommandCompletion("name")
     @Subcommand("saveStructure")
+    @CommandPermission("cultivation.admin.structures")
     public void saveStructure(CommandSender sender, String name) {
         if (!(sender instanceof Player player)) {
             return;
@@ -148,6 +160,7 @@ public class CultivationCommands extends BaseCommand {
 
     @CommandCompletion("name")
     @Subcommand("loadStructure")
+    @CommandPermission("cultivation.admin.structures")
     public void loadStructure(CommandSender sender, String name) {
         if (!(sender instanceof Player player)) {
             return;
@@ -205,10 +218,63 @@ public class CultivationCommands extends BaseCommand {
         Material blockMaterial = block.getType();
         SlimefunItem slimefunItem = BlockStorage.check(block);
         return slimefunItem == null
-            ? "minecraft:" + blockMaterial.name()
-            : "slimefun:" + slimefunItem.getId();
+               ? "minecraft:" + blockMaterial.name()
+               : "slimefun:" + slimefunItem.getId();
     }
 
+    @Subcommand("removeEntities")
+    @CommandPermission("cultivation.admin.entities")
+    public void removeDisplayGroups(CommandSender sender, int radius) {
+        if (sender instanceof Player player) {
+            player.getWorld().getNearbyEntities(
+                player.getLocation(),
+                radius,
+                radius,
+                radius,
+                Interaction.class::isInstance
+            ).forEach(entity -> {
+                DisplayGroup displayGroup = DisplayGroup.fromInteraction((Interaction) entity);
+                if (displayGroup != null) {
+                    displayGroup.remove();
+                }
+            });
+        }
+    }
 
+    @Subcommand("packpeek")
+    public void packPeek(CommandSender sender) {
+        if (sender instanceof Player player) {
+            ItemStack itemStack = player.getInventory().getItemInMainHand();
+            if (itemStack == null || itemStack.getType().isAir()) {
+                player.sendMessage(Theme.WARNING.apply("You must be holding a Seed Pack for this"));
+                return;
+            }
+
+            SlimefunItem slimefunItem = SlimefunItem.getByItem(itemStack);
+            if (!(slimefunItem instanceof SeedPack pack)) {
+                player.sendMessage(Theme.WARNING.apply("You must be holding a Seed Pack for this"));
+                return;
+            }
+
+            ItemMeta itemMeta = itemStack.getItemMeta();
+            SeedPackInstance instance = PersistentDataAPI.get(itemMeta, SeedPackDataType.KEY, SeedPackDataType.TYPE);
+            if (instance == null) {
+                player.sendMessage(Theme.WARNING.apply("This pack is empty!"));
+                return;
+            }
+
+            player.sendMessage("------------------------------------");
+            player.sendMessage("Contents");
+            player.sendMessage("------------------------------------");
+            for (Map.Entry<FloraLevelProfile, Integer> entry : instance.getAmountMap().entrySet()) {
+                FloraLevelProfile profile = entry.getKey();
+                String neatKey =
+                    " Lv: " + profile.getLevel() +
+                    " Sp: " + profile.getSpeed() +
+                    " St: " + profile.getStrength();
+                player.sendMessage(Theme.CLICK_INFO.asTitle(neatKey, entry.getValue()));
+            }
+        }
+    }
 }
 
