@@ -30,9 +30,9 @@ public final class CultivationStacks {
             new Pair<>(Enchantment.ARROW_DAMAGE, 1)
         ),
         CultivationThemes.TOOL,
-        "Mystical Log",
-        "This seemingly simple log it brimming",
-        "with an unknown power"
+        "神秘原木",
+        "这种看上去很简单的原木",
+        "充满着未知的能量"
     );
 
     // endregion
@@ -143,9 +143,9 @@ public final class CultivationStacks {
         "CLT_TREE_KIWI",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
-        "农耕工艺 - 树木: Kiwi",
+        "农耕工艺 - 树木: 猕猴桃",
         List.of(
-            "A New Zealand Tree? Have I got that right?"
+            "一颗来自新西兰的树? 我没搞错吧?"
         )
     );
 
@@ -153,9 +153,9 @@ public final class CultivationStacks {
         "CLT_TREE_LIME",
         new ItemStack(Material.JUNGLE_SAPLING),
         CultivationThemes.SAPLING,
-        "农耕工艺 - 树木: Lime",
+        "农耕工艺 - 树木: 酸橙",
         List.of(
-            "Did you know Limes are just Lemons holding their breath?"
+            "你知道吗，酸橙只是柠檬在屏住呼吸?"
         )
     );
 
@@ -163,9 +163,9 @@ public final class CultivationStacks {
         "CLT_TREE_CHESTNUT",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
-        "农耕工艺 - 树木: Chestnut",
+        "农耕工艺 - 树木: 栗子",
         List.of(
-            "A tree clearly designed to be climbed."
+            "一棵显然是为了让人攀爬的树."
         )
     );
 
@@ -173,9 +173,9 @@ public final class CultivationStacks {
         "CLT_TREE_HAZELNUT",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
-        "农耕工艺 - 树木: Hazelnut",
+        "农耕工艺 - 树木: 榛子",
         List.of(
-            "Shaking this tree is a childhood past-time."
+            "摇晃这棵树是童年的一种消遣."
         )
     );
 
@@ -183,9 +183,9 @@ public final class CultivationStacks {
         "CLT_TREE_PECAN",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
-        "Cultivation Tree: Pecan",
+        "农耕工艺 - 树木: 山核桃",
         List.of(
-            "Can we grow this tree? Yes pe-can!"
+            "我们能种这棵树马？是的，可以！"
         )
     );
 
@@ -197,10 +197,10 @@ public final class CultivationStacks {
         "CLT_BUSH_GRAPE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Grape",
+        "农耕工艺 - 灌木: 葡萄",
         List.of(
-            "Ripe and juicy grapes that practically fall",
-            "off the bush."
+            "成熟多汁的葡萄,",
+            "几乎快要从树上掉下来了."
         )
     );
 
@@ -208,9 +208,9 @@ public final class CultivationStacks {
         "CLT_BUSH_PEANUTS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Peanuts",
+        "农耕工艺 - 灌木: 花生",
         List.of(
-            "Solid and fragrant and full of protein."
+            "坚实而芬芳，富含蛋白质."
         )
     );
 
@@ -218,9 +218,9 @@ public final class CultivationStacks {
         "CLT_BUSH_STRAWBERRY",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Strawberry",
+        "农耕工艺 - 灌木: 草莓",
         List.of(
-            "Solid and fragrant and full of protein."
+            "坚实而芬芳，富含蛋白质."
         )
     );
 
@@ -228,9 +228,9 @@ public final class CultivationStacks {
         "CLT_BUSH_RICE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Rice",
+        "农耕工艺 - 灌木: 大米",
         List.of(
-            "The ultimate staple food."
+            "终极主食."
         )
     );
 
@@ -238,9 +238,9 @@ public final class CultivationStacks {
         "CLT_BUSH_GARLIC",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Garlic",
+        "农耕工艺 - 灌木: 大蒜",
         List.of(
-            "This bush has simply the worst breath."
+            "灌木丛的味道闻起来很差."
         )
     );
 
@@ -248,9 +248,9 @@ public final class CultivationStacks {
         "CLT_BUSH_CAYENNE_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Cayenne Pepper",
+        "农耕工艺 - 灌木: 卡宴辣椒",
         List.of(
-            "A bush with a peppery attitude."
+            "吃了容易上火."
         )
     );
 
@@ -258,9 +258,9 @@ public final class CultivationStacks {
         "CLT_BUSH_TOMATO",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Tomato",
+        "农耕工艺 - 灌木: 番茄",
         List.of(
-            "Ripe and ready."
+            "成熟的番茄可以做成美食了."
         )
     );
 
