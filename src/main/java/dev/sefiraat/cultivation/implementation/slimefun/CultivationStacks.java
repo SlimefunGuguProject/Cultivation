@@ -2088,10 +2088,10 @@ public final class CultivationStacks {
         "CLT_SEED_PACK",
         Material.COMPOSTER,
         CultivationThemes.TOOL,
-        "Seed Pack",
-        "Right click to open this pack.",
+        "种子袋子",
+        "右键点击以打开.",
         "",
-        Theme.CLICK_INFO.asTitle("Set to", "Nothing")
+        Theme.CLICK_INFO.asTitle("设置为", "空")
     );
 
     // endregion

@@ -246,32 +246,32 @@ public class CultivationCommands extends BaseCommand {
         if (sender instanceof Player player) {
             ItemStack itemStack = player.getInventory().getItemInMainHand();
             if (itemStack == null || itemStack.getType().isAir()) {
-                player.sendMessage(Theme.WARNING.apply("You must be holding a Seed Pack for this"));
+                player.sendMessage(Theme.WARNING.apply("你必须拿着一个种子袋"));
                 return;
             }
 
             SlimefunItem slimefunItem = SlimefunItem.getByItem(itemStack);
             if (!(slimefunItem instanceof SeedPack pack)) {
-                player.sendMessage(Theme.WARNING.apply("You must be holding a Seed Pack for this"));
+                player.sendMessage(Theme.WARNING.apply("你必须拿着一个种子袋"));
                 return;
             }
 
             ItemMeta itemMeta = itemStack.getItemMeta();
             SeedPackInstance instance = PersistentDataAPI.get(itemMeta, SeedPackDataType.KEY, SeedPackDataType.TYPE);
             if (instance == null) {
-                player.sendMessage(Theme.WARNING.apply("This pack is empty!"));
+                player.sendMessage(Theme.WARNING.apply("这个种子袋是空的!"));
                 return;
             }
 
             player.sendMessage("------------------------------------");
-            player.sendMessage("Contents");
+            player.sendMessage("种子袋内容");
             player.sendMessage("------------------------------------");
             for (Map.Entry<FloraLevelProfile, Integer> entry : instance.getAmountMap().entrySet()) {
                 FloraLevelProfile profile = entry.getKey();
                 String neatKey =
-                    " Lv: " + profile.getLevel() +
-                    " Sp: " + profile.getSpeed() +
-                    " St: " + profile.getStrength();
+                    " 等级: " + profile.getLevel() +
+                    " 生长速率: " + profile.getSpeed() +
+                    " 培育强度: " + profile.getStrength();
                 player.sendMessage(Theme.CLICK_INFO.asTitle(neatKey, entry.getValue()));
             }
         }

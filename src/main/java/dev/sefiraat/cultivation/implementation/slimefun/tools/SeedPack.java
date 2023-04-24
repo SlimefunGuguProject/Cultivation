@@ -41,7 +41,7 @@ public class SeedPack extends SlimefunItem {
             ItemStack itemStack = playerRightClickEvent.getItem();
             Player player = playerRightClickEvent.getPlayer();
             if (itemStack.getAmount() > 1) {
-                player.sendMessage(Theme.ERROR.apply("You must unstack your pack(s) first."));
+                player.sendMessage(Theme.ERROR.apply("你不能在堆叠时打开种子袋."));
                 return;
             }
             SeedPackGui gui = new SeedPackGui(itemStack);
