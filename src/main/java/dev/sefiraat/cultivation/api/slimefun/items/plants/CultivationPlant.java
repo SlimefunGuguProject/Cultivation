@@ -121,7 +121,7 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
             Block middleBlock = motherBlock.getRelative(face);
             // There must be space for the new block
             if (middleBlock.getType() != Material.AIR || BlockStorage.check(middleBlock) != null) {
-                return;
+                continue;
             }
             Block potentialMate = middleBlock.getRelative(face);
             SlimefunItem mateItem = BlockStorage.check(potentialMate);
@@ -158,6 +158,7 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
         removeCropped(location);
         removePlant(location);
         location.getWorld().dropItem(location.clone().add(0.5, 0.5, 0.5), itemToDrop);
+        removeLevelProfile(location);
         event.setDropItems(false);
     }
 
