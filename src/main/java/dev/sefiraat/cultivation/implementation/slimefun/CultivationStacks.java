@@ -268,10 +268,10 @@ public final class CultivationStacks {
         "CLT_BUSH_BELL_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Bell Pepper",
+        "农耕工艺 - 灌木: 甜椒",
         List.of(
-            "Careful walking by this, you may ring",
-            "the bell."
+            "走在边上的时候要小心,",
+            "你可能会触发警报."
         )
     );
 
@@ -279,9 +279,9 @@ public final class CultivationStacks {
         "CLT_BUSH_ONION",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Onion",
+        "农耕工艺 - 灌木: 洋葱",
         List.of(
-            "Does this bush look like it's tearing up?"
+            "这个灌木丛是不是看起来像在撕裂?"
         )
     );
 
@@ -289,9 +289,9 @@ public final class CultivationStacks {
         "CLT_BUSH_PEA",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Peas",
+        "农耕工艺 - 灌木: 豌豆",
         List.of(
-            "I prefer Q's"
+            "我觉得Q更好."
         )
     );
 
@@ -299,9 +299,9 @@ public final class CultivationStacks {
         "CLT_BUSH_RAPESEED",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Rapeseed",
+        "农耕工艺 - 灌木: 油菜",
         List.of(
-            "This bush is exuding some oily substance."
+            "这片灌木丛散发着一些油性物质."
         )
     );
 
@@ -309,10 +309,10 @@ public final class CultivationStacks {
         "CLT_BUSH_LETTUCE",
         Skins.SPIKEY_GREEN_4.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Lettuce",
+        "农耕工艺 - 灌木: 生菜",
         List.of(
-            "Does lettuce even grow on bushes?",
-            "Spoiler: No, it doesn't."
+            "生菜真的长在灌木丛里吗?",
+            "剧透: 不, 并不会."
         )
     );
 
@@ -320,9 +320,9 @@ public final class CultivationStacks {
         "CLT_BUSH_MUSTARD",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Mustard Seeds",
+        "农耕工艺 - 灌木: 芥菜",
         List.of(
-            "Like fire in your mouth."
+            "在嘴里就像火一样."
         )
     );
 
@@ -330,9 +330,9 @@ public final class CultivationStacks {
         "CLT_BUSH_BROCCOLI",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Broccoli",
+        "农耕工艺 - 灌木: 西兰花",
         List.of(
-            "Tiny trees you can eat? Who invented this!?"
+            "可以吃的小树? 是谁发明的!?"
         )
     );
 
@@ -340,9 +340,9 @@ public final class CultivationStacks {
         "CLT_BUSH_CINNAMON",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Cinnamon",
+        "农耕工艺 - 灌木: 肉桂",
         List.of(
-            "A delightfully fragrant bush."
+            "芳香四溢的灌木丛."
         )
     );
 
@@ -350,9 +350,9 @@ public final class CultivationStacks {
         "CLT_BUSH_BASIL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Basil",
+        "农耕工艺 - 灌木: 罗勒",
         List.of(
-            "A light hearted bush full of whimsy."
+            "充满奇思妙想的轻盈灌木丛."
         )
     );
 
@@ -360,9 +360,9 @@ public final class CultivationStacks {
         "CLT_BUSH_BAY_LEAF",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Bay Leaf",
+        "农耕工艺 - 灌木: 香叶",
         List.of(
-            "The smell of this bush travels for miles."
+            "香味传千里."
         )
     );
 
@@ -370,9 +370,9 @@ public final class CultivationStacks {
         "CLT_BUSH_CILANTRO",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Cilantro",
+        "农耕工艺 - 灌木: 香菜",
         List.of(
-            "A faint citrus and spice smell comes from this bush."
+            "这片灌木丛中散发着淡淡的柑橘和香料的气味."
         )
     );
 
@@ -380,10 +380,10 @@ public final class CultivationStacks {
         "CLT_BUSH_CHICORY",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Chicory",
+        "农耕工艺 - 灌木: 菊苣",
         List.of(
-            "I thought chicory was a root? Does this addon",
-            "even do it's research!?"
+            "我以为菊苣是一种根茎?",
+            "这个附属真的做过相关的研究吗!?"
         )
     );
 
@@ -391,10 +391,10 @@ public final class CultivationStacks {
         "CLT_BUSH_CHIVES",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Chives",
+        "农耕工艺 - 灌木: 韭菜",
         List.of(
-            "A bush that produces what is, effectively, the world's",
-            "smallest onion."
+            "可以生产世界上最小的",
+            "洋葱的灌木丛."
         )
     );
 
@@ -402,9 +402,9 @@ public final class CultivationStacks {
         "CLT_BUSH_CLOVE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Clove",
+        "农耕工艺 - 灌木: 丁香",
         List.of(
-            "A bush that just reminds me of Christmas."
+            "这灌木丛让我想起了圣诞节."
         )
     );
 
@@ -412,9 +412,9 @@ public final class CultivationStacks {
         "CLT_BUSH_CUMIN",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Cumin",
+        "农耕工艺 - 灌木: 孜然",
         List.of(
-            "A bush that lets of a warm citrus aroma."
+            "灌木丛中散发着温暖的香气."
         )
     );
 
@@ -422,9 +422,9 @@ public final class CultivationStacks {
         "CLT_BUSH_CHILLI_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Chilli Pepper",
+        "农耕工艺 - 灌木: 辣椒",
         List.of(
-            "Just looking at this bush burns my tongue."
+            "仅仅看着这个灌木丛，就能让我的舌头发烫."
         )
     );
 
@@ -432,9 +432,9 @@ public final class CultivationStacks {
         "CLT_BUSH_CURRY_LEAF",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Curry Leaf",
+        "农耕工艺 - 灌木: 咖喱叶",
         List.of(
-            "Best when dry roasted."
+            "干烤时效果最佳."
         )
     );
 
