@@ -423,9 +423,9 @@ public final class CultivationStacks {
         "CLT_BUSH_DILL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Dill",
+        "农耕工艺 - 灌木: 莳萝",
         List.of(
-            "This bush grows much faster than others."
+            "这种灌木长得比其他的都快"
         )
     );
 
@@ -433,9 +433,9 @@ public final class CultivationStacks {
         "CLT_BUSH_FENNEL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Fennel",
+        "农耕工艺 - 灌木: 茴香",
         List.of(
-            "Why does this bush repel bugs!?"
+            "为什么这种灌木能驱虫!?"
         )
     );
 
@@ -443,9 +443,9 @@ public final class CultivationStacks {
         "CLT_BUSH_GINGER",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Ginger",
+        "农耕工艺 - 灌木: 姜",
         List.of(
-            "This bush is nice when boiled whole."
+            "这种灌木在煮熟后的效果很好."
         )
     );
 
@@ -453,9 +453,9 @@ public final class CultivationStacks {
         "CLT_BUSH_HORSERADISH",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Horseradish",
+        "农耕工艺 - 灌木: 辣根",
         List.of(
-            "Again, this growing on a bush just doesn't make sense."
+            "没错, 这种植物的存在没有任何意义."
         )
     );
 
@@ -463,9 +463,9 @@ public final class CultivationStacks {
         "CLT_BUSH_JASMINE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Jasmine",
+        "农耕工艺 - 灌木: 茉莉",
         List.of(
-            "The scent from this bush is so soft and mellow."
+            "这个灌木丛的气味是如此的柔和与圆润."
         )
     );
 
@@ -473,9 +473,9 @@ public final class CultivationStacks {
         "CLT_BUSH_JUNIPER_BERRY",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Juniper Berry",
+        "农耕工艺 - 灌木: 杜松子",
         List.of(
-            "So sweet on the bush, peppery when dried."
+            "未采摘时很甜，但烘干后很刺鼻."
         )
     );
 
