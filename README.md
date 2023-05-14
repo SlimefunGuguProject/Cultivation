@@ -7,7 +7,7 @@ Cultivation 农耕工艺 是一个 Slimefun4 附属插件，向MC添加了大量
 
 ## 下载 Cultivation
 
-[![构建状态](https://builds.guizhanss.net/f/SlimefunGuguProject/Cultivation/master/badge.svg)](https://builds.guizhanss.net/SlimefunGuguProject/Cultivation/master)
+[![构建状态](https://builds.guizhanss.net/f/SlimefunGuguProject/Cultivation/main/badge.svg)](https://builds.guizhanss.net/SlimefunGuguProject/Cultivation/main)
 
 你可以在 [文档页面(英文)](https://sefiraat.dev) 找到完整的教程！
 
@@ -82,4 +82,4 @@ Another big shoutout to GentlemanCheesy who creates some of the skulls used in t
 
 And lastly, a big thanks goes to https://minecraft-heads.com who kindly gave their permission to utilise heads they've procured within our addon.
 
-[![](https://minecraft-heads.com/images/banners/minecraft-heads_fullbanner_468x60.png)](https://minecraft-heads.com/)
+[![](https://minecraft-heads.com/images/banners/minecraft-heads_fullbanner_468x60.png)](https://minecraft-heads.com/) 
