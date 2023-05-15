@@ -483,9 +483,9 @@ public final class CultivationStacks {
         "CLT_BUSH_KAFFIR_LIME",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Kaffir Lime",
+        "农耕工艺 - 灌木: 泰国青柠",
         List.of(
-            "A bush whose leafs are more wanted than it's fruit."
+            "一种叶子比果实更受欢迎的灌木."
         )
     );
 
@@ -493,9 +493,9 @@ public final class CultivationStacks {
         "CLT_BUSH_LAVENDER",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Lavender",
+        "农耕工艺 - 灌木: 薰衣草",
         List.of(
-            "This bush wafts it's smell everywhere."
+            "这种灌木到处散发着它的气味."
         )
     );
 
@@ -503,9 +503,9 @@ public final class CultivationStacks {
         "CLT_BUSH_LICORICE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Licorice",
+        "农耕工艺 - 灌木: 甘草",
         List.of(
-            "Gross"
+            "粗壮的"
         )
     );
 
@@ -513,9 +513,9 @@ public final class CultivationStacks {
         "CLT_BUSH_MACE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Mace",
+        "农耕工艺 - 灌木: 肉豆蔻",
         List.of(
-            "This bush seems to be repelling attackers?"
+            "这片灌木丛似乎在击退攻击者?"
         )
     );
 
@@ -523,9 +523,9 @@ public final class CultivationStacks {
         "CLT_BUSH_MARJORAM",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Marjoram",
+        "农耕工艺 - 灌木: 马郁兰",
         List.of(
-            "A large woody smelling bush."
+            "一大片散发着木质气味的灌木."
         )
     );
 
@@ -533,9 +533,9 @@ public final class CultivationStacks {
         "CLT_BUSH_MINT",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Mint",
+        "农耕工艺 - 灌木: 薄荷",
         List.of(
-            "Simply the best smelling bush."
+            "这简直是最好闻的灌木"
         )
     );
 
@@ -543,9 +543,9 @@ public final class CultivationStacks {
         "CLT_BUSH_OREGANO",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Oregano",
+        "农耕工艺 - 灌木: 牛至",
         List.of(
-            "This pungent smelling bush deters visitors."
+            "这种刺鼻气味的灌木令游客望而却步."
         )
     );
 
@@ -553,9 +553,9 @@ public final class CultivationStacks {
         "CLT_BUSH_PARSLEY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Parsley",
+        "农耕工艺 - 灌木: 欧芹",
         List.of(
-            "Throw this bush in lava, now :D"
+            "把这片灌木丛扔进熔岩里, 就现在! :D"
         )
     );
 
@@ -563,9 +563,9 @@ public final class CultivationStacks {
         "CLT_BUSH_ROSEMARY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Rosemary",
+        "农耕工艺 - 灌木: 迷迭香",
         List.of(
-            "A bush whose smell reminds people of sunday lunches."
+            "一种灌木，它的气味使人想起星期天的午餐."
         )
     );
 
@@ -573,10 +573,10 @@ public final class CultivationStacks {
         "CLT_BUSH_SASSAFRAS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Sassafras",
+        "农耕工艺 - 灌木: 黄樟",
         List.of(
-            "This bush love to be planted near small bodies",
-            "of water."
+            "这种灌木喜欢被种植",
+            "在小水域附近"
         )
     );
 
@@ -584,11 +584,11 @@ public final class CultivationStacks {
         "CLT_BUSH_SHISO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Shiso",
+        "农耕工艺 - 灌木: 紫苏",
         List.of(
-            "I like to think this bush is the love child",
-            "of a mint bush and a basil bush. Too bad",
-            "bush breeding isn't a thing!"
+            "我乐意认为这种灌木",
+            "是薄荷灌木和罗勒灌木的私生子",
+            "可惜很难育种!"
         )
     );
 
@@ -596,10 +596,10 @@ public final class CultivationStacks {
         "CLT_BUSH_STAR_ANISE",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Star Anise",
+        "农耕工艺 - 灌木: 八角",
         List.of(
-            "A small comes off this bush that is so unique",
-            "to anise, you can't even believe."
+            "从这种灌木上脱落的一小片茴香是如此独特",
+            "你简直无法相信."
         )
     );
 
@@ -607,9 +607,9 @@ public final class CultivationStacks {
         "CLT_BUSH_TARRAGON",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Tarragon",
+        "农耕工艺 - 灌木: 龙蒿",
         List.of(
-            "This bush doesn't like to draw too much attention."
+            "这棵灌木不喜欢引起太多的注意"
         )
     );
 
@@ -617,9 +617,9 @@ public final class CultivationStacks {
         "CLT_BUSH_THYME",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Thyme",
+        "农耕工艺 - 灌木: 百里香",
         List.of(
-            "This bush is always running out of... Thyme... *cough*"
+            "这种灌木总是用光...百里香...*咳嗽*"
         )
     );
 
@@ -627,10 +627,10 @@ public final class CultivationStacks {
         "CLT_BUSH_TURMERIC",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Turmeric",
+        "农耕工艺 - 灌木: 姜黄",
         List.of(
-            "A waft of spice hits your nose just",
-            "holding this bush."
+            "只要拿着这丛灌木",
+            "一股香料的味道就会扑鼻而来."
         )
     );
 
@@ -638,9 +638,9 @@ public final class CultivationStacks {
         "CLT_BUSH_VANILLA",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Vanilla",
+        "农耕工艺 - 灌木: 香子兰",
         List.of(
-            "This bush grows natively near StarBucks locations."
+            "这种灌木长期存在于星巴克中."
         )
     );
 
@@ -648,10 +648,10 @@ public final class CultivationStacks {
         "CLT_BUSH_WASABI",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Wasabi",
+        "农耕工艺 - 灌木: 山萮菜",
         List.of(
-            "Another root growing off of a bush?",
-            "Sigh..."
+            "这是从灌木丛中长出的另一根?",
+            "哎..."
         )
     );
 
@@ -659,10 +659,10 @@ public final class CultivationStacks {
         "CLT_BUSH_ARTICHOKE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Artichoke",
+        "农耕工艺 - 灌木: 洋蓟",
         List.of(
-            "By far the best bush to strangle an",
-            "artist with. Sigh. Puns be hard."
+            "迄今为止最好的能勒死艺术家的灌木",
+            "双关很难"
         )
     );
 
@@ -670,9 +670,9 @@ public final class CultivationStacks {
         "CLT_BUSH_AUBERGINE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Aubergine",
+        "农耕工艺 - 灌木: 茄冰蕉",
         List.of(
-            "I refuse to use the word eggplant. I just do."
+            "我拒绝用茄子这个词,因为我喜欢."
         )
     );
 
@@ -680,10 +680,10 @@ public final class CultivationStacks {
         "CLT_BUSH_ASPARAGUS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Asparagus",
+        "农耕工艺 - 灌木: 芦笋",
         List.of(
-            "This asparagus bush makes a good",
-            "stalker!"
+            "这种芦笋灌木",
+            "是很好的追踪者!"
         )
     );
 
@@ -691,10 +691,10 @@ public final class CultivationStacks {
         "CLT_BUSH_BRUSSELS_SPROUTS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Brussels Sprouts",
+        "农耕工艺 - 灌木: 球芽甘蓝",
         List.of(
-            "A bush that can sometimes produce noxious",
-            "gas."
+            "这种灌木",
+            "有时会产出有毒气体"
         )
     );
 
@@ -702,10 +702,10 @@ public final class CultivationStacks {
         "CLT_BUSH_CABBAGE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Cabbage",
+        "农耕工艺 - 灌木: 卷心菜",
         List.of(
-            "A bush that comes with a large amount of",
-            "emotional cabbage."
+            "伴随着大量情感的",
+            "卷心菜灌木."
         )
     );
 
@@ -713,10 +713,10 @@ public final class CultivationStacks {
         "CLT_BUSH_CAULIFLOWER",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Cauliflower",
+        "农耕工艺 - 灌木: 花椰菜",
         List.of(
-            "A bush capable of producing little clouds",
-            "of delight."
+            "能够结出令人开心的",
+            "小云彩"
         )
     );
 
@@ -724,10 +724,10 @@ public final class CultivationStacks {
         "CLT_BUSH_CELERY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Celery",
+        "农耕工艺 - 灌木: 芹菜",
         List.of(
-            "This bush is redundant.",
-            "Sefi doesn't like Celery."
+            "这个灌木丛是多余的.",
+            "Sefi不喜欢芹菜"
         )
     );
 
@@ -735,10 +735,10 @@ public final class CultivationStacks {
         "CLT_BUSH_KALE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Kale",
+        "农耕工艺 - 灌木: 羽衣甘蓝",
         List.of(
-            "When you plant this bush, you get the feeling",
-            "that everything is going to be o-kale."
+            "当你种植这株灌木时",
+            "你会觉得一切都将变成甘蓝."
         )
     );
 
@@ -746,9 +746,9 @@ public final class CultivationStacks {
         "CLT_BUSH_SPINACH",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Spinach",
+        "农耕工艺 - 灌木: 菠菜",
         List.of(
-            "This bush is Popeye's best friend."
+            "这株灌木是大力水手最好的朋友"
         )
     );
 
@@ -756,10 +756,10 @@ public final class CultivationStacks {
         "CLT_BUSH_BLACK_BEANS",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Black Beans",
+        "农耕工艺 - 灌木: 黑豆",
         List.of(
-            "This bush gently whispers to you:",
-            "You are a great human bean."
+            "这株灌木轻轻地对你低语:",
+            "你是一颗伟大的豆子."
         )
     );
 
@@ -767,10 +767,10 @@ public final class CultivationStacks {
         "CLT_BUSH_GREEN_BEANS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Green Beans",
+        "农耕工艺 - 灌木: 四季豆",
         List.of(
-            "Throw tomato sauce over this bush to make",
-            "baked beans."
+            "将番茄酱倒在灌木上",
+            "来做烧烤."
         )
     );
 
@@ -778,10 +778,10 @@ public final class CultivationStacks {
         "CLT_BUSH_CHICKPEAS",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Chickpeas",
+        "农耕工艺 - 灌木: 鹰嘴豆",
         List.of(
-            "A bush made by breeding a chicken with",
-            "a pea. SCIENCE."
+            "用豌豆和鸡繁殖而成的灌木",
+            "科技与狠活"
         )
     );
 
@@ -789,10 +789,10 @@ public final class CultivationStacks {
         "CLT_BUSH_SOY_BEANS",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Soy Beans",
+        "农耕工艺 - 灌木: 大豆",
         List.of(
-            "This bush is a friendly delight. It makes",
-            "me soy happy."
+            "这种灌木能友好的享受",
+            "这让我很开心."
         )
     );
 
@@ -800,10 +800,10 @@ public final class CultivationStacks {
         "CLT_BUSH_PINTO_BEANS",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Pinto Beans",
+        "农耕工艺 - 灌木: 斑豆",
         List.of(
-            "It wont be long until we successfully breed",
-            "a direct-burrito bush, right?"
+            "用不了多久我们就能成功培育出直筒玉米煎饼",
+            "对吗?"
         )
     );
 
@@ -811,9 +811,9 @@ public final class CultivationStacks {
         "CLT_BUSH_RUNNER_BEANS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Runner Beans",
+        "农耕工艺 - 灌木: 红花菜豆",
         List.of(
-            "This bush has feet o.o?"
+            "这豆长脚了 o.o?"
         )
     );
 
@@ -821,9 +821,9 @@ public final class CultivationStacks {
         "CLT_BUSH_NETTLES",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Nettles",
+        "农耕工艺 - 灌木: 荨麻",
         List.of(
-            "Be careful when walking through this bush!"
+            "穿过这片灌木丛时要小心!"
         )
     );
 
@@ -831,10 +831,10 @@ public final class CultivationStacks {
         "CLT_BUSH_OKRA",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Okra",
+        "农耕工艺 - 灌木: 秋葵",
         List.of(
-            "Voted the number 1 vegetable according to",
-            "Okra Winfrey's Vegetable Club."
+            "根据秋葵·温弗瑞的蔬菜俱乐部",
+            "它被评为头号蔬菜."
         )
     );
 
@@ -842,10 +842,10 @@ public final class CultivationStacks {
         "CLT_BUSH_LEEK",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Leek",
+        "农耕工艺 - 灌木: 韭葱",
         List.of(
-            "Did you know a leek is just an onion that",
-            "wears a corset? True story."
+            "你知道韭菜只是一个穿了紧身胸衣的洋葱吗？",
+            "这是真实的故事."
         )
     );
 
@@ -853,10 +853,10 @@ public final class CultivationStacks {
         "CLT_BUSH_SHALLOT",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Shallot",
+        "农耕工艺 - 灌木: 青葱",
         List.of(
-            "This bush rapidly produces lovely mini onions.",
-            "Luckily you don't need a shallot."
+            "这种灌木很快就会长出可爱的迷你洋葱",
+            "幸运的是你不需要葱."
         )
     );
 
@@ -864,10 +864,10 @@ public final class CultivationStacks {
         "CLT_BUSH_JALAPENO",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Jalapeno",
+        "农耕工艺 - 灌木: 墨西哥胡椒",
         List.of(
-            "Just holding this bush gives you a",
-            "1% change to set ablaze."
+            "只要握住这根灌木",
+            "你就有1%的机会点燃它."
         )
     );
 
@@ -875,11 +875,11 @@ public final class CultivationStacks {
         "CLT_BUSH_RADICCHIO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Radicchio",
+        "农耕工艺 - 灌木: 菊苣",
         List.of(
-            "Want to sound fancy? But Radicchio into any",
-            "meal - it's basically like cabbage but",
-            "makes you seem refined."
+            "这听起来很花哨吗？",
+            "但是在任何一餐中加入菊苣 - 就如同卷心菜",
+            "让你看起来很精致"
         )
     );
 
@@ -887,10 +887,10 @@ public final class CultivationStacks {
         "CLT_BUSH_RHUBARB",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Rhubarb",
+        "农耕工艺 - 灌木: 大黄",
         List.of(
-            "Did you know rhubarb was a vegetable?",
-            "I thought it was a type of hammer."
+            "你知道大黄是一种蔬菜吗?",
+            "我以为是一种锤子."
         )
     );
 
@@ -898,10 +898,10 @@ public final class CultivationStacks {
         "CLT_BUSH_CELERIAC",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Celeriac",
+        "农耕工艺 - 灌木: 块根芹",
         List.of(
-            "Yet another root growing off of a bush?",
-            "SefiDumb™"
+            "又一个从灌木丛中长出的根?",
+            "Sefi再见™"
         )
     );
 
@@ -909,10 +909,10 @@ public final class CultivationStacks {
         "CLT_BUSH_PARSNIP",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Parsnip",
+        "农耕工艺 - 灌木: 欧洲防风草",
         List.of(
-            "Just skip the middleman and roast the bush",
-            "directly."
+            "跳过中间人",
+            "烤干灌木"
         )
     );
 
@@ -920,9 +920,9 @@ public final class CultivationStacks {
         "CLT_BUSH_RUTABAGA",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Rutabaga",
+        "农耕工艺 - 灌木: 芜菁甘蓝",
         List.of(
-            "Swede. Its a swede."
+            "瑞典人!它是瑞典人!"
         )
     );
 
@@ -930,10 +930,10 @@ public final class CultivationStacks {
         "CLT_BUSH_RADDISH",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Raddish",
+        "农耕工艺 - 灌木: 小红萝卜",
         List.of(
-            "This plant just did a skateboarding trick.",
-            "Totally Rad...ish."
+            "这株植物刚刚表演了一个滑板魔术",
+            "太棒了...咦惹."
         )
     );
 
@@ -941,10 +941,10 @@ public final class CultivationStacks {
         "CLT_BUSH_SWEET_POTATO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Sweet Potato",
+        "农耕工艺 - 灌木: 甘薯",
         List.of(
-            "This bush is just so sweet. I heard it",
-            "complimenting you while you weren't listening."
+            "这灌木太可爱了",
+            "你没听的时候我听到它在夸你."
         )
     );
 
@@ -952,10 +952,10 @@ public final class CultivationStacks {
         "CLT_BUSH_TURNIP",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Turnip",
+        "农耕工艺 - 灌木: 大头菜",
         List.of(
-            "According to the British Government",
-            "this bush will solve all our problems."
+            "根据英国政府的说法",
+            "这棵灌木将解决我们所有的问题."
         )
     );
 
@@ -963,10 +963,10 @@ public final class CultivationStacks {
         "CLT_BUSH_SWEETCORN",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Sweetcorn",
+        "农耕工艺 - 灌木: 甜玉米",
         List.of(
-            "This bush is just crying out to be built into",
-            "a maze."
+            "这片灌木丛迫切需要",
+            "被建成一个迷宫"
         )
     );
 
@@ -974,10 +974,10 @@ public final class CultivationStacks {
         "CLT_BUSH_COURGETTE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Courgette",
+        "农耕工艺 - 灌木: 西葫芦",
         List.of(
-            "Why does this bush just keep shouting the",
-            "word Zucchini? I guess it must be american?"
+            "为什么这棵灌木一直在喊西葫芦这个词",
+            "我猜一定是美国人?"
         )
     );
 
@@ -985,10 +985,10 @@ public final class CultivationStacks {
         "CLT_BUSH_CUCUMBER",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Cucumber",
+        "农耕工艺 - 灌木: 黄瓜",
         List.of(
-            "This bush was designed solely for the purposes",
-            "of your lovely summer salads."
+            "这种灌木是专为你可爱的",
+            "夏季沙拉而设计的."
         )
     );
 
@@ -996,10 +996,10 @@ public final class CultivationStacks {
         "CLT_BUSH_MARROW",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "农耕工艺 - 灌木: Marrow",
+        "农耕工艺 - 灌木: 嫩葫芦",
         List.of(
-            "I'm surprised this bush can hold it's",
-            "own weight."
+            "我很惊讶这灌木",
+            "能承受它自己的重量。"
         )
     );
 
@@ -1007,10 +1007,10 @@ public final class CultivationStacks {
         "CLT_BUSH_AVOCADO",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Avocado",
+        "农耕工艺 - 灌木: 鳄梨",
         List.of(
-            "This bush has been bred specifically to not",
-            "use too much water."
+            "这种灌木是专门培育的",
+            "不需要太多的水."
         )
     );
 
@@ -1018,11 +1018,11 @@ public final class CultivationStacks {
         "CLT_BUSH_GREEN_ONION",
         Skins.SPIKEY_GREEN_4.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Green Onion",
+        "农耕工艺 - 灌木: 嫩葱",
         List.of(
-            "Also known as Scallions.",
-            "Green Onions generally have a",
-            "milder taste than most onions."
+            "也叫葱白.",
+            "大葱通常比大多数",
+            "洋葱味道温和"
         )
     );
 
@@ -1030,11 +1030,11 @@ public final class CultivationStacks {
         "CLT_BUSH_PEPPER",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
-        "Cultivation Bush: Black Pepper",
+        "农耕工艺 - 灌木: 黑胡椒",
         List.of(
-            "Black Pepper was an important part of the",
-            "spice trade between India and Europe",
-            "as early as Greek and Roman times."
+            "早在希腊和罗马时代",
+            "黑胡椒就是印度和欧洲之间",
+            "香料贸易的重要主城部分."
         )
     );
 
