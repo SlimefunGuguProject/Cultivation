@@ -26,7 +26,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 香蕉",
         List.of(
-            "一棵能长出手指的树，emm!"
+            "一棵能长出手指的树，emm！"
         )
     );
 
@@ -36,7 +36,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 柠檬",
         List.of(
-            "这棵树看上去很酸."
+            "这棵树看上去很酸。"
         )
     );
 
@@ -46,7 +46,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 橘子",
         List.of(
-            "阳光小球."
+            "阳光小球。"
         )
     );
 
@@ -56,7 +56,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 青苹果",
         List.of(
-            "培育又大又清脆的青苹果."
+            "培育又大又清脆的青苹果。"
         )
     );
 
@@ -66,7 +66,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 菠萝",
         List.of(
-            "披萨，哪里有披萨?"
+            "披萨，哪里有披萨？"
         )
     );
 
@@ -76,7 +76,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 芒果",
         List.of(
-            "成熟的时候最好吃."
+            "成熟的时候最好吃。"
         )
     );
 
@@ -86,7 +86,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 桃子",
         List.of(
-            "我觉得詹姆斯正在找这个?"
+            "我觉得詹姆斯正在找这个？"
         )
     );
 
@@ -96,7 +96,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 杏子",
         List.of(
-            "里面只有一个个坑."
+            "里面只有一个个坑。"
         )
     );
 
@@ -106,7 +106,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 梨子",
         List.of(
-            "一对梨为了平衡而搭配."
+            "一对梨为了平衡而搭配。"
         )
     );
 
@@ -126,7 +126,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 猕猴桃",
         List.of(
-            "一颗来自新西兰的树? 我没搞错吧?"
+            "一颗来自新西兰的树? 我没搞错吧？"
         )
     );
 
@@ -136,7 +136,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 酸橙",
         List.of(
-            "你知道吗，酸橙只是柠檬在屏住呼吸?"
+            "你知道吗，酸橙只是柠檬在屏住呼吸？"
         )
     );
 
@@ -146,7 +146,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 栗子",
         List.of(
-            "一棵显然是为了让人攀爬的树."
+            "一棵显然是为了让人攀爬的树。"
         )
     );
 
@@ -156,7 +156,7 @@ public final class CultivationStacks {
         CultivationThemes.SAPLING,
         "农耕工艺 - 树木: 榛子",
         List.of(
-            "摇晃这棵树是童年的一种消遣."
+            "摇晃这棵树是童年的一种消遣。"
         )
     );
 
@@ -181,7 +181,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 葡萄",
         List.of(
             "成熟多汁的葡萄,",
-            "几乎快要从树上掉下来了."
+            "几乎快要从树上掉下来了。"
         )
     );
 
@@ -191,7 +191,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 花生",
         List.of(
-            "坚实而芬芳，富含蛋白质."
+            "坚实而芬芳，富含蛋白质。"
         )
     );
 
@@ -201,7 +201,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 草莓",
         List.of(
-            "坚实而芬芳，富含蛋白质."
+            "坚实而芬芳，富含蛋白质。"
         )
     );
 
@@ -211,7 +211,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 大米",
         List.of(
-            "终极主食."
+            "终极主食。"
         )
     );
 
@@ -221,7 +221,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 大蒜",
         List.of(
-            "灌木丛的味道闻起来很差."
+            "灌木丛的味道闻起来很差。"
         )
     );
 
@@ -231,7 +231,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 卡宴辣椒",
         List.of(
-            "吃了容易上火."
+            "吃了容易上火。"
         )
     );
 
@@ -241,7 +241,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 番茄",
         List.of(
-            "成熟的番茄可以做成美食了."
+            "成熟的番茄可以做成美食了。"
         )
     );
 
@@ -252,7 +252,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 甜椒",
         List.of(
             "走在边上的时候要小心,",
-            "你可能会触发警报."
+            "你可能会触发警报。"
         )
     );
 
@@ -262,7 +262,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 洋葱",
         List.of(
-            "这个灌木丛是不是看起来像在撕裂?"
+            "这个灌木丛是不是看起来像在撕裂？"
         )
     );
 
@@ -272,7 +272,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 豌豆",
         List.of(
-            "我觉得Q更好."
+            "我觉得Q更好。"
         )
     );
 
@@ -282,7 +282,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 油菜",
         List.of(
-            "这片灌木丛散发着一些油性物质."
+            "这片灌木丛散发着一些油性物质。"
         )
     );
 
@@ -292,8 +292,8 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 生菜",
         List.of(
-            "生菜真的长在灌木丛里吗?",
-            "剧透: 不, 并不会."
+            "生菜真的长在灌木丛里吗？",
+            "剧透: 不, 并不会。"
         )
     );
 
@@ -303,7 +303,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 芥菜",
         List.of(
-            "在嘴里就像火一样."
+            "在嘴里就像火一样。"
         )
     );
 
@@ -313,7 +313,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 西兰花",
         List.of(
-            "可以吃的小树? 是谁发明的!?"
+            "可以吃的小树? 是谁发明的!？"
         )
     );
 
@@ -323,7 +323,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 肉桂",
         List.of(
-            "芳香四溢的灌木丛."
+            "芳香四溢的灌木丛。"
         )
     );
 
@@ -333,7 +333,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 罗勒",
         List.of(
-            "充满奇思妙想的轻盈灌木丛."
+            "充满奇思妙想的轻盈灌木丛。"
         )
     );
 
@@ -343,7 +343,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 香叶",
         List.of(
-            "香味传千里."
+            "香味传千里。"
         )
     );
 
@@ -353,7 +353,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 香菜",
         List.of(
-            "这片灌木丛中散发着淡淡的柑橘和香料的气味."
+            "这片灌木丛中散发着淡淡的柑橘和香料的气味。"
         )
     );
 
@@ -363,8 +363,8 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 菊苣",
         List.of(
-            "我以为菊苣是一种根茎?",
-            "这个附属真的做过相关的研究吗!?"
+            "我以为菊苣是一种根茎？",
+            "这个附属真的做过相关的研究吗!？"
         )
     );
 
@@ -375,7 +375,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 韭菜",
         List.of(
             "可以生产世界上最小的",
-            "洋葱的灌木丛."
+            "洋葱的灌木丛。"
         )
     );
 
@@ -385,7 +385,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 丁香",
         List.of(
-            "这灌木丛让我想起了圣诞节."
+            "这灌木丛让我想起了圣诞节。"
         )
     );
 
@@ -395,7 +395,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 孜然",
         List.of(
-            "灌木丛中散发着温暖的香气."
+            "灌木丛中散发着温暖的香气。"
         )
     );
 
@@ -405,7 +405,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 辣椒",
         List.of(
-            "仅仅看着这个灌木丛，就能让我的舌头发烫."
+            "仅仅看着这个灌木丛，就能让我的舌头发烫。"
         )
     );
 
@@ -415,7 +415,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 咖喱叶",
         List.of(
-            "干烤时效果最佳."
+            "干烤时效果最佳。"
         )
     );
 
@@ -435,7 +435,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 茴香",
         List.of(
-            "为什么这种灌木能驱虫!?"
+            "为什么这种灌木能驱虫!？"
         )
     );
 
@@ -445,7 +445,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 姜",
         List.of(
-            "这种灌木在煮熟后的效果很好."
+            "这种灌木在煮熟后的效果很好。"
         )
     );
 
@@ -455,7 +455,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 辣根",
         List.of(
-            "没错, 这种植物的存在没有任何意义."
+            "没错, 这种植物的存在没有任何意义。"
         )
     );
 
@@ -465,7 +465,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 茉莉",
         List.of(
-            "这个灌木丛的气味是如此的柔和与圆润."
+            "这个灌木丛的气味是如此的柔和与圆润。"
         )
     );
 
@@ -475,7 +475,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 杜松子",
         List.of(
-            "未采摘时很甜，但烘干后很刺鼻."
+            "未采摘时很甜，但烘干后很刺鼻。"
         )
     );
 
@@ -485,7 +485,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 泰国青柠",
         List.of(
-            "一种叶子比果实更受欢迎的灌木."
+            "一种叶子比果实更受欢迎的灌木。"
         )
     );
 
@@ -495,7 +495,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 薰衣草",
         List.of(
-            "这种灌木到处散发着它的气味."
+            "这种灌木到处散发着它的气味。"
         )
     );
 
@@ -515,7 +515,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 肉豆蔻",
         List.of(
-            "这片灌木丛似乎在击退攻击者?"
+            "这片灌木丛似乎在击退攻击者？"
         )
     );
 
@@ -525,7 +525,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 马郁兰",
         List.of(
-            "一大片散发着木质气味的灌木."
+            "一大片散发着木质气味的灌木。"
         )
     );
 
@@ -545,7 +545,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 牛至",
         List.of(
-            "这种刺鼻气味的灌木令游客望而却步."
+            "这种刺鼻气味的灌木令游客望而却步。"
         )
     );
 
@@ -565,7 +565,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 迷迭香",
         List.of(
-            "一种灌木，它的气味使人想起星期天的午餐."
+            "一种灌木，它的气味使人想起星期天的午餐。"
         )
     );
 
@@ -599,7 +599,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 八角",
         List.of(
             "从这种灌木上脱落的一小片茴香是如此独特",
-            "你简直无法相信."
+            "你简直无法相信。"
         )
     );
 
@@ -630,7 +630,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 姜黄",
         List.of(
             "只要拿着这丛灌木",
-            "一股香料的味道就会扑鼻而来."
+            "一股香料的味道就会扑鼻而来。"
         )
     );
 
@@ -640,7 +640,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 香子兰",
         List.of(
-            "这种灌木长期存在于星巴克中."
+            "这种灌木长期存在于星巴克中。"
         )
     );
 
@@ -650,8 +650,8 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 山萮菜",
         List.of(
-            "这是从灌木丛中长出的另一根?",
-            "哎..."
+            "这是从灌木丛中长出的另一根？",
+            "哎..。"
         )
     );
 
@@ -672,7 +672,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 茄冰蕉",
         List.of(
-            "我拒绝用茄子这个词,因为我喜欢."
+            "我拒绝用茄子这个词,因为我喜欢。"
         )
     );
 
@@ -705,7 +705,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 卷心菜",
         List.of(
             "伴随着大量情感的",
-            "卷心菜灌木."
+            "卷心菜灌木。"
         )
     );
 
@@ -726,7 +726,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 芹菜",
         List.of(
-            "这个灌木丛是多余的.",
+            "这个灌木丛是多余的。",
             "Sefi不喜欢芹菜"
         )
     );
@@ -738,7 +738,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 羽衣甘蓝",
         List.of(
             "当你种植这株灌木时",
-            "你会觉得一切都将变成甘蓝."
+            "你会觉得一切都将变成甘蓝。"
         )
     );
 
@@ -759,7 +759,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 黑豆",
         List.of(
             "这株灌木轻轻地对你低语:",
-            "你是一颗伟大的豆子."
+            "你是一颗伟大的豆子。"
         )
     );
 
@@ -770,7 +770,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 四季豆",
         List.of(
             "将番茄酱倒在灌木上",
-            "来做烧烤."
+            "来做烧烤。"
         )
     );
 
@@ -792,7 +792,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 大豆",
         List.of(
             "这种灌木能友好的享受",
-            "这让我很开心."
+            "这让我很开心。"
         )
     );
 
@@ -803,7 +803,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 斑豆",
         List.of(
             "用不了多久我们就能成功培育出直筒玉米煎饼",
-            "对吗?"
+            "对吗？"
         )
     );
 
@@ -813,7 +813,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 红花菜豆",
         List.of(
-            "这豆长脚了 o.o?"
+            "这豆长脚了 o.o？"
         )
     );
 
@@ -834,7 +834,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 秋葵",
         List.of(
             "根据秋葵·温弗瑞的蔬菜俱乐部",
-            "它被评为头号蔬菜."
+            "它被评为头号蔬菜。"
         )
     );
 
@@ -845,7 +845,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 韭葱",
         List.of(
             "你知道韭菜只是一个穿了紧身胸衣的洋葱吗？",
-            "这是真实的故事."
+            "这是真实的故事。"
         )
     );
 
@@ -856,7 +856,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 青葱",
         List.of(
             "这种灌木很快就会长出可爱的迷你洋葱",
-            "幸运的是你不需要葱."
+            "幸运的是你不需要葱。"
         )
     );
 
@@ -867,7 +867,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 墨西哥胡椒",
         List.of(
             "只要握住这根灌木",
-            "你就有1%的机会点燃它."
+            "你就有1%的机会点燃它。"
         )
     );
 
@@ -889,8 +889,8 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 大黄",
         List.of(
-            "你知道大黄是一种蔬菜吗?",
-            "我以为是一种锤子."
+            "你知道大黄是一种蔬菜吗？",
+            "我以为是一种锤子。"
         )
     );
 
@@ -900,7 +900,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 块根芹",
         List.of(
-            "又一个从灌木丛中长出的根?",
+            "又一个从灌木丛中长出的根？",
             "Sefi再见™"
         )
     );
@@ -933,7 +933,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 小红萝卜",
         List.of(
             "这株植物刚刚表演了一个滑板魔术",
-            "太棒了...咦惹."
+            "太棒了...咦惹。"
         )
     );
 
@@ -944,7 +944,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 甘薯",
         List.of(
             "这灌木太可爱了",
-            "你没听的时候我听到它在夸你."
+            "你没听的时候我听到它在夸你。"
         )
     );
 
@@ -955,7 +955,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 大头菜",
         List.of(
             "根据英国政府的说法",
-            "这棵灌木将解决我们所有的问题."
+            "这棵灌木将解决我们所有的问题。"
         )
     );
 
@@ -977,7 +977,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 西葫芦",
         List.of(
             "为什么这棵灌木一直在喊西葫芦这个词",
-            "我猜一定是美国人?"
+            "我猜一定是美国人？"
         )
     );
 
@@ -988,7 +988,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 黄瓜",
         List.of(
             "这种灌木是专为你可爱的",
-            "夏季沙拉而设计的."
+            "夏季沙拉而设计的。"
         )
     );
 
@@ -1010,7 +1010,7 @@ public final class CultivationStacks {
         "农耕工艺 - 灌木: 鳄梨",
         List.of(
             "这种灌木是专门培育的",
-            "不需要太多的水."
+            "不需要太多的水。"
         )
     );
 
@@ -1020,7 +1020,7 @@ public final class CultivationStacks {
         CultivationThemes.BUSH,
         "农耕工艺 - 灌木: 嫩葱",
         List.of(
-            "也叫葱白.",
+            "也叫葱白。",
             "大葱通常比大多数",
             "洋葱味道温和"
         )
@@ -1034,7 +1034,7 @@ public final class CultivationStacks {
         List.of(
             "早在希腊和罗马时代",
             "黑胡椒就是印度和欧洲之间",
-            "香料贸易的重要主城部分."
+            "香料贸易的重要主城部分。"
         )
     );
 
@@ -1046,10 +1046,9 @@ public final class CultivationStacks {
         "CLT_PLANT_DARKNESS",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Darkness",
+        "农耕工艺 - 植物: 黑暗",
         List.of(
-            "A plant that seethes in unbridled",
-            "rage."
+            "一种在无尽的愤怒中沸腾的植物。"
         )
     );
 
@@ -1057,10 +1056,9 @@ public final class CultivationStacks {
         "CLT_PLANT_LIGHT",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Light",
+        "农耕工艺 - 植物: 光明",
         List.of(
-            "A plant that exudes an aura",
-            "of pure love."
+            "一种散发着纯爱气息的植物。"
         )
     );
 
@@ -1068,10 +1066,9 @@ public final class CultivationStacks {
         "CLT_PLANT_EARTH",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Earth",
+        "农耕工艺 - 植物: 土地",
         List.of(
-            "A plant that enriches the world",
-            "surrounding it."
+            "一种能填充周围世界的植物。"
         )
     );
 
@@ -1079,10 +1076,10 @@ public final class CultivationStacks {
         "CLT_PLANT_WATER",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Water",
+        "农耕工艺 - 植物: 水",
         List.of(
-            "A plant that nurtures and provides",
-            "life to the surrounding area."
+            "一种能滋养周边生物,",
+            "也能提供生命的植物。"
         )
     );
 
@@ -1090,11 +1087,10 @@ public final class CultivationStacks {
         "CLT_PLANT_FIRE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Fire",
+        "农耕工艺 - 植物: 火",
         List.of(
-            "A plant that both provides the",
-            "sources of destruction as well as",
-            "rebirth."
+            "一种同时提供了",
+            "毁灭与新生的植物。"
         )
     );
 
@@ -1102,10 +1098,9 @@ public final class CultivationStacks {
         "CLT_PLANT_AIR",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Air",
+        "农耕工艺 - 植物: 空气",
         List.of(
-            "A plant that quietly hums with",
-            "the melody of the surrounding nature."
+            "一种静静地哼唱着周围自然旋律的植物。"
         )
     );
 
@@ -1113,9 +1108,9 @@ public final class CultivationStacks {
         "CLT_PLANT_POWER",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Power",
+        "农耕工艺 - 植物: 力量",
         List.of(
-            "A plant that positively exudes power."
+            "一种积极地散发力量的植物。"
         )
     );
 
@@ -1123,9 +1118,9 @@ public final class CultivationStacks {
         "CLT_PLANT_WEALTH",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Wealth",
+        "农耕工艺 - 植物: 财富",
         List.of(
-            "A plant that just screams exuberant wealth."
+            "一种彰显荣华富贵的植物。"
         )
     );
 
@@ -1133,9 +1128,9 @@ public final class CultivationStacks {
         "CLT_PLANT_SPECTRUM",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Spectrum",
+        "农耕工艺 - 植物: 光谱",
         List.of(
-            "A plant that slightly shifts it's color."
+            "一种轻微改变着颜色的植物。"
         )
     );
 
@@ -1143,10 +1138,10 @@ public final class CultivationStacks {
         "CLT_PLANT_DIRT",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Dirt",
+        "农耕工艺 - 植物: 泥土",
         List.of(
-            "Dirty on the surface but holding the",
-            "building blocks for life itself."
+            "表面肮脏，但包含了",
+            "孕育生命所需的方块。"
         )
     );
 
@@ -1154,10 +1149,9 @@ public final class CultivationStacks {
         "CLT_PLANT_GRASS",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Grass",
+        "农耕工艺 - 植物: 草",
         List.of(
-            "The burgeoning life bound fourth",
-            "from the ground."
+            "从地上长出生机蓬勃的生命。"
         )
     );
 
@@ -1165,9 +1159,9 @@ public final class CultivationStacks {
         "CLT_PLANT_FLOWER",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Flowering",
+        "农耕工艺 - 植物: 花卉",
         List.of(
-            "A beautiful cornucopia presented well."
+            "各种花卉被很好地展示出来。"
         )
     );
 
@@ -1175,10 +1169,9 @@ public final class CultivationStacks {
         "CLT_PLANT_VINE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Vine",
+        "农耕工艺 - 植物: 藤蔓",
         List.of(
-            "A plant that instantly tangles itself",
-            "up."
+            "一种能瞬间将自己缠绕起来的植物。"
         )
     );
 
@@ -1186,10 +1179,9 @@ public final class CultivationStacks {
         "CLT_PLANT_SAND",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Sand",
+        "农耕工艺 - 植物: 沙子",
         List.of(
-            "This plant can sometimes crumble apart",
-            "at a single touch."
+            "这种植物有时会一触即散。"
         )
     );
 
@@ -1197,10 +1189,10 @@ public final class CultivationStacks {
         "CLT_PLANT_RED_SAND",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Red Sand",
+        "农耕工艺 - 植物: 红沙",
         List.of(
-            "This plant can sometimes crumble apart",
-            "at a single touch - but... red-er."
+            "这种植物有时会一触即散，",
+            "不过更红一点。"
         )
     );
 
@@ -1208,9 +1200,9 @@ public final class CultivationStacks {
         "CLT_PLANT_MOSS",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Moss",
+        "农耕工艺 - 植物: 苔藓",
         List.of(
-            "This plant tends to spread uncontrollably."
+            "这种植物往往会不受控制地往外扩散。"
         )
     );
 
@@ -1218,9 +1210,9 @@ public final class CultivationStacks {
         "CLT_PLANT_SAPLING",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Sapling",
+        "农耕工艺 - 植物: 树苗",
         List.of(
-            "This plant doesn't even make sense..."
+            "这种植物到底有什么意义呢..."
         )
     );
 
@@ -1228,10 +1220,10 @@ public final class CultivationStacks {
         "CLT_PLANT_MUSHROOM",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Mushroom",
+        "农耕工艺 - 植物: 蘑菇",
         List.of(
-            "Yup, a plant that makes mushrooms.",
-            "Everything is totally normal over here."
+            "是的，可以长出蘑菇的植物。",
+            "这在粘液科技里再正常不过了。"
         )
     );
 
@@ -1239,10 +1231,10 @@ public final class CultivationStacks {
         "CLT_PLANT_WITHER_ROSE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Wither Rose",
+        "农耕工艺 - 植物: 凋零玫瑰",
         List.of(
-            "This plant, somehow, pulsates a harmful",
-            "aura around itself."
+            "这种植物不知何故",
+            "会在周围散发出有害的气息。"
         )
     );
 
@@ -1250,9 +1242,9 @@ public final class CultivationStacks {
         "CLT_PLANT_DARK_FLORA",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Dark Flora",
+        "农耕工艺 - 植物: 黑暗植物",
         List.of(
-            "A silent evil sits within this simple seed."
+            "种子中隐藏着沉默的恶魔。"
         )
     );
 
@@ -1260,9 +1252,9 @@ public final class CultivationStacks {
         "CLT_PLANT_GLOWING_VINE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Glowing Vine",
+        "农耕工艺 - 植物: 发光藤蔓",
         List.of(
-            "A faint light emits from within this seed."
+            "种子散发着微弱的光芒。"
         )
     );
 
@@ -1270,9 +1262,9 @@ public final class CultivationStacks {
         "CLT_PLANT_DIM_LIT",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Dim Lit",
+        "农耕工艺 - 植物: 昏暗光线",
         List.of(
-            "A very dim light emits from within this seed."
+            "种子散发着非常昏暗的光线。"
         )
     );
 
@@ -1280,11 +1272,10 @@ public final class CultivationStacks {
         "CLT_PLANT_COW",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Cow",
+        "农耕工艺 - 植物: 牛",
         List.of(
-            "If you hold this seed up to your ear",
-            "and listen very carefully, you can hear",
-            "an occasional mooing."
+            "如果你将这颗种子放在耳边，",
+            "你会偶尔听到牛叫。"
         )
     );
 
@@ -1292,12 +1283,11 @@ public final class CultivationStacks {
         "CLT_PLANT_CHICKEN",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Chicken",
+        "农耕工艺 - 植物: 鸡",
         List.of(
-            "Rumour says that if you hold this",
-            "seed above your head and jump from a",
-            "high place, you will glide rather than",
-            "fall."
+            "传闻说，如果你举着这颗种子",
+            "从高处跳下，你会滑翔两年半",
+            "而不会摔落。"
         )
     );
 
@@ -1305,9 +1295,9 @@ public final class CultivationStacks {
         "CLT_PLANT_FISH",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Fish",
+        "农耕工艺 - 植物: 鱼",
         List.of(
-            "A ripe smell emanates from this seed."
+            "一股成熟的气味从种子中散发出来。"
         )
     );
 
@@ -1315,9 +1305,9 @@ public final class CultivationStacks {
         "CLT_PLANT_TURTLE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Turtle",
+        "农耕工艺 - 植物: 海龟",
         List.of(
-            "A seed surrounded by a rock hard shell."
+            "被坚硬外壳包围的种子。"
         )
     );
 
@@ -1325,10 +1315,10 @@ public final class CultivationStacks {
         "CLT_PLANT_VILLAGER",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Villager",
+        "农耕工艺 - 植物: 村民",
         List.of(
-            "Yup, we condensed the essence of a villager",
-            "into a plant. Apparently it hurt a lot."
+            "是的，我们将村民的精华浓缩在植物里。",
+            "显然，这很伤村民。"
         )
     );
 
@@ -1336,9 +1326,9 @@ public final class CultivationStacks {
         "CLT_PLANT_RABBIT",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Rabbit",
+        "农耕工艺 - 植物: 兔子",
         List.of(
-            "Bugs would be proud."
+            "虫子会感到自豪。"
         )
     );
 
@@ -1346,9 +1336,9 @@ public final class CultivationStacks {
         "CLT_PLANT_SHEEP",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Sheep",
+        "农耕工艺 - 植物: 羊",
         List.of(
-            "A plant with a coarse woolly texture."
+            "这种植物有着粗糙的毛茸质地。"
         )
     );
 
@@ -1356,9 +1346,9 @@ public final class CultivationStacks {
         "CLT_PLANT_PIG",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Pig",
+        "农耕工艺 - 植物: 猪",
         List.of(
-            "A plant that snorts randomly."
+            "这种植物会随机地发出哼叫声。"
         )
     );
 
@@ -1366,9 +1356,9 @@ public final class CultivationStacks {
         "CLT_PLANT_BEE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Bee",
+        "农耕工艺 - 植物: 蜜蜂",
         List.of(
-            "A plant with a very small, delicate, set of wings."
+            "这种植物有一对非常小而精致的翅膀。"
         )
     );
 
@@ -1376,11 +1366,10 @@ public final class CultivationStacks {
         "CLT_PLANT_SQUID",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Squid",
+        "农耕工艺 - 植物: 鱿鱼",
         List.of(
-            "Be careful, just touching this plant",
-            "has the chance to explode ink all over",
-            "the place."
+            "小心，只要触碰到这株植物，",
+            "就有可能让这片区域充满墨汁。"
         )
     );
 
@@ -1388,9 +1377,9 @@ public final class CultivationStacks {
         "CLT_PLANT_GLOW_SQUID",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Glow Squid",
+        "农耕工艺 - 植物: 发光鱿鱼",
         List.of(
-            "A glittering plant with a faint glow."
+            "一种散发着微弱光芒的植物。"
         )
     );
 
@@ -1398,9 +1387,9 @@ public final class CultivationStacks {
         "CLT_PLANT_FROG",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Frog",
+        "农耕工艺 - 植物: 青蛙",
         List.of(
-            "Ribbit!"
+            "呱呱!"
         )
     );
 
@@ -1408,10 +1397,10 @@ public final class CultivationStacks {
         "CLT_PLANT_GOAT",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Goat",
+        "农耕工艺 - 植物: 山羊",
         List.of(
-            "A randomly violent plant that loves",
-            "to jump around."
+            "一种拥有随机暴力倾向的植物，",
+            "喜欢跳来跳去。"
         )
     );
 
@@ -1419,10 +1408,10 @@ public final class CultivationStacks {
         "CLT_PLANT_RAINBOW",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Rainbow",
+        "农耕工艺 - 植物: 彩虹",
         List.of(
-            "There may or may not be a pot of gold",
-            "at the end of this plant."
+            "这种植物的尽头可能有装满金子的罐头，",
+            "也可能没有。"
         )
     );
 
@@ -1430,10 +1419,10 @@ public final class CultivationStacks {
         "CLT_PLANT_WAXY",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Waxy",
+        "农耕工艺 - 植物: 蜡",
         List.of(
-            "The sap from this plant forms into",
-            "perfect candle shaped wax."
+            "这种植物的汁液会自然形成",
+            "与蜡烛完全相似的蜡块。"
         )
     );
 
@@ -1441,9 +1430,10 @@ public final class CultivationStacks {
         "CLT_PLANT_WOOLLY",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Woolly",
+        "农耕工艺 - 植物: 羊毛",
         List.of(
-            "A woolly plant, from root to petals!."
+            "一种从根茎到枝叶",
+            "完全被羊毛覆盖的植物。"
         )
     );
 
@@ -1451,9 +1441,9 @@ public final class CultivationStacks {
         "CLT_PLANT_TERRA",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Terra",
+        "农耕工艺 - 植物: 大地",
         List.of(
-            "A hard earthy plant that cracks under pressure."
+            "一种在受到压力时产生裂纹的坚硬植物。"
         )
     );
 
@@ -1461,9 +1451,9 @@ public final class CultivationStacks {
         "CLT_PLANT_GLAZED",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Glazed",
+        "农耕工艺 - 植物: 釉",
         List.of(
-            "A plant that grows with an intricate design."
+            "一种会长出复杂设计的植物。"
         )
     );
 
@@ -1471,11 +1461,10 @@ public final class CultivationStacks {
         "CLT_PLANT_DUSTY",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Dusty",
+        "农耕工艺 - 植物: 粉",
         List.of(
-            "This plant needs special care, the slightest",
-            "strong breeze can be enough to make it fall",
-            "apart."
+            "这种植物需要特殊照顾，",
+            "即使微风也足以使其破碎。"
         )
     );
 
@@ -1483,10 +1472,10 @@ public final class CultivationStacks {
         "CLT_PLANT_CONCRETE",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Concrete",
+        "农耕工艺 - 植物: 混凝土",
         List.of(
-            "This plant struggle to grow as it",
-            "hardens so quickly."
+            "这种植物很难生长，",
+            "因为它很快就会变硬。"
         )
     );
 
@@ -1494,10 +1483,10 @@ public final class CultivationStacks {
         "CLT_PLANT_STAINED",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Stained",
+        "农耕工艺 - 植物: 染色",
         List.of(
-            "This plant splits light into a veritable",
-            "spectrum to nearby objects."
+            "这种植物将光分裂成真正的光谱，",
+            "照射到附近的物体上。"
         )
     );
 
@@ -1505,9 +1494,9 @@ public final class CultivationStacks {
         "CLT_PLANT_COBBLESTONE",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Cobblestone",
+        "农耕工艺 - 植物: 圆石",
         List.of(
-            "This plant is hard as a rock."
+            "这种植物与岩石一样坚硬。"
         )
     );
 
@@ -1515,10 +1504,10 @@ public final class CultivationStacks {
         "CLT_PLANT_GRAVEL",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Gravel",
+        "农耕工艺 - 植物: 沙砾",
         List.of(
-            "This plant really doesn't know how",
-            "to keep itself together."
+            "这种植物完全不知道",
+            "如何保持自己的完整。"
         )
     );
 
@@ -1526,11 +1515,10 @@ public final class CultivationStacks {
         "CLT_PLANT_CLAY",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Clay",
+        "农耕工艺 - 植物: 粘土",
         List.of(
-            "This plant can be formed and reshaped freely.",
-            "That doesn't mean it's a good idea to do so,",
-            "though!"
+            "这种植物可以被自由地塑形与重塑。",
+            "虽然如此，这样做这并不是一个好主意！"
         )
     );
 
@@ -1538,11 +1526,11 @@ public final class CultivationStacks {
         "CLT_PLANT_IGNEOUS",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Igneous",
+        "农耕工艺 - 植物: 火成岩",
         List.of(
-            "This plant has been formed by heat and",
-            "pressure. Don't look at me like that! All",
-            "these plant descriptions make total sense."
+            "这种植物是通过热和压力形成的。",
+            "不要这样看着我！",
+            "所有这些植物描述都是有意义的。"
         )
     );
 
@@ -1550,9 +1538,9 @@ public final class CultivationStacks {
         "CLT_PLANT_DEEPSLATE",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Deepslate",
+        "农耕工艺 - 植物: 深板岩",
         List.of(
-            "Deep, slatey, <insert lore here>."
+            "深层，板岩，<在此插入说明>。"
         )
     );
 
@@ -1560,10 +1548,10 @@ public final class CultivationStacks {
         "CLT_PLANT_REINFORCED",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Reinforced",
+        "农耕工艺 - 植物: 强化",
         List.of(
             "A plant that is able to hold itself up",
-            "through anything."
+            "through anything。"
         )
     );
 
@@ -1573,7 +1561,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Blackstone",
         List.of(
-            "A plant that has been known to absorb light."
+            "A plant that has been known to absorb light。"
         )
     );
 
@@ -1584,7 +1572,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Netherrack",
         List.of(
             "A tough hardy plant able to survive",
-            "in most locales."
+            "in most locales。"
         )
     );
 
@@ -1595,7 +1583,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Dark Grass",
         List.of(
             "A plant that has really lost it's",
-            "identity."
+            "identity。"
         )
     );
 
@@ -1606,7 +1594,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Magma",
         List.of(
             "A plant that's so hot it burns it's",
-            "surroundings."
+            "surroundings。"
         )
     );
 
@@ -1617,7 +1605,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Soul",
         List.of(
             "A plant that can be heard screaming",
-            "when its quiet."
+            "when its quiet。"
         )
     );
 
@@ -1627,7 +1615,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Basalt",
         List.of(
-            "A very boring and dull plant."
+            "A very boring and dull plant。"
         )
     );
 
@@ -1638,7 +1626,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Glass",
         List.of(
             "At the right angle, you could",
-            "swear you can see through this plant."
+            "swear you can see through this plant。"
         )
     );
 
@@ -1649,7 +1637,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Mud",
         List.of(
             "A plant that is nearly as dirty as",
-            "the ground it comes from."
+            "the ground it comes from。"
         )
     );
 
@@ -1659,7 +1647,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: End Stone",
         List.of(
-            "A plant that hums with the void."
+            "A plant that hums with the void。"
         )
     );
 
@@ -1670,7 +1658,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Purpur",
         List.of(
             "An odd plant, seems far lighter",
-            "than most."
+            "than most。"
         )
     );
 
@@ -1680,7 +1668,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Coal",
         List.of(
-            "A plant that holds such potential."
+            "A plant that holds such potential。"
         )
     );
 
@@ -1691,7 +1679,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Raw Iron",
         List.of(
             "A sturdy plant able to withstand most",
-            "environments."
+            "environments。"
         )
     );
 
@@ -1702,7 +1690,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Raw Copper",
         List.of(
             "If left alone, this plant sometimes",
-            "attracts lightning."
+            "attracts lightning。"
         )
     );
 
@@ -1713,7 +1701,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Raw Gold",
         List.of(
             "This plant is commonly stolen by piglins",
-            "if nearby."
+            "if nearby。"
         )
     );
 
@@ -1723,7 +1711,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Redstone",
         List.of(
-            "A plant brimming with power throughout."
+            "A plant brimming with power throughout。"
         )
     );
 
@@ -1733,7 +1721,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Lapis",
         List.of(
-            "A plant with a faint magical aura."
+            "A plant with a faint magical aura。"
         )
     );
 
@@ -1743,7 +1731,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Diamond",
         List.of(
-            "A plant that just speaks of riches."
+            "A plant that just speaks of riches。"
         )
     );
 
@@ -1754,7 +1742,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Emerald",
         List.of(
             "Owners of this plant have to jump",
-            "through hoops just to be able to afford it."
+            "through hoops just to be able to afford it。"
         )
     );
 
@@ -1765,7 +1753,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Nether Quartz",
         List.of(
             "This plant has thorns so sharp that",
-            "it's hard to work with."
+            "it's hard to work with。"
         )
     );
 
@@ -1776,7 +1764,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Scrappy",
         List.of(
             "This plant really is the pinnacle of",
-            "horticulturalism."
+            "horticulturalism。"
         )
     );
 
@@ -1787,7 +1775,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Amethyst",
         List.of(
             "This plant loves to flourish in deep, dark",
-            "locales."
+            "locales。"
         )
     );
 
@@ -1798,7 +1786,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Echo",
         List.of(
             "This plant always knows how to find",
-            "its way home."
+            "its way home。"
         )
     );
 
@@ -1808,7 +1796,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Skeleton",
         List.of(
-            "A plant that rattles as it sways."
+            "A plant that rattles as it sways。"
         )
     );
 
@@ -1828,7 +1816,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Creeper",
         List.of(
-            "Tsssssssssttt..."
+            "Tsssssssssttt..。"
         )
     );
 
@@ -1838,7 +1826,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Zombie",
         List.of(
-            "This plant is dripping... something..."
+            "This plant is dripping... something..。"
         )
     );
 
@@ -1849,7 +1837,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Drowned",
         List.of(
             "A Plant that is dripping wet, all",
-            "the time."
+            "the time。"
         )
     );
 
@@ -1860,7 +1848,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Guardian",
         List.of(
             "When touched, this plant releases",
-            "spines."
+            "spines。"
         )
     );
 
@@ -1871,7 +1859,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Elder Guardian",
         List.of(
             "Being near this plants makes people",
-            "sluggish."
+            "sluggish。"
         )
     );
 
@@ -1882,7 +1870,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Ghast",
         List.of(
             "A plant that has been known to",
-            "randomly shoot fire balls."
+            "randomly shoot fire balls。"
         )
     );
 
@@ -1892,7 +1880,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Slime",
         List.of(
-            "Why is it so sticky?"
+            "Why is it so sticky？"
         )
     );
 
@@ -1903,7 +1891,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Magma Cube",
         List.of(
             "When not being watched, this plant",
-            "likes to bounce up and down."
+            "likes to bounce up and down。"
         )
     );
 
@@ -1913,7 +1901,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Blaze",
         List.of(
-            "A plant that is scorched around the edges."
+            "A plant that is scorched around the edges。"
         )
     );
 
@@ -1923,7 +1911,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Wither Skeleton",
         List.of(
-            "A plant known to be elusive and hardy."
+            "A plant known to be elusive and hardy。"
         )
     );
 
@@ -1934,7 +1922,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Wither",
         List.of(
             "A deadly plant that must be treated",
-            "with care."
+            "with care。"
         )
     );
 
@@ -1944,7 +1932,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Phantom",
         List.of(
-            "A plant with lofty leaves."
+            "A plant with lofty leaves。"
         )
     );
 
@@ -1955,7 +1943,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Shulker",
         List.of(
             "A plant that often levitates off",
-            "of the ground."
+            "of the ground。"
         )
     );
 
@@ -1976,7 +1964,7 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: Ender Dragon",
         List.of(
-            "A real boss of a plant."
+            "A real boss of a plant。"
         )
     );
 
@@ -1987,7 +1975,7 @@ public final class CultivationStacks {
         "农耕工艺 - 植物: Witch",
         List.of(
             "A plant that sounds like it's softly",
-            "muttering spells."
+            "muttering spells。"
         )
     );
 
@@ -2006,9 +1994,9 @@ public final class CultivationStacks {
         CultivationThemes.TOOL,
         "作物架",
         "必须给放置的种子添加作物架",
-        "才能让种子生长.",
+        "才能让种子生长。",
         "放置第二个作物架",
-        "可以进行作物培育."
+        "可以进行作物培育。"
     );
 
     public static final SlimefunItemStack HARVESTING_TOOL_SIMPLE = Theme.themedSlimefunItemStack(
@@ -2017,7 +2005,7 @@ public final class CultivationStacks {
         CultivationThemes.TOOL,
         "简易收获工具",
         "一个非常简单的工具",
-        "可以收集农耕工艺植物.",
+        "可以收集农耕工艺植物。",
         Theme.WARNING + "仅适用于 T1 植物",
         "",
         Theme.applyThemeAsTitle(Theme.CLICK_INFO, "右键点击", "收获完全生长的农耕工艺植物"),
@@ -2031,7 +2019,7 @@ public final class CultivationStacks {
         CultivationThemes.TOOL,
         "简易修剪工具",
         "一个非常简单的工具",
-        "可以收集农耕工艺灌木.",
+        "可以收集农耕工艺灌木。",
         "",
         Theme.applyThemeAsTitle(Theme.CLICK_INFO, "右键点击", "收获农耕工艺灌木"),
         "",
@@ -2049,9 +2037,9 @@ public final class CultivationStacks {
         Theme.applyThemeAsTitle(
             Theme.CLICK_INFO,
             "右键点击",
-            "查看植物种类与生长情况."
+            "查看植物种类与生长情况。"
         ),
-        Theme.applyThemeAsTitle(Theme.CLICK_INFO, "Shift + 右键点击", "显示植物/灌木的名称.")
+        Theme.applyThemeAsTitle(Theme.CLICK_INFO, "Shift + 右键点击", "显示植物/灌木的名称。")
     );
 
     public static final SlimefunItemStack RECIPE_UNLOCK = Theme.themedSlimefunItemStack(
@@ -2069,8 +2057,8 @@ public final class CultivationStacks {
         "CLT_SEED_PACK",
         Material.COMPOSTER,
         CultivationThemes.TOOL,
-        "种子袋子",
-        "右键点击以打开.",
+        "种子袋",
+        "右键点击以打开。",
         "",
         Theme.CLICK_INFO.asTitle("设置为", "空")
     );
@@ -2084,7 +2072,7 @@ public final class CultivationStacks {
         Material.GLASS,
         CultivationThemes.MACHINE,
         "园艺玻璃罩",
-        "自动种植植物.",
+        "自动种植植物。",
         "",
         Theme.CLICK_INFO.asTitle("每粘液刻消耗电力", 100)
     );
@@ -2102,7 +2090,7 @@ public final class CultivationStacks {
         Material.SMITHING_TABLE,
         CultivationThemes.MACHINE,
         "厨房柜台: 砧板",
-        "右键点击进行切碎."
+        "右键点击进行切碎。"
     );
 
     public static final SlimefunItemStack COUNTER_SLICING = Theme.themedSlimefunItemStack(
@@ -2110,7 +2098,7 @@ public final class CultivationStacks {
         Material.CARTOGRAPHY_TABLE,
         CultivationThemes.MACHINE,
         "厨房柜台: 切片板",
-        "右键点击进行切片."
+        "右键点击进行切片。"
     );
 
     public static final SlimefunItemStack COUNTER_MASHER = Theme.themedSlimefunItemStack(
@@ -2118,7 +2106,7 @@ public final class CultivationStacks {
         Material.CRAFTING_TABLE,
         CultivationThemes.MACHINE,
         "厨房柜台: 捣碎碗",
-        "右键点击进行捣碎."
+        "右键点击进行捣碎。"
     );
 
     public static final SlimefunItemStack COUNTER_GRINDER = Theme.themedSlimefunItemStack(
@@ -2126,7 +2114,7 @@ public final class CultivationStacks {
         Material.CAULDRON,
         CultivationThemes.MACHINE,
         "厨房柜台: 研磨杵和研钵",
-        "右键点击进行剁碎."
+        "右键点击进行剁碎。"
     );
 
     public static final SlimefunItemStack COUNTER_BLENDER = Theme.themedSlimefunItemStack(
@@ -2134,7 +2122,7 @@ public final class CultivationStacks {
         Material.FLETCHING_TABLE,
         CultivationThemes.MACHINE,
         "厨房柜台: 搅拌机",
-        "右键点击进行搅拌."
+        "右键点击进行搅拌。"
     );
 
     public static final SlimefunItemStack COUNTER_OVEN = Theme.themedSlimefunItemStack(
@@ -2142,7 +2130,7 @@ public final class CultivationStacks {
         Material.FURNACE,
         CultivationThemes.MACHINE,
         "厨房柜台: 烤箱",
-        "可以进行烘焙."
+        "可以进行烘焙。"
     );
 
     public static final SlimefunItemStack COUNTER_FRYER = Theme.themedSlimefunItemStack(
@@ -2150,7 +2138,7 @@ public final class CultivationStacks {
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
         "厨房柜台: 煎锅",
-        "可进行油炸."
+        "可进行油炸。"
     );
 
     public static final SlimefunItemStack COUNTER_BOILING = Theme.themedSlimefunItemStack(
@@ -2158,7 +2146,7 @@ public final class CultivationStacks {
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
         "厨房柜台: 大锅",
-        "可以进行煮沸."
+        "可以进行煮沸。"
     );
 
     public static final SlimefunItemStack COUNTER_GRILL = Theme.themedSlimefunItemStack(
@@ -2166,7 +2154,7 @@ public final class CultivationStacks {
         Material.CAMPFIRE,
         CultivationThemes.MACHINE,
         "厨房柜台: 烤架",
-        "可进行烧烤."
+        "可进行烧烤。"
     );
 
     public static final SlimefunItemStack COUNTER_FINISHING = Theme.themedSlimefunItemStack(
@@ -2175,7 +2163,7 @@ public final class CultivationStacks {
         CultivationThemes.MACHINE,
         "厨房柜台: 上菜",
         "可将产品/副产品制作为",
-        "食物或其他副产品."
+        "食物或其他副产品。"
     );
 
     // endregion
@@ -2195,7 +2183,7 @@ public final class CultivationStacks {
         Skins.LEMON.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Lemon",
-        "Why the sour look?"
+        "Why the sour look？"
     );
 
     public static final SlimefunItemStack ORANGE = Theme.themedSlimefunItemStack(
@@ -2203,7 +2191,7 @@ public final class CultivationStacks {
         Skins.ORANGE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Orange",
-        "Isn't this meant to be clockwork?"
+        "Isn't this meant to be clockwork？"
     );
 
     public static final SlimefunItemStack GREEN_APPLE = Theme.themedSlimefunItemStack(
@@ -2211,7 +2199,7 @@ public final class CultivationStacks {
         Skins.GREEN_APPLE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Green Apple",
-        "The note says... Dear Teacher?"
+        "The note says... Dear Teacher？"
     );
 
     public static final SlimefunItemStack PINEAPPLE = Theme.themedSlimefunItemStack(
@@ -2219,8 +2207,8 @@ public final class CultivationStacks {
         Skins.PINEAPPLE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Pineapple",
-        "This belongs on every pizza in existence.",
-        "Wanna fight about it!?"
+        "This belongs on every pizza in existence。",
+        "Wanna fight about it!？"
     );
 
     public static final SlimefunItemStack MANGO = Theme.themedSlimefunItemStack(
@@ -2228,8 +2216,8 @@ public final class CultivationStacks {
         Skins.MANGO.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Mango",
-        "MAN, I gotta GO.",
-        "Lore is hard..."
+        "MAN, I gotta GO。",
+        "Lore is hard..。"
     );
 
     public static final SlimefunItemStack PEACH = Theme.themedSlimefunItemStack(
@@ -2245,9 +2233,9 @@ public final class CultivationStacks {
         Skins.APRICOT.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Apricot",
-        "You can make Pokéballs out of these.",
-        "...",
-        "What do you mean that's different thing...?"
+        "You can make Pokéballs out of these。",
+        "..。",
+        "What do you mean that's different thing...？"
     );
 
     public static final SlimefunItemStack PEAR = Theme.themedSlimefunItemStack(
@@ -2255,7 +2243,7 @@ public final class CultivationStacks {
         Skins.PEAR.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Pear",
-        "Wouldn't you say this looks pear-fect?"
+        "Wouldn't you say this looks pear-fect？"
     );
 
     public static final SlimefunItemStack CHERRY = Theme.themedSlimefunItemStack(
@@ -2271,10 +2259,10 @@ public final class CultivationStacks {
         Skins.KIWI.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Kiwi",
-        "I put this in the addon under duress.",
+        "I put this in the addon under duress。",
         "Kiwis are evil and anyone who",
         "uses them will automatically lose",
-        "100 points."
+        "100 points。"
     );
 
     public static final SlimefunItemStack LIME = Theme.themedSlimefunItemStack(
@@ -2282,7 +2270,7 @@ public final class CultivationStacks {
         Skins.KIWI.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Lime",
-        "One upon a lime there was a delicious fruit..."
+        "One upon a lime there was a delicious fruit..。"
     );
 
     public static final SlimefunItemStack CHESTNUT = Theme.themedSlimefunItemStack(
@@ -2290,7 +2278,7 @@ public final class CultivationStacks {
         Skins.CHESTNUT.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Chestnut",
-        "Designed to be baked, immediately."
+        "Designed to be baked, immediately。"
     );
 
     public static final SlimefunItemStack HAZELNUT = Theme.themedSlimefunItemStack(
@@ -2307,7 +2295,7 @@ public final class CultivationStacks {
         Skins.PECAN.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Pecan",
-        "Just begging to be made into a pie."
+        "Just begging to be made into a pie。"
     );
 
     public static final SlimefunItemStack GRAPE = Theme.themedSlimefunItemStack(
@@ -2355,7 +2343,7 @@ public final class CultivationStacks {
         Skins.PEPPERS.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Cayenne Pepper",
-        "A soft spicy treat."
+        "A soft spicy treat。"
     );
 
     public static final SlimefunItemStack TOMATO = Theme.themedSlimefunItemStack(
@@ -2363,7 +2351,7 @@ public final class CultivationStacks {
         Skins.TOMATO.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Tomato",
-        "Right off of the vine.... err... bush?"
+        "Right off of the vine.... err... bush？"
     );
 
     public static final SlimefunItemStack BELL_PEPPER = Theme.themedSlimefunItemStack(
@@ -2371,7 +2359,7 @@ public final class CultivationStacks {
         Skins.BELL_PEPPER.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Bell Pepper",
-        "Really rings true."
+        "Really rings true。"
     );
 
     public static final SlimefunItemStack ONION = Theme.themedSlimefunItemStack(
@@ -2379,7 +2367,7 @@ public final class CultivationStacks {
         Skins.ONION.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Onion",
-        "Wait, why are you crying?"
+        "Wait, why are you crying？"
     );
 
     public static final SlimefunItemStack PEA = Theme.themedSlimefunItemStack(
@@ -2387,7 +2375,7 @@ public final class CultivationStacks {
         Skins.GREEN_APPLE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Peas",
-        "Often found in pairs within a pod, or so I hear."
+        "Often found in pairs within a pod, or so I hear。"
     );
 
     public static final SlimefunItemStack RAPESEED = Theme.themedSlimefunItemStack(
@@ -2395,7 +2383,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
         "Rapeseed",
-        "Oft-used to create oils."
+        "Oft-used to create oils。"
     );
 
     public static final SlimefunItemStack LETTUCE = Theme.themedSlimefunItemStack(
@@ -2403,7 +2391,7 @@ public final class CultivationStacks {
         Skins.LETTUCE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Lettuce",
-        "Thin, watery and yet delicious."
+        "Thin, watery and yet delicious。"
     );
 
     public static final SlimefunItemStack MUSTARD_SEEDS = Theme.themedSlimefunItemStack(
@@ -2419,7 +2407,7 @@ public final class CultivationStacks {
         Skins.BROCCOLI.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Broccoli",
-        "Are you a giant holding a tree?",
+        "Are you a giant holding a tree？",
         "Naw, just a tiny tree :)"
     );
 
@@ -2428,7 +2416,7 @@ public final class CultivationStacks {
         new ItemStack(Material.STICK),
         CultivationThemes.PRODUCE,
         "Cinnamon",
-        "Great to chew on in it's stick form."
+        "Great to chew on in it's stick form。"
     );
 
     public static final SlimefunItemStack BASIL = Theme.themedSlimefunItemStack(
@@ -2436,7 +2424,7 @@ public final class CultivationStacks {
         new ItemStack(Material.SMALL_DRIPLEAF),
         CultivationThemes.PRODUCE,
         "Basil",
-        "A sweet leaf with a soft peppery aftertaste."
+        "A sweet leaf with a soft peppery aftertaste。"
     );
 
     public static final SlimefunItemStack BAY_LEAF = Theme.themedSlimefunItemStack(
@@ -2444,7 +2432,7 @@ public final class CultivationStacks {
         new ItemStack(Material.LILY_PAD),
         CultivationThemes.PRODUCE,
         "Bay Leaf",
-        "A strong aromat with many uses."
+        "A strong aromat with many uses。"
     );
 
     public static final SlimefunItemStack CILANTRO = Theme.themedSlimefunItemStack(
@@ -2452,7 +2440,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MANGROVE_LEAVES),
         CultivationThemes.PRODUCE,
         "Cilantro",
-        "A soft spice with a hit of citrus."
+        "A soft spice with a hit of citrus。"
     );
 
     public static final SlimefunItemStack CHICORY = Theme.themedSlimefunItemStack(
@@ -2460,7 +2448,7 @@ public final class CultivationStacks {
         new ItemStack(Material.BLUE_ORCHID),
         CultivationThemes.PRODUCE,
         "Chicory",
-        "A nutty, bitter root."
+        "A nutty, bitter root。"
     );
 
     public static final SlimefunItemStack CHIVES = Theme.themedSlimefunItemStack(
@@ -2468,7 +2456,7 @@ public final class CultivationStacks {
         new ItemStack(Material.SEAGRASS),
         CultivationThemes.PRODUCE,
         "Chives",
-        "A sweat, onion-tasting, herb."
+        "A sweat, onion-tasting, herb。"
     );
 
     public static final SlimefunItemStack CLOVE = Theme.themedSlimefunItemStack(
@@ -2476,7 +2464,7 @@ public final class CultivationStacks {
         new ItemStack(Material.POPPY),
         CultivationThemes.PRODUCE,
         "Clove",
-        "A super warm and intense flavour."
+        "A super warm and intense flavour。"
     );
 
     public static final SlimefunItemStack CUMIN = Theme.themedSlimefunItemStack(
@@ -2484,7 +2472,7 @@ public final class CultivationStacks {
         new ItemStack(Material.DANDELION),
         CultivationThemes.PRODUCE,
         "Cumin",
-        "A warm citrusy plant."
+        "A warm citrusy plant。"
     );
 
     public static final SlimefunItemStack CHILLI_PEPPER = Theme.themedSlimefunItemStack(
@@ -2492,10 +2480,10 @@ public final class CultivationStacks {
         Skins.PEPPERS.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Chilly Pepper",
-        "I can eat a whole pepper without crying.",
-        "Well, half.",
+        "I can eat a whole pepper without crying。",
+        "Well, half。",
         "WEEEELLL.... 1/4",
-        "...",
+        "..。",
         "Ok I can touch one on my tounge"
     );
 
@@ -2504,7 +2492,7 @@ public final class CultivationStacks {
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
         "Curry Leaf",
-        "The basis of so many wonderful foods."
+        "The basis of so many wonderful foods。"
     );
 
     public static final SlimefunItemStack DILL = Theme.themedSlimefunItemStack(
@@ -2513,7 +2501,7 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Dill",
         "Just taste like grass to me. Why",
-        "do people like this?"
+        "do people like this？"
     );
 
     public static final SlimefunItemStack FENNEL = Theme.themedSlimefunItemStack(
@@ -2521,7 +2509,7 @@ public final class CultivationStacks {
         new ItemStack(Material.OXEYE_DAISY),
         CultivationThemes.PRODUCE,
         "Fennel",
-        "Like a mix of Anise and Liquorice."
+        "Like a mix of Anise and Liquorice。"
     );
 
     public static final SlimefunItemStack GINGER = Theme.themedSlimefunItemStack(
@@ -2537,7 +2525,7 @@ public final class CultivationStacks {
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
         "Horseradish",
-        "$100 if you bite right into it."
+        "$100 if you bite right into it。"
     );
 
     public static final SlimefunItemStack JASMINE = Theme.themedSlimefunItemStack(
@@ -2545,7 +2533,7 @@ public final class CultivationStacks {
         new ItemStack(Material.WHITE_TULIP),
         CultivationThemes.PRODUCE,
         "Jasmine",
-        "Makes for a wonderful tea."
+        "Makes for a wonderful tea。"
     );
 
     public static final SlimefunItemStack JUNIPER_BERRY = Theme.themedSlimefunItemStack(
@@ -2553,7 +2541,7 @@ public final class CultivationStacks {
         new ItemStack(Material.GLOW_BERRIES),
         CultivationThemes.PRODUCE,
         "Juniper Berries",
-        "Dried to a peppery perfection."
+        "Dried to a peppery perfection。"
     );
 
     public static final SlimefunItemStack KAFFIR_LIME = Theme.themedSlimefunItemStack(
@@ -2561,7 +2549,7 @@ public final class CultivationStacks {
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
         "Kaffir Lime Leaf",
-        "A leaf with a mighty zest."
+        "A leaf with a mighty zest。"
     );
 
     public static final SlimefunItemStack LAVENDER = Theme.themedSlimefunItemStack(
@@ -2569,7 +2557,7 @@ public final class CultivationStacks {
         new ItemStack(Material.PURPLE_DYE),
         CultivationThemes.PRODUCE,
         "Lavender",
-        "A smell that can make me drift slowly to sleep."
+        "A smell that can make me drift slowly to sleep。"
     );
 
     public static final SlimefunItemStack LICORICE = Theme.themedSlimefunItemStack(
@@ -2585,9 +2573,9 @@ public final class CultivationStacks {
         new ItemStack(Material.RED_DYE),
         CultivationThemes.PRODUCE,
         "Mace",
-        "Used to spray in the face of attackers.",
-        "...",
-        "What do you mean that's not the right type of mace?"
+        "Used to spray in the face of attackers。",
+        "..。",
+        "What do you mean that's not the right type of mace？"
     );
 
     public static final SlimefunItemStack MARJORAM = Theme.themedSlimefunItemStack(
@@ -2595,7 +2583,7 @@ public final class CultivationStacks {
         new ItemStack(Material.DARK_OAK_LEAVES),
         CultivationThemes.PRODUCE,
         "Marjoram",
-        "I'm in a bit of a curry, could we talk later?"
+        "I'm in a bit of a curry, could we talk later？"
     );
 
     public static final SlimefunItemStack MINT = Theme.themedSlimefunItemStack(
@@ -2603,7 +2591,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MANGROVE_LEAVES),
         CultivationThemes.PRODUCE,
         "Mint",
-        "Chew chew chew."
+        "Chew chew chew。"
     );
 
     public static final SlimefunItemStack OREGANO = Theme.themedSlimefunItemStack(
@@ -2611,7 +2599,7 @@ public final class CultivationStacks {
         new ItemStack(Material.SPRUCE_LEAVES),
         CultivationThemes.PRODUCE,
         "Oregano",
-        "A classic staple cupboard herb."
+        "A classic staple cupboard herb。"
     );
 
     public static final SlimefunItemStack PARSLEY = Theme.themedSlimefunItemStack(
@@ -2619,7 +2607,7 @@ public final class CultivationStacks {
         new ItemStack(Material.ACACIA_LEAVES),
         CultivationThemes.PRODUCE,
         "Parsley",
-        "Worst. Herb. Ever."
+        "Worst. Herb. Ever。"
     );
 
     public static final SlimefunItemStack ROSEMARY = Theme.themedSlimefunItemStack(
@@ -2627,7 +2615,7 @@ public final class CultivationStacks {
         new ItemStack(Material.BIRCH_LEAVES),
         CultivationThemes.PRODUCE,
         "Rosemary",
-        "Often misses thyme."
+        "Often misses thyme。"
     );
 
     public static final SlimefunItemStack SASSAFRAS = Theme.themedSlimefunItemStack(
@@ -2636,7 +2624,7 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Sassafras",
         "Edible Root Beer, seriously google",
-        "it, I buy it constantly now."
+        "it, I buy it constantly now。"
     );
 
     public static final SlimefunItemStack SHISO = Theme.themedSlimefunItemStack(
@@ -2644,7 +2632,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MANGROVE_LEAVES),
         CultivationThemes.PRODUCE,
         "Shiso",
-        "Mint with a side of love."
+        "Mint with a side of love。"
     );
 
     public static final SlimefunItemStack STAR_ANISE = Theme.themedSlimefunItemStack(
@@ -2652,7 +2640,7 @@ public final class CultivationStacks {
         new ItemStack(Material.NETHER_STAR),
         CultivationThemes.PRODUCE,
         "Star Anise",
-        "One of the best and most unique flavours."
+        "One of the best and most unique flavours。"
     );
 
     public static final SlimefunItemStack TARRAGON = Theme.themedSlimefunItemStack(
@@ -2660,8 +2648,8 @@ public final class CultivationStacks {
         new ItemStack(Material.JUNGLE_LEAVES),
         CultivationThemes.PRODUCE,
         "Tarragon",
-        "I literally put this on anything.",
-        "Spoiler: Im not a good chef."
+        "I literally put this on anything。",
+        "Spoiler: Im not a good chef。"
     );
 
     public static final SlimefunItemStack THYME = Theme.themedSlimefunItemStack(
@@ -2669,7 +2657,7 @@ public final class CultivationStacks {
         new ItemStack(Material.BIRCH_LEAVES),
         CultivationThemes.PRODUCE,
         "Thyme",
-        "Often missed rosemary."
+        "Often missed rosemary。"
     );
 
     public static final SlimefunItemStack TURMERIC = Theme.themedSlimefunItemStack(
@@ -2677,7 +2665,7 @@ public final class CultivationStacks {
         new ItemStack(Material.YELLOW_DYE),
         CultivationThemes.PRODUCE,
         "Turmeric",
-        "A strong musky presence to fill out many dishes."
+        "A strong musky presence to fill out many dishes。"
     );
 
     public static final SlimefunItemStack VANILLA = Theme.themedSlimefunItemStack(
@@ -2693,7 +2681,7 @@ public final class CultivationStacks {
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
         "Wasabi",
-        "Help... wasabi..."
+        "Help... wasabi..。"
     );
 
     public static final SlimefunItemStack ARTICHOKE = Theme.themedSlimefunItemStack(
@@ -2709,8 +2697,8 @@ public final class CultivationStacks {
         Skins.AUBERGINE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Aubergine",
-        "Bright purple and 100% NOT egg shaped.",
-        "Better call it an eggplant, right?"
+        "Bright purple and 100% NOT egg shaped。",
+        "Better call it an eggplant, right？"
     );
 
     public static final SlimefunItemStack ASPARAGUS = Theme.themedSlimefunItemStack(
@@ -2718,7 +2706,7 @@ public final class CultivationStacks {
         Skins.ASPARAGUS.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Asparagus",
-        "Careful when visiting the bathroom later."
+        "Careful when visiting the bathroom later。"
     );
 
     public static final SlimefunItemStack BRUSSELS_SPROUTS = Theme.themedSlimefunItemStack(
@@ -2726,7 +2714,7 @@ public final class CultivationStacks {
         Skins.KALE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Brussels Sprouts",
-        "A gassious delight."
+        "A gassious delight。"
     );
 
     public static final SlimefunItemStack CABBAGE = Theme.themedSlimefunItemStack(
@@ -2734,7 +2722,7 @@ public final class CultivationStacks {
         Skins.CABBAGE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Cabbage",
-        "A baggage of cabbage."
+        "A baggage of cabbage。"
     );
 
     public static final SlimefunItemStack CAULIFLOWER = Theme.themedSlimefunItemStack(
@@ -2751,7 +2739,7 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Celery",
         "Literally just stringy water. Convince",
-        "me otherwise."
+        "me otherwise。"
     );
 
     public static final SlimefunItemStack KALE = Theme.themedSlimefunItemStack(
@@ -2767,7 +2755,7 @@ public final class CultivationStacks {
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
         "Spinach",
-        "Wilted with love."
+        "Wilted with love。"
     );
 
     public static final SlimefunItemStack BLACK_BEANS = Theme.themedSlimefunItemStack(
@@ -2775,7 +2763,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
         "Black Beans",
-        "A delicious vegetarian protein."
+        "A delicious vegetarian protein。"
     );
 
     public static final SlimefunItemStack GREEN_BEANS = Theme.themedSlimefunItemStack(
@@ -2791,7 +2779,7 @@ public final class CultivationStacks {
         new ItemStack(Material.BEETROOT_SEEDS),
         CultivationThemes.PRODUCE,
         "Chickpeas",
-        "Black eyed peas can sing a tune, chickpeas can only hummus one."
+        "Black eyed peas can sing a tune, chickpeas can only hummus one。"
     );
 
     public static final SlimefunItemStack SOY_BEANS = Theme.themedSlimefunItemStack(
@@ -2799,7 +2787,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
         "Soy Beans",
-        "Soy milk cometh."
+        "Soy milk cometh。"
     );
 
     public static final SlimefunItemStack PINTO_BEANS = Theme.themedSlimefunItemStack(
@@ -2807,7 +2795,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
         "Pinto Beans",
-        "Kaching! It's burrito time."
+        "Kaching! It's burrito time。"
     );
 
     public static final SlimefunItemStack RUNNER_BEANS = Theme.themedSlimefunItemStack(
@@ -2815,7 +2803,7 @@ public final class CultivationStacks {
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
         "Runner Beans",
-        "Always trying to get away."
+        "Always trying to get away。"
     );
 
     public static final SlimefunItemStack NETTLES = Theme.themedSlimefunItemStack(
@@ -2823,7 +2811,7 @@ public final class CultivationStacks {
         new ItemStack(Material.AZALEA_LEAVES),
         CultivationThemes.PRODUCE,
         "Nettles",
-        "Please put on your gloves before holding these."
+        "Please put on your gloves before holding these。"
     );
 
     public static final SlimefunItemStack OKRA = Theme.themedSlimefunItemStack(
@@ -2831,7 +2819,7 @@ public final class CultivationStacks {
         Skins.LETTUCE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Okra",
-        "Grown alot in okra-homa... right, RIGHT?"
+        "Grown alot in okra-homa... right, RIGHT？"
     );
 
     public static final SlimefunItemStack LEEK = Theme.themedSlimefunItemStack(
@@ -2839,8 +2827,8 @@ public final class CultivationStacks {
         Skins.LEEK.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Leek",
-        "for some reason it's dripping with water?",
-        "Perhaps it's sprung a leek?"
+        "for some reason it's dripping with water？",
+        "Perhaps it's sprung a leek？"
     );
 
     public static final SlimefunItemStack SHALLOT = Theme.themedSlimefunItemStack(
@@ -2848,7 +2836,7 @@ public final class CultivationStacks {
         Skins.ONION.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Shallot",
-        "I do love a lot of shallot."
+        "I do love a lot of shallot。"
     );
 
     public static final SlimefunItemStack JALAPENO = Theme.themedSlimefunItemStack(
@@ -2856,7 +2844,7 @@ public final class CultivationStacks {
         Skins.PEPPERS.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Jalapeno",
-        "HOT HOT HOT."
+        "HOT HOT HOT。"
     );
 
     public static final SlimefunItemStack RADICCHIO = Theme.themedSlimefunItemStack(
@@ -2864,8 +2852,8 @@ public final class CultivationStacks {
         Skins.RADDISH.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Radicchio",
-        "Writing all this lore takes so long.",
-        "It's radicchio-less."
+        "Writing all this lore takes so long。",
+        "It's radicchio-less。"
     );
 
     public static final SlimefunItemStack RHUBARB = Theme.themedSlimefunItemStack(
@@ -2882,7 +2870,7 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Celeriac",
         "A hearty root that's rooted (heh) in many",
-        "traditional recipes."
+        "traditional recipes。"
     );
 
     public static final SlimefunItemStack PARSNIP = Theme.themedSlimefunItemStack(
@@ -2890,7 +2878,7 @@ public final class CultivationStacks {
         Skins.PARSNIP.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Parsnip",
-        "Requires roasting immediately."
+        "Requires roasting immediately。"
     );
 
     public static final SlimefunItemStack RUTABAGA = Theme.themedSlimefunItemStack(
@@ -2898,7 +2886,7 @@ public final class CultivationStacks {
         Skins.RUTABAGA.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Rutabaga",
-        "It actually hurts not calling this a swede."
+        "It actually hurts not calling this a swede。"
     );
 
     public static final SlimefunItemStack RADDISH = Theme.themedSlimefunItemStack(
@@ -2906,7 +2894,7 @@ public final class CultivationStacks {
         Skins.RADDISH.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Raddish",
-        "Little pockets of fresh, crisp, sunshine."
+        "Little pockets of fresh, crisp, sunshine。"
     );
 
     public static final SlimefunItemStack SWEET_POTATO = Theme.themedSlimefunItemStack(
@@ -2914,7 +2902,7 @@ public final class CultivationStacks {
         new ItemStack(Material.BEETROOT),
         CultivationThemes.PRODUCE,
         "Sweet Potato",
-        "Yam yam yam."
+        "Yam yam yam。"
     );
 
     public static final SlimefunItemStack TURNIP = Theme.themedSlimefunItemStack(
@@ -2922,7 +2910,7 @@ public final class CultivationStacks {
         Skins.TURNIP.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Turnip",
-        "Will solve all of life's problems."
+        "Will solve all of life's problems。"
     );
 
     public static final SlimefunItemStack SWEETCORN = Theme.themedSlimefunItemStack(
@@ -2930,7 +2918,7 @@ public final class CultivationStacks {
         Skins.CORN.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Sweetcorn",
-        "Perhaps the best vegetable around."
+        "Perhaps the best vegetable around。"
     );
 
     public static final SlimefunItemStack COURGETTE = Theme.themedSlimefunItemStack(
@@ -2939,7 +2927,7 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Courgette",
         "Pro Tip: Grate this into any pasta sauce",
-        "for depth and texture."
+        "for depth and texture。"
     );
 
     public static final SlimefunItemStack CUCUMBER = Theme.themedSlimefunItemStack(
@@ -2948,7 +2936,7 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Cucumber",
         "Water in a green shell, prove me",
-        "wrong."
+        "wrong。"
     );
 
     public static final SlimefunItemStack MARROW = Theme.themedSlimefunItemStack(
@@ -2957,8 +2945,8 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Marrow",
         "Did you know marrows are found within",
-        "your bones?",
-        "Yup, Sefi Smort."
+        "your bones？",
+        "Yup, Sefi Smort。"
     );
 
     public static final SlimefunItemStack AVOCADO = Theme.themedSlimefunItemStack(
@@ -2966,7 +2954,7 @@ public final class CultivationStacks {
         Skins.AVOCADO.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Avocado",
-        "What hipsters dream about."
+        "What hipsters dream about。"
     );
 
     public static final SlimefunItemStack GREEN_ONION = Theme.themedSlimefunItemStack(
@@ -2982,7 +2970,7 @@ public final class CultivationStacks {
         Skins.BLACK_PEPPER.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Black Pepper",
-        "Spicier than salt."
+        "Spicier than salt。"
     );
 
     // endregion
@@ -2994,7 +2982,7 @@ public final class CultivationStacks {
         Skins.PEANUT_BUTTER.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Peanut Butter",
-        "Akin only to liquid gold."
+        "Akin only to liquid gold。"
     );
 
     public static final SlimefunItemStack GRAPE_JELLY = Theme.themedSlimefunItemStack(
@@ -3002,7 +2990,7 @@ public final class CultivationStacks {
         Skins.JAM_JAR_BLUE.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Grape Jelly",
-        "Eating it with a spoon is a criminal offence."
+        "Eating it with a spoon is a criminal offence。"
     );
 
     public static final SlimefunItemStack STRAWBERRY_JELLY = Theme.themedSlimefunItemStack(
@@ -3010,7 +2998,7 @@ public final class CultivationStacks {
         Skins.JAM_JAR_RED.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Strawberry Jelly",
-        "Eating it with a spoon is a criminal offence."
+        "Eating it with a spoon is a criminal offence。"
     );
 
     public static final SlimefunItemStack OIL = Theme.themedSlimefunItemStack(
@@ -3018,7 +3006,7 @@ public final class CultivationStacks {
         Skins.SPICE_YELLOW.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Oil",
-        "Oil. Need I say more?"
+        "Oil. Need I say more？"
     );
 
     public static final SlimefunItemStack MAYONNAISE = Theme.themedSlimefunItemStack(
@@ -3026,7 +3014,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MILK_BUCKET),
         CultivationThemes.PRODUCE,
         "Mayonnaise",
-        "A silky smooth mayo that can go with nearly anything."
+        "A silky smooth mayo that can go with nearly anything。"
     );
 
     public static final SlimefunItemStack EGG_SALAD = Theme.themedSlimefunItemStack(
@@ -3043,7 +3031,7 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Pie Crust",
         "If it were legal to eat this own it's own",
-        "it'd be my main food source."
+        "it'd be my main food source。"
     );
 
     public static final SlimefunItemStack PASTA = Theme.themedSlimefunItemStack(
@@ -3051,7 +3039,7 @@ public final class CultivationStacks {
         Skins.PASTA.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Pasta",
-        "Just plain pasta, simple yet wonderful."
+        "Just plain pasta, simple yet wonderful。"
     );
 
     public static final SlimefunItemStack BISCUIT_DOUGH = Theme.themedSlimefunItemStack(
@@ -3068,7 +3056,7 @@ public final class CultivationStacks {
         CultivationThemes.PRODUCE,
         "Biscuit Base",
         "Just 'cause it's flat now doesnt mean",
-        "you can eat it raw."
+        "you can eat it raw。"
     );
 
     public static final SlimefunItemStack MEATBALLS = Theme.themedSlimefunItemStack(
@@ -3076,7 +3064,7 @@ public final class CultivationStacks {
         new ItemStack(Material.BROWN_DYE),
         CultivationThemes.PRODUCE,
         "Meatballs",
-        "Balls of meat, who'd-a-thunk it."
+        "Balls of meat, who'd-a-thunk it。"
     );
 
     public static final SlimefunItemStack PEPPERONI = Theme.themedSlimefunItemStack(
@@ -3084,7 +3072,7 @@ public final class CultivationStacks {
         Skins.PEPPERONI.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Pepperoni",
-        "I could eat an entire log of this, easy."
+        "I could eat an entire log of this, easy。"
     );
 
     public static final SlimefunItemStack DOUGH = Theme.themedSlimefunItemStack(
@@ -3100,7 +3088,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MILK_BUCKET),
         CultivationThemes.PRODUCE,
         "Cream Cheese",
-        "More creamy than cheesy."
+        "More creamy than cheesy。"
     );
 
     public static final SlimefunItemStack KETCHUP = Theme.themedSlimefunItemStack(
@@ -3108,7 +3096,7 @@ public final class CultivationStacks {
         Skins.JAM_JAR_RED.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Ketchup",
-        "Just tomatoes in a creamy form."
+        "Just tomatoes in a creamy form。"
     );
 
     public static final SlimefunItemStack MUSTARD = Theme.themedSlimefunItemStack(
@@ -3132,7 +3120,7 @@ public final class CultivationStacks {
         Skins.SALSA.getPlayerHead(),
         CultivationThemes.PRODUCE,
         "Pico de Gallo",
-        "A mild salsa full of pure delicious."
+        "A mild salsa full of pure delicious。"
     );
 
     public static final SlimefunItemStack COOKED_BURGER_PATTY = Theme.themedSlimefunItemStack(
@@ -3152,7 +3140,7 @@ public final class CultivationStacks {
         Skins.PEANUT_BUTTER_JELLY_SANDWICH.getPlayerHead(),
         CultivationThemes.FOOD,
         "Peanut Butter Jelly Sandwich",
-        "It really is the pinnacle of sandwich technology.",
+        "It really is the pinnacle of sandwich technology。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "5 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Power + 3")
@@ -3186,7 +3174,7 @@ public final class CultivationStacks {
         Skins.SUSHI_SALMON.getPlayerHead(),
         CultivationThemes.FOOD,
         "Salmon Nigiri",
-        "A delightful yet subtle flavour.",
+        "A delightful yet subtle flavour。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 1")
@@ -3197,7 +3185,7 @@ public final class CultivationStacks {
         Skins.MEAL_RED_GREEN_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
         "Cajun Garlic Butter Cod",
-        "A very simple dish busting with flavour.",
+        "A very simple dish busting with flavour。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 2"),
@@ -3209,7 +3197,7 @@ public final class CultivationStacks {
         Skins.SHAKSHUKA.getPlayerHead(),
         CultivationThemes.FOOD,
         "Shakshuka",
-        "A heart warming dish with eggs for days.",
+        "A heart warming dish with eggs for days。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Hero of the Village + 1"),
@@ -3221,7 +3209,7 @@ public final class CultivationStacks {
         Skins.SUSHI_TUNA.getPlayerHead(),
         CultivationThemes.FOOD,
         "Fugu",
-        "Ready to roll the dice?",
+        "Ready to roll the dice？",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "1 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Power + 5"),
@@ -3233,7 +3221,7 @@ public final class CultivationStacks {
         Skins.MEAL_YELLOW_RED_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
         "Shepherds Pie",
-        "Warm, hearty and simply wonderful.",
+        "Warm, hearty and simply wonderful。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "10 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 2")
@@ -3244,7 +3232,7 @@ public final class CultivationStacks {
         Skins.PIE_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
         "Chicken Pot Pie",
-        "A warming meal that really hits home.",
+        "A warming meal that really hits home。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "10 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Jump + 2"),
@@ -3256,7 +3244,7 @@ public final class CultivationStacks {
         Skins.PASTA_BAKE.getPlayerHead(),
         CultivationThemes.FOOD,
         "Chicken Pasta Bake",
-        "A student staple.",
+        "A student staple。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "5 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Night Vision + 1"),
@@ -3268,7 +3256,7 @@ public final class CultivationStacks {
         Skins.MAC_AND_CHEESE.getPlayerHead(),
         CultivationThemes.FOOD,
         "Chicken Alfredo Mac and Cheese",
-        "A posh twist on a common classic.",
+        "A posh twist on a common classic。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "1 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Fire Resistance + 2"),
@@ -3292,7 +3280,7 @@ public final class CultivationStacks {
         CultivationThemes.FOOD,
         "Fruit Salad",
         "If you call it a salad, you can eat as much",
-        "as you like, 'cause it's healthy.",
+        "as you like, 'cause it's healthy。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 3")
@@ -3303,7 +3291,7 @@ public final class CultivationStacks {
         Skins.FRUIT_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
         "Caesar Salad",
-        "A healthy classic.",
+        "A healthy classic。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 1"),
@@ -3316,7 +3304,7 @@ public final class CultivationStacks {
         new ItemStack(Material.COOKIE),
         CultivationThemes.FOOD,
         "Biscuit",
-        "A little snack with a huge taste.",
+        "A little snack with a huge taste。",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Launches you into the air")
     );
@@ -3326,7 +3314,7 @@ public final class CultivationStacks {
         new ItemStack(Material.COOKIE),
         CultivationThemes.FOOD,
         "Compressed Biscuit",
-        "A little snack with a huge-er taste.",
+        "A little snack with a huge-er taste。",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Launches you into the air")
     );
@@ -3336,9 +3324,9 @@ public final class CultivationStacks {
         new ItemStack(Material.YELLOW_DYE),
         CultivationThemes.FOOD,
         "Lemon Drop",
-        "A palette cleanser.",
+        "A palette cleanser。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Clears all effects and makes you hungry again.")
+        Theme.CLICK_INFO.asTitle("Effect 1", "Clears all effects and makes you hungry again。")
     );
 
     public static final SlimefunItemStack GRILLED_SALMON_SALAD = Theme.themedSlimefunItemStack(
@@ -3346,7 +3334,7 @@ public final class CultivationStacks {
         Skins.MEAL_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
         "Grilled Salmon Salad",
-        "Delightfully flaky and brilliantly seasoned.",
+        "Delightfully flaky and brilliantly seasoned。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Regeneration + 1"),
@@ -3358,7 +3346,7 @@ public final class CultivationStacks {
         Skins.MEAL_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
         "Wither Rose Salad",
-        "Teeming with power but with a harsh side-effect.",
+        "Teeming with power but with a harsh side-effect。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "Full"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 20"),
@@ -3370,7 +3358,7 @@ public final class CultivationStacks {
         ItemStackGenerators.createPotion(Color.YELLOW),
         CultivationThemes.FOOD,
         "Orange Juice",
-        "It really is the best way to start the day.",
+        "It really is the best way to start the day。",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 4")
     );
@@ -3380,7 +3368,7 @@ public final class CultivationStacks {
         Skins.MEAL_YELLOW_RED_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
         "Lasagna",
-        "Layers of awesomeness.",
+        "Layers of awesomeness。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "Full"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Regeneration + 1"),
@@ -3392,7 +3380,7 @@ public final class CultivationStacks {
         Skins.SPAGHETTI.getPlayerHead(),
         CultivationThemes.FOOD,
         "Spaghetti",
-        "Just keep slurping.",
+        "Just keep slurping。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "1 Heart")
     );
@@ -3402,7 +3390,7 @@ public final class CultivationStacks {
         Skins.SPAGHETTI.getPlayerHead(),
         CultivationThemes.FOOD,
         "Spaghetti and Meatballs",
-        "Simple, classic and hearty.",
+        "Simple, classic and hearty。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Bad Omen + 1")
@@ -3413,7 +3401,7 @@ public final class CultivationStacks {
         Skins.PIZZA_CHEESE.getPlayerHead(),
         CultivationThemes.FOOD,
         "Cheese Pizza",
-        "Why anyone would order just cheese? I dont know.",
+        "Why anyone would order just cheese? I dont know。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Slowness + 1")
@@ -3424,7 +3412,7 @@ public final class CultivationStacks {
         Skins.PIZZA_MUSHROOM.getPlayerHead(),
         CultivationThemes.FOOD,
         "Mushroom Pizza",
-        "A simple vegetarian pizza full of proteins.",
+        "A simple vegetarian pizza full of proteins。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "6 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Slowness + 1"),
@@ -3436,7 +3424,7 @@ public final class CultivationStacks {
         Skins.PIZZA_PEPPERONI.getPlayerHead(),
         CultivationThemes.FOOD,
         "Pepperoni Pizza",
-        "A New York classic full of flavour.",
+        "A New York classic full of flavour。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "6 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 1"),
@@ -3449,7 +3437,7 @@ public final class CultivationStacks {
         Skins.MEAL_RED_GREEN_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
         "Cheesy Scalloped Courgette",
-        "A low carb version of an amazing classic.",
+        "A low carb version of an amazing classic。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Night Vision + 1"),
@@ -3462,7 +3450,7 @@ public final class CultivationStacks {
         CultivationThemes.FOOD,
         "Pecan Pie",
         "The only way to eat pure sugar without",
-        "being totally judged.",
+        "being totally judged。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Levitation + 1")
@@ -3473,7 +3461,7 @@ public final class CultivationStacks {
         new ItemStack(Material.MUSHROOM_STEW),
         CultivationThemes.FOOD,
         "Garlic Butter Mushrooms",
-        "May easily be the best food item on earth.",
+        "May easily be the best food item on earth。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Glowing + 1")
@@ -3484,7 +3472,7 @@ public final class CultivationStacks {
         Skins.RAMEN_BEEF.getPlayerHead(),
         CultivationThemes.FOOD,
         "Ramen (Beef)",
-        "A not-so-healthy choice.",
+        "A not-so-healthy choice。",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
     );
@@ -3494,7 +3482,7 @@ public final class CultivationStacks {
         Skins.RAMEN_CHICKEN.getPlayerHead(),
         CultivationThemes.FOOD,
         "Ramen (Chicken)",
-        "A not-so-filling choice.",
+        "A not-so-filling choice。",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
     );
@@ -3504,7 +3492,7 @@ public final class CultivationStacks {
         Skins.RAMEN_SEAFOOD.getPlayerHead(),
         CultivationThemes.FOOD,
         "Ramen (Seafood)",
-        "A not-so-satisfying choice.",
+        "A not-so-satisfying choice。",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
     );
@@ -3514,7 +3502,7 @@ public final class CultivationStacks {
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
         "Ramen (Beef) (Hearty)",
-        "A healthy choice.",
+        "A healthy choice。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "Full"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 2"),
@@ -3526,7 +3514,7 @@ public final class CultivationStacks {
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
         "Ramen (Chicken) (Hearty)",
-        "A filling choice.",
+        "A filling choice。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "Full"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 2"),
@@ -3538,7 +3526,7 @@ public final class CultivationStacks {
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
         "Ramen (Seafood) (Hearty)",
-        "A satisfying choice.",
+        "A satisfying choice。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "Full"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 2"),
@@ -3550,7 +3538,7 @@ public final class CultivationStacks {
         Skins.BAGEL.getPlayerHead(),
         CultivationThemes.FOOD,
         "Bagel",
-        "Toasted? or...",
+        "Toasted? or..。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "5")
     );
@@ -3570,7 +3558,7 @@ public final class CultivationStacks {
         Skins.BAGEL_EVERYTHING.getPlayerHead(),
         CultivationThemes.FOOD,
         "Bagel (Cream Cheese)",
-        "It's so good you'll probably want another.",
+        "It's so good you'll probably want another。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "10"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
@@ -3581,7 +3569,7 @@ public final class CultivationStacks {
         Skins.MEATLOAF.getPlayerHead(),
         CultivationThemes.FOOD,
         "Meatloaf",
-        "Nothing like it! Let's go.",
+        "Nothing like it! Let's go。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "Full"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 4"),
@@ -3595,7 +3583,7 @@ public final class CultivationStacks {
         Skins.SAUSAGE.getPlayerHead(),
         CultivationThemes.FOOD,
         "Sausage",
-        "Bacon's brother.",
+        "Bacon's brother。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "2")
     );
@@ -3616,7 +3604,7 @@ public final class CultivationStacks {
         Skins.TATER_TOT.getPlayerHead(),
         CultivationThemes.FOOD,
         "Tater Tots",
-        "Little potato poppables.",
+        "Little potato poppables。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "1"),
         Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 2")
@@ -3640,14 +3628,14 @@ public final class CultivationStacks {
         "Zim would be proud!",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Summons Gir to help (It's an Iron Golem, relax).")
+        Theme.CLICK_INFO.asTitle("Effect 1", "Summons Gir to help (It's an Iron Golem, relax)。")
     );
 
     public static final SlimefunItemStack BOWL_OF_STEVE = Theme.themedSlimefunItemStack(
         "CLT_BOWL_OF_STEVE",
         Skins.STEVE_HEAD_BOWL.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Bowl of... Steve?",
+        "Bowl of... Steve？",
         "What the actual &%£$",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Reduces you to 1/2 heart"),
@@ -3672,7 +3660,7 @@ public final class CultivationStacks {
         Skins.CINNAMON_ROLL.getPlayerHead(),
         CultivationThemes.FOOD,
         "Cinnamon Roll",
-        "A sweet delight rolled up for fun.",
+        "A sweet delight rolled up for fun。",
         "Eating it turns the world on it's head!",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "4"),
@@ -3685,7 +3673,7 @@ public final class CultivationStacks {
         Skins.BLUE_CANDY.getPlayerHead(),
         CultivationThemes.FOOD,
         "Candy (Blue)",
-        "A delightfully sweet candy.",
+        "A delightfully sweet candy。",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Spawns an Allay")
     );
@@ -3695,10 +3683,10 @@ public final class CultivationStacks {
         Skins.BOILED_EGG.getPlayerHead(),
         CultivationThemes.FOOD,
         "Soft Boiled Egg",
-        "Just a boiled egg, what's more to say.",
+        "Just a boiled egg, what's more to say。",
         "",
         Theme.CLICK_INFO.asTitle("Healing", "1"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Can sometimes call a chicken to your aid.")
+        Theme.CLICK_INFO.asTitle("Effect 1", "Can sometimes call a chicken to your aid。")
     );
 
     public static final SlimefunItemStack SUGARED_SKULL = Theme.themedSlimefunItemStack(
@@ -3706,7 +3694,7 @@ public final class CultivationStacks {
         Skins.SUGARED_SKULL.getPlayerHead(),
         CultivationThemes.FOOD,
         "Sugared Skull",
-        "Is this even food...?",
+        "Is this even food...？",
         "",
         Theme.CLICK_INFO.asTitle("Effect 1", "Darkness + 3")
     );
