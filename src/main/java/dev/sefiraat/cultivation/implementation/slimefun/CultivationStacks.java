@@ -1550,8 +1550,8 @@ public final class CultivationStacks {
         CultivationThemes.PLANT,
         "农耕工艺 - 植物: 强化",
         List.of(
-            "A plant that is able to hold itself up",
-            "through anything。"
+            "这种植物能够通过任何方式",
+            "支撑起自己。"
         )
     );
 
@@ -1559,9 +1559,9 @@ public final class CultivationStacks {
         "CLT_PLANT_BLACKSTONE",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Blackstone",
+        "农耕工艺 - 植物: 黑石",
         List.of(
-            "A plant that has been known to absorb light。"
+            "这种植物据说可以吸收光线。"
         )
     );
 
@@ -1569,10 +1569,10 @@ public final class CultivationStacks {
         "CLT_PLANT_NETHERRACK",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Netherrack",
+        "农耕工艺 - 植物: 下界岩",
         List.of(
-            "A tough hardy plant able to survive",
-            "in most locales。"
+            "这种坚韧的植物",
+            "能够在大多数地方生存。"
         )
     );
 
@@ -1580,10 +1580,9 @@ public final class CultivationStacks {
         "CLT_PLANT_DARK_GRASS",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Dark Grass",
+        "农耕工艺 - 植物: 黑草",
         List.of(
-            "A plant that has really lost it's",
-            "identity。"
+            "这种植物已经失去自我。"
         )
     );
 
@@ -1591,10 +1590,10 @@ public final class CultivationStacks {
         "CLT_PLANT_MAGMA",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Magma",
+        "农耕工艺 - 植物: 岩浆",
         List.of(
-            "A plant that's so hot it burns it's",
-            "surroundings。"
+            "这种植物很烫，",
+            "会燃烧周围的一切。"
         )
     );
 
@@ -1602,10 +1601,9 @@ public final class CultivationStacks {
         "CLT_PLANT_SOUL",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Soul",
+        "农耕工艺 - 植物: 灵魂",
         List.of(
-            "A plant that can be heard screaming",
-            "when its quiet。"
+            "这种植物在安静时会发出尖叫声。"
         )
     );
 
@@ -1613,9 +1611,9 @@ public final class CultivationStacks {
         "CLT_PLANT_BASALT",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Basalt",
+        "农耕工艺 - 植物: 玄武岩",
         List.of(
-            "A very boring and dull plant。"
+            "这种植物非常无聊和乏味。"
         )
     );
 
@@ -1623,10 +1621,10 @@ public final class CultivationStacks {
         "CLT_PLANT_GLASS",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Glass",
+        "农耕工艺 - 植物: 玻璃",
         List.of(
-            "At the right angle, you could",
-            "swear you can see through this plant。"
+            "只要角度合适，",
+            "你一定能看到植物的内部。"
         )
     );
 
@@ -1634,10 +1632,9 @@ public final class CultivationStacks {
         "CLT_PLANT_MUD",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Mud",
+        "农耕工艺 - 植物: 泥巴",
         List.of(
-            "A plant that is nearly as dirty as",
-            "the ground it comes from。"
+            "这种植物几乎和它来自的土地一样肮脏。"
         )
     );
 
@@ -1645,9 +1642,9 @@ public final class CultivationStacks {
         "CLT_PLANT_END_STONE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: End Stone",
+        "农耕工艺 - 植物: 末地石",
         List.of(
-            "A plant that hums with the void。"
+            "这种植物会发出虚空的嗡鸣声。"
         )
     );
 
@@ -1655,10 +1652,10 @@ public final class CultivationStacks {
         "CLT_PLANT_PURPUR",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Purpur",
+        "农耕工艺 - 植物: 紫珀",
         List.of(
-            "An odd plant, seems far lighter",
-            "than most。"
+            "一种奇怪的植物，",
+            "似乎比大多数植物轻得多。"
         )
     );
 
@@ -1666,9 +1663,9 @@ public final class CultivationStacks {
         "CLT_PLANT_COAL",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Coal",
+        "农耕工艺 - 植物: 煤炭",
         List.of(
-            "A plant that holds such potential。"
+            "这种植物有着巨大的潜力。"
         )
     );
 
@@ -1676,10 +1673,10 @@ public final class CultivationStacks {
         "CLT_PLANT_RAW_IRON",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Raw Iron",
+        "农耕工艺 - 植物: 粗铁",
         List.of(
-            "A sturdy plant able to withstand most",
-            "environments。"
+            "这种坚固的植物",
+            "能承受大多数环境。"
         )
     );
 
@@ -1687,10 +1684,10 @@ public final class CultivationStacks {
         "CLT_PLANT_RAW_COPPER",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Raw Copper",
+        "农耕工艺 - 植物: 粗铜",
         List.of(
-            "If left alone, this plant sometimes",
-            "attracts lightning。"
+            "如果放任不管，这种植物",
+            "有时会吸引闪电。"
         )
     );
 
@@ -1698,10 +1695,10 @@ public final class CultivationStacks {
         "CLT_PLANT_RAW_GOLD",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Raw Gold",
+        "农耕工艺 - 植物: 粗金",
         List.of(
-            "This plant is commonly stolen by piglins",
-            "if nearby。"
+            "如果猪灵在边上，",
+            "那这种植物一定会被偷走。"
         )
     );
 
@@ -1709,9 +1706,9 @@ public final class CultivationStacks {
         "CLT_PLANT_REDSTONE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Redstone",
+        "农耕工艺 - 植物: 红石",
         List.of(
-            "A plant brimming with power throughout。"
+            "这种植物充满了能量。"
         )
     );
 
@@ -1719,9 +1716,9 @@ public final class CultivationStacks {
         "CLT_PLANT_LAPIS",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Lapis",
+        "农耕工艺 - 植物: 青金石",
         List.of(
-            "A plant with a faint magical aura。"
+            "这种植物有着微弱的魔法光环。"
         )
     );
 
@@ -1729,9 +1726,9 @@ public final class CultivationStacks {
         "CLT_PLANT_DIAMOND",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Diamond",
+        "农耕工艺 - 植物: 钻石",
         List.of(
-            "A plant that just speaks of riches。"
+            "这种植物象征着财富。"
         )
     );
 
@@ -1739,10 +1736,10 @@ public final class CultivationStacks {
         "CLT_PLANT_EMERALD",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Emerald",
+        "农耕工艺 - 植物: 绿宝石",
         List.of(
-            "Owners of this plant have to jump",
-            "through hoops just to be able to afford it。"
+            "这种植物的拥有着必须",
+            "花费很大的代价才能负担得起。"
         )
     );
 
@@ -1750,10 +1747,9 @@ public final class CultivationStacks {
         "CLT_PLANT_NETHER_QUARTZ",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Nether Quartz",
+        "农耕工艺 - 植物: 下界石英",
         List.of(
-            "This plant has thorns so sharp that",
-            "it's hard to work with。"
+            "这种植物的刺非常锋利，很难处理。"
         )
     );
 
@@ -1761,10 +1757,10 @@ public final class CultivationStacks {
         "CLT_PLANT_SCRAPPY",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Scrappy",
+        "农耕工艺 - 植物: 碎片",
         List.of(
-            "This plant really is the pinnacle of",
-            "horticulturalism。"
+            "这种植物象征着",
+            "园艺学的巅峰。"
         )
     );
 
@@ -1772,10 +1768,10 @@ public final class CultivationStacks {
         "CLT_PLANT_AMETHYST",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Amethyst",
+        "农耕工艺 - 植物: 紫水晶",
         List.of(
-            "This plant loves to flourish in deep, dark",
-            "locales。"
+            "这种植物喜欢在深邃",
+            "且黑暗的地方茁壮成长。"
         )
     );
 
@@ -1783,10 +1779,9 @@ public final class CultivationStacks {
         "CLT_PLANT_ECHO",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Echo",
+        "农耕工艺 - 植物: 回声",
         List.of(
-            "This plant always knows how to find",
-            "its way home。"
+            "这种植物知道回家的路。"
         )
     );
 
@@ -1794,9 +1789,10 @@ public final class CultivationStacks {
         "CLT_PLANT_SKELETON",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Skeleton",
+        "农耕工艺 - 植物: 骷髅",
         List.of(
-            "A plant that rattles as it sways。"
+            "这种植物在摇摆时",
+            "会发出咔嗒声。"
         )
     );
 
@@ -1804,9 +1800,9 @@ public final class CultivationStacks {
         "CLT_PLANT_SPIDER",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Spider",
+        "农耕工艺 - 植物: 蜘蛛",
         List.of(
-            "Kill it, kill it NAO!"
+            "快！赶快！杀了它!"
         )
     );
 
@@ -1814,9 +1810,9 @@ public final class CultivationStacks {
         "CLT_PLANT_CREEPER",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Creeper",
+        "农耕工艺 - 植物: 苦力怕",
         List.of(
-            "Tsssssssssttt..。"
+            "Aw man..."
         )
     );
 
@@ -1824,9 +1820,9 @@ public final class CultivationStacks {
         "CLT_PLANT_ZOMBIE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Zombie",
+        "农耕工艺 - 植物: 僵尸",
         List.of(
-            "This plant is dripping... something..。"
+            "这种植物正在滴落...什么东西..."
         )
     );
 
@@ -1834,10 +1830,9 @@ public final class CultivationStacks {
         "CLT_PLANT_DROWNED",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Drowned",
+        "农耕工艺 - 植物: 溺尸",
         List.of(
-            "A Plant that is dripping wet, all",
-            "the time。"
+            "这种植物总是湿漉漉的。"
         )
     );
 
@@ -1845,10 +1840,10 @@ public final class CultivationStacks {
         "CLT_PLANT_GUARDIAN",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Guardian",
+        "农耕工艺 - 植物: 守卫者",
         List.of(
-            "When touched, this plant releases",
-            "spines。"
+            "触摸植物时，",
+            "会释放尖刺。"
         )
     );
 
@@ -1856,10 +1851,10 @@ public final class CultivationStacks {
         "CLT_PLANT_ELDER_GUARDIAN",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Elder Guardian",
+        "农耕工艺 - 植物: 远古守卫者",
         List.of(
-            "Being near this plants makes people",
-            "sluggish。"
+            "靠近这种植物时，",
+            "人们会变得迟钝。"
         )
     );
 
@@ -1867,10 +1862,9 @@ public final class CultivationStacks {
         "CLT_PLANT_GHAST",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Ghast",
+        "农耕工艺 - 植物: 恶魂",
         List.of(
-            "A plant that has been known to",
-            "randomly shoot fire balls。"
+            "这种植物据说会随机发射火球。"
         )
     );
 
@@ -1878,9 +1872,9 @@ public final class CultivationStacks {
         "CLT_PLANT_SLIME",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Slime",
+        "农耕工艺 - 植物: 史莱姆",
         List.of(
-            "Why is it so sticky？"
+            "为什么它这么黏？"
         )
     );
 
@@ -1888,10 +1882,10 @@ public final class CultivationStacks {
         "CLT_PLANT_MAGMA_CUBE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Magma Cube",
+        "农耕工艺 - 植物: 岩浆怪",
         List.of(
-            "When not being watched, this plant",
-            "likes to bounce up and down。"
+            "当没人注意时，",
+            "这种植物喜欢上下弹跳。"
         )
     );
 
@@ -1899,9 +1893,9 @@ public final class CultivationStacks {
         "CLT_PLANT_BLAZE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Blaze",
+        "农耕工艺 - 植物: 烈焰人",
         List.of(
-            "A plant that is scorched around the edges。"
+            "这种植物的边缘被烧焦了。"
         )
     );
 
@@ -1909,9 +1903,9 @@ public final class CultivationStacks {
         "CLT_PLANT_WITHER_SKELETON",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Wither Skeleton",
+        "农耕工艺 - 植物: 凋灵骷髅",
         List.of(
-            "A plant known to be elusive and hardy。"
+            "这种植物以难以捉摸和坚韧著称。"
         )
     );
 
@@ -1919,10 +1913,9 @@ public final class CultivationStacks {
         "CLT_PLANT_WITHER",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Wither",
+        "农耕工艺 - 植物: 凋灵",
         List.of(
-            "A deadly plant that must be treated",
-            "with care。"
+            "这种致命的植物必须小心对待。"
         )
     );
 
@@ -1930,9 +1923,9 @@ public final class CultivationStacks {
         "CLT_PLANT_PHANTOM",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Phantom",
+        "农耕工艺 - 植物: 幻翼",
         List.of(
-            "A plant with lofty leaves。"
+            "这种植物有高耸的叶子。"
         )
     );
 
@@ -1940,10 +1933,9 @@ public final class CultivationStacks {
         "CLT_PLANT_SHULKER",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Shulker",
+        "农耕工艺 - 植物: 潜影盒",
         List.of(
-            "A plant that often levitates off",
-            "of the ground。"
+            "这种植物经常从地面上浮起来。"
         )
     );
 
@@ -1951,10 +1943,10 @@ public final class CultivationStacks {
         "CLT_PLANT_ENDERMAN",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Enderman",
+        "农耕工艺 - 植物: 末影人",
         List.of(
-            "If not treated carefully, this plant",
-            "may teleport randomly!"
+            "如果不小心处理，",
+            "这种植物可能会随机传送!"
         )
     );
 
@@ -1962,9 +1954,9 @@ public final class CultivationStacks {
         "CLT_PLANT_ENDER_DRAGON",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Ender Dragon",
+        "农耕工艺 - 植物: 末影龙",
         List.of(
-            "A real boss of a plant。"
+            "真正的首领植物。"
         )
     );
 
@@ -1972,10 +1964,10 @@ public final class CultivationStacks {
         "CLT_PLANT_WITCH",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: Witch",
+        "农耕工艺 - 植物: 凋灵",
         List.of(
-            "A plant that sounds like it's softly",
-            "muttering spells。"
+            "这种植物听起来像是",
+            "在低声咕哝咒语。"
         )
     );
 
