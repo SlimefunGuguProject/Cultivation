@@ -124,14 +124,14 @@ public class ProduceCore extends SlimefunItem {
     }
 
     private void createByProducts() {
-        this.chopped = registerByProduct("Chopped", RecipeTypes.CHOPPED, Material.BEETROOT_SEEDS);
-        this.mashed = registerByProduct("Mashed", RecipeTypes.MASHED, Material.SUSPICIOUS_STEW);
-        this.sliced = registerByProduct("Sliced", RecipeTypes.SLICED, Material.KELP);
-        this.ground = registerByProduct("Ground", RecipeTypes.GROUND, Material.BROWN_DYE);
-        this.blended = registerByProduct("Blended", RecipeTypes.BLENDED, Material.WATER_BUCKET);
-        this.boiled = registerByProduct("Boiled", RecipeTypes.BOILED, Material.CAULDRON);
-        this.fried = registerByProduct("Fried", RecipeTypes.FRIED, Material.RED_DYE);
-        this.grilled = registerByProduct("Grilled", RecipeTypes.GRILLED, Material.COOKED_PORKCHOP);
+        this.chopped = registerByProduct("Chopped", "切碎的", RecipeTypes.CHOPPED, Material.BEETROOT_SEEDS);
+        this.mashed = registerByProduct("Mashed", "捣碎的", RecipeTypes.MASHED, Material.SUSPICIOUS_STEW);
+        this.sliced = registerByProduct("Sliced", "切片的", RecipeTypes.SLICED, Material.KELP);
+        this.ground = registerByProduct("Ground", "剁碎的", RecipeTypes.GROUND, Material.BROWN_DYE);
+        this.blended = registerByProduct("Blended", "搅拌的", RecipeTypes.BLENDED, Material.WATER_BUCKET);
+        this.boiled = registerByProduct("Boiled", "煮熟的", RecipeTypes.BOILED, Material.CAULDRON);
+        this.fried = registerByProduct("Fried", "油炸的", RecipeTypes.FRIED, Material.RED_DYE);
+        this.grilled = registerByProduct("Grilled", "烤制的", RecipeTypes.GRILLED, Material.COOKED_PORKCHOP);
     }
 
     @ParametersAreNonnullByDefault
@@ -156,7 +156,7 @@ public class ProduceCore extends SlimefunItem {
                 "CLT_" + id.toUpperCase(Locale.ROOT) + "_" + this.getId().substring(4),
                 material,
                 CultivationThemes.BY_PRODUCT,
-                name + " " + this.getItemName()
+                name + this.getItemName()
             ),
             recipeType,
             this.getItem()
