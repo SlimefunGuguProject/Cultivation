@@ -2440,461 +2440,463 @@ public final class CultivationStacks {
         "CLT_CHICORY",
         new ItemStack(Material.BLUE_ORCHID),
         CultivationThemes.PRODUCE,
-        "Chicory",
-        "A nutty, bitter root。"
+        "菊苣",
+        "一种有坚果味的苦味根茎。"
     );
 
     public static final SlimefunItemStack CHIVES = Theme.themedSlimefunItemStack(
         "CLT_CHIVES",
         new ItemStack(Material.SEAGRASS),
         CultivationThemes.PRODUCE,
-        "Chives",
-        "A sweat, onion-tasting, herb。"
+        "韭菜",
+        "感觉像洋葱的调料。"
     );
 
     public static final SlimefunItemStack CLOVE = Theme.themedSlimefunItemStack(
         "CLT_CLOVE",
         new ItemStack(Material.POPPY),
         CultivationThemes.PRODUCE,
-        "Clove",
-        "A super warm and intense flavour。"
+        "丁香",
+        "超级温暖，有强烈的味道。"
     );
 
     public static final SlimefunItemStack CUMIN = Theme.themedSlimefunItemStack(
         "CLT_CUMIN",
         new ItemStack(Material.DANDELION),
         CultivationThemes.PRODUCE,
-        "Cumin",
-        "A warm citrusy plant。"
+        "孜然",
+        "温暖的柑橘类植物。"
     );
 
     public static final SlimefunItemStack CHILLI_PEPPER = Theme.themedSlimefunItemStack(
         "CLT_CHILLY_PEPPER",
         Skins.PEPPERS.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Chilly Pepper",
-        "I can eat a whole pepper without crying。",
-        "Well, half。",
-        "WEEEELLL…. 1/4",
+        "辣椒",
+        "我能吃下整个辣椒，面色不改。",
+        "好吧，一半。",
+        "嘶…四分之一。",
         "…",
-        "Ok I can touch one on my tounge"
+        "好的，我可以用舌头舔一下。"
     );
 
     public static final SlimefunItemStack CURRY_LEAF = Theme.themedSlimefunItemStack(
         "CLT_CURRY_LEAF",
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
-        "Curry Leaf",
-        "The basis of so many wonderful foods。"
+        "咖喱叶",
+        "是许多美食的基础。"
     );
 
     public static final SlimefunItemStack DILL = Theme.themedSlimefunItemStack(
         "CLT_DILL",
         new ItemStack(Material.GRASS),
         CultivationThemes.PRODUCE,
-        "Dill",
-        "Just taste like grass to me. Why",
-        "do people like this？"
+        "莳萝",
+        "吃起来有点像草。",
+        "为什么会有人喜欢这个呢？"
     );
 
     public static final SlimefunItemStack FENNEL = Theme.themedSlimefunItemStack(
         "CLT_FENNEL",
         new ItemStack(Material.OXEYE_DAISY),
         CultivationThemes.PRODUCE,
-        "Fennel",
-        "Like a mix of Anise and Liquorice。"
+        "茴香",
+        "像是八角和甘草的混合物。"
     );
 
     public static final SlimefunItemStack GINGER = Theme.themedSlimefunItemStack(
         "CLT_GINGER",
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
-        "Ginger",
-        "Chopped Ginger in boiling water, heals all ailments!"
+        "姜",
+        "切碎的生姜放入沸水中，",
+        "可治疗所有疾病!"
     );
 
     public static final SlimefunItemStack HORSERADISH = Theme.themedSlimefunItemStack(
         "CLT_HORSERADISH",
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
-        "Horseradish",
-        "$100 if you bite right into it。"
+        "辣根",
+        "如果你能咬住你就能获得$100。"
     );
 
     public static final SlimefunItemStack JASMINE = Theme.themedSlimefunItemStack(
         "CLT_JASMINE",
         new ItemStack(Material.WHITE_TULIP),
         CultivationThemes.PRODUCE,
-        "Jasmine",
-        "Makes for a wonderful tea。"
+        "茉莉",
+        "用来制作好茶。"
     );
 
     public static final SlimefunItemStack JUNIPER_BERRY = Theme.themedSlimefunItemStack(
         "CLT_JUNIPER_BERRY",
         new ItemStack(Material.GLOW_BERRIES),
         CultivationThemes.PRODUCE,
-        "Juniper Berries",
-        "Dried to a peppery perfection。"
+        "杜松子",
+        "晒一晒就好。"
     );
 
     public static final SlimefunItemStack KAFFIR_LIME = Theme.themedSlimefunItemStack(
         "CLT_KAFFIR_LIME",
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
-        "Kaffir Lime Leaf",
-        "A leaf with a mighty zest。"
+        "泰国青柠叶",
+        "一片具有强大活力的叶子。"
     );
 
     public static final SlimefunItemStack LAVENDER = Theme.themedSlimefunItemStack(
         "CLT_LAVENDER",
         new ItemStack(Material.PURPLE_DYE),
         CultivationThemes.PRODUCE,
-        "Lavender",
-        "A smell that can make me drift slowly to sleep。"
+        "薰衣草",
+        "能让我缓慢地进入梦乡。"
     );
 
     public static final SlimefunItemStack LICORICE = Theme.themedSlimefunItemStack(
         "CLT_LICORICE",
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
-        "Licorice",
-        "Run, run away now!"
+        "甘草",
+        "快，快跑!"
     );
 
     public static final SlimefunItemStack MACE = Theme.themedSlimefunItemStack(
         "CLT_MACE",
         new ItemStack(Material.RED_DYE),
         CultivationThemes.PRODUCE,
-        "Mace",
-        "Used to spray in the face of attackers。",
+        "肉豆蔻",
+        "用来甩到攻击者的脸上。",
         "…",
-        "What do you mean that's not the right type of mace？"
+        "什么叫这不是狼牙棒？"
     );
 
     public static final SlimefunItemStack MARJORAM = Theme.themedSlimefunItemStack(
         "CLT_MARJORAM",
         new ItemStack(Material.DARK_OAK_LEAVES),
         CultivationThemes.PRODUCE,
-        "Marjoram",
-        "I'm in a bit of a curry, could we talk later？"
+        "马郁兰",
+        "我现在有点急事，",
+        "我们能不能晚点再谈？"
     );
 
     public static final SlimefunItemStack MINT = Theme.themedSlimefunItemStack(
         "CLT_MINT",
         new ItemStack(Material.MANGROVE_LEAVES),
         CultivationThemes.PRODUCE,
-        "Mint",
-        "Chew chew chew。"
+        "薄荷",
+        "嚼嚼嚼。"
     );
 
     public static final SlimefunItemStack OREGANO = Theme.themedSlimefunItemStack(
         "CLT_OREGANO",
         new ItemStack(Material.SPRUCE_LEAVES),
         CultivationThemes.PRODUCE,
-        "Oregano",
-        "A classic staple cupboard herb。"
+        "牛至",
+        "厨房常备的调料。"
     );
 
     public static final SlimefunItemStack PARSLEY = Theme.themedSlimefunItemStack(
         "CLT_PARSLEY",
         new ItemStack(Material.ACACIA_LEAVES),
         CultivationThemes.PRODUCE,
-        "Parsley",
-        "Worst. Herb. Ever。"
+        "欧芹",
+        "史上最难吃的调料。"
     );
 
     public static final SlimefunItemStack ROSEMARY = Theme.themedSlimefunItemStack(
         "CLT_ROSEMARY",
         new ItemStack(Material.BIRCH_LEAVES),
         CultivationThemes.PRODUCE,
-        "Rosemary",
-        "Often misses thyme。"
+        "迷迭香",
+        "经常与百里香搞混。"
     );
 
     public static final SlimefunItemStack SASSAFRAS = Theme.themedSlimefunItemStack(
         "CLT_SASSAFRAS",
         new ItemStack(Material.OAK_LEAVES),
         CultivationThemes.PRODUCE,
-        "Sassafras",
-        "Edible Root Beer, seriously google",
-        "it, I buy it constantly now。"
+        "黄樟",
+        "可食用的根汁啤酒。",
+        "真的，你去搜一下，我马上去买。"
     );
 
     public static final SlimefunItemStack SHISO = Theme.themedSlimefunItemStack(
         "CLT_SHISO",
         new ItemStack(Material.MANGROVE_LEAVES),
         CultivationThemes.PRODUCE,
-        "Shiso",
-        "Mint with a side of love。"
+        "紫苏",
+        "薄荷与爱的结合。"
     );
 
     public static final SlimefunItemStack STAR_ANISE = Theme.themedSlimefunItemStack(
         "CLT_STAR_ANISE",
         new ItemStack(Material.NETHER_STAR),
         CultivationThemes.PRODUCE,
-        "Star Anise",
-        "One of the best and most unique flavours。"
+        "八角",
+        "最佳和最独特的口味之一。"
     );
 
     public static final SlimefunItemStack TARRAGON = Theme.themedSlimefunItemStack(
         "CLT_TARRAGON",
         new ItemStack(Material.JUNGLE_LEAVES),
         CultivationThemes.PRODUCE,
-        "Tarragon",
-        "I literally put this on anything。",
-        "Spoiler: Im not a good chef。"
+        "龙蒿",
+        "我会把这个放在任何东西上。",
+        "其实我并不是一个好厨师。"
     );
 
     public static final SlimefunItemStack THYME = Theme.themedSlimefunItemStack(
         "CLT_THYME",
         new ItemStack(Material.BIRCH_LEAVES),
         CultivationThemes.PRODUCE,
-        "Thyme",
-        "Often missed rosemary。"
+        "百里香",
+        "经常与迷迭香搞混。"
     );
 
     public static final SlimefunItemStack TURMERIC = Theme.themedSlimefunItemStack(
         "CLT_TURMERIC",
         new ItemStack(Material.YELLOW_DYE),
         CultivationThemes.PRODUCE,
-        "Turmeric",
-        "A strong musky presence to fill out many dishes。"
+        "姜黄",
+        "强烈的麝香味使许多菜肴更加丰富。"
     );
 
     public static final SlimefunItemStack VANILLA = Theme.themedSlimefunItemStack(
         "CLT_VANILLA",
         new ItemStack(Material.BLACK_DYE),
         CultivationThemes.PRODUCE,
-        "Vanilla",
-        "Instructions: Dip directly into a Latte"
+        "香子兰",
+        "说明：直接倒进一杯拿铁里。"
     );
 
     public static final SlimefunItemStack WASABI = Theme.themedSlimefunItemStack(
         "CLT_WASABI",
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
-        "Wasabi",
-        "Help… wasabi…"
+        "山萮菜",
+        "救命…芥末…"
     );
 
     public static final SlimefunItemStack ARTICHOKE = Theme.themedSlimefunItemStack(
         "CLT_ARTICHOKE",
         Skins.CABBAGE.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Artichoke",
-        "Rip out it's HEART!"
+        "洋蓟",
+        "撕开它的心脏!"
     );
 
     public static final SlimefunItemStack AUBERGINE = Theme.themedSlimefunItemStack(
         "CLT_AUBERGINE",
         Skins.AUBERGINE.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Aubergine",
-        "Bright purple and 100% NOT egg shaped。",
-        "Better call it an eggplant, right？"
+        "茄冰蕉",
+        "有着明亮的紫色，100%不是鸡蛋的形状。",
+        "最好叫它茄子，对吧？"
     );
 
     public static final SlimefunItemStack ASPARAGUS = Theme.themedSlimefunItemStack(
         "CLT_ASPARAGUS",
         Skins.ASPARAGUS.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Asparagus",
-        "Careful when visiting the bathroom later。"
+        "芦笋",
+        "以后去厕所的时候小心点。"
     );
 
     public static final SlimefunItemStack BRUSSELS_SPROUTS = Theme.themedSlimefunItemStack(
         "CLT_BRUSSELS_SPROUTS",
         Skins.KALE.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Brussels Sprouts",
-        "A gassious delight。"
+        "球芽甘蓝",
+        "一种喜悦。"
     );
 
     public static final SlimefunItemStack CABBAGE = Theme.themedSlimefunItemStack(
         "CLT_CABBAGE",
         Skins.CABBAGE.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Cabbage",
-        "A baggage of cabbage。"
+        "卷心菜",
+        "一包卷心菜。"
     );
 
     public static final SlimefunItemStack CAULIFLOWER = Theme.themedSlimefunItemStack(
         "CLT_CAULIFLOWER",
         Skins.CAULIFLOWER.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Cauliflower",
-        "A portable cloud!"
+        "花椰菜",
+        "小型云!"
     );
 
     public static final SlimefunItemStack CELERY = Theme.themedSlimefunItemStack(
         "CLT_CELERY",
         new ItemStack(Material.BAMBOO),
         CultivationThemes.PRODUCE,
-        "Celery",
-        "Literally just stringy water. Convince",
-        "me otherwise。"
+        "芹菜",
+        "真的只是粘稠的水，",
+        "除非你能说服我。"
     );
 
     public static final SlimefunItemStack KALE = Theme.themedSlimefunItemStack(
         "CLT_KALE",
         Skins.KALE.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Kale",
-        "Help, im a 2020 smoothie hipster!"
+        "羽衣甘蓝",
+        "我只是!"
     );
 
     public static final SlimefunItemStack SPINACH = Theme.themedSlimefunItemStack(
         "CLT_SPINACH",
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
-        "Spinach",
-        "Wilted with love。"
+        "菠菜",
+        "因爱而枯萎。"
     );
 
     public static final SlimefunItemStack BLACK_BEANS = Theme.themedSlimefunItemStack(
         "CLT_BLACK_BEANS",
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
-        "Black Beans",
-        "A delicious vegetarian protein。"
+        "黑豆",
+        "美味的素食蛋白质。"
     );
 
     public static final SlimefunItemStack GREEN_BEANS = Theme.themedSlimefunItemStack(
         "CLT_GREEN_BEANS",
         new ItemStack(Material.FROGSPAWN),
         CultivationThemes.PRODUCE,
-        "Green Beans",
-        "How creatively named!"
+        "四季豆",
+        "这命名真有创造性！"
     );
 
     public static final SlimefunItemStack CHICKPEAS = Theme.themedSlimefunItemStack(
         "CLT_CHICKPEAS",
         new ItemStack(Material.BEETROOT_SEEDS),
         CultivationThemes.PRODUCE,
-        "Chickpeas",
-        "Black eyed peas can sing a tune, chickpeas can only hummus one。"
+        "鹰嘴豆",
+        "黑眼豆可以唱歌，",
+        "鹰嘴豆只能做成泥。"
     );
 
     public static final SlimefunItemStack SOY_BEANS = Theme.themedSlimefunItemStack(
         "CLT_SOY_BEANS",
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
-        "Soy Beans",
-        "Soy milk cometh。"
+        "大豆",
+        "大豆奶来咯。"
     );
 
     public static final SlimefunItemStack PINTO_BEANS = Theme.themedSlimefunItemStack(
         "CLT_PINTO_BEANS",
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
-        "Pinto Beans",
-        "Kaching! It's burrito time。"
+        "斑豆",
+        "现在是墨西哥卷饼时间。"
     );
 
     public static final SlimefunItemStack RUNNER_BEANS = Theme.themedSlimefunItemStack(
         "CLT_RUNNER_BEANS",
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
-        "Runner Beans",
-        "Always trying to get away。"
+        "红花菜豆",
+        "总是试图逃跑。"
     );
 
     public static final SlimefunItemStack NETTLES = Theme.themedSlimefunItemStack(
         "CLT_NETTLES",
         new ItemStack(Material.AZALEA_LEAVES),
         CultivationThemes.PRODUCE,
-        "Nettles",
-        "Please put on your gloves before holding these。"
+        "荨麻",
+        "请在拿起之前带上手套。"
     );
 
     public static final SlimefunItemStack OKRA = Theme.themedSlimefunItemStack(
         "CLT_OKRA",
         Skins.LETTUCE.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Okra",
-        "Grown alot in okra-homa… right, RIGHT？"
+        "秋葵",
+        "它应该在俄克拉荷马州有很多，对吧？"
     );
 
     public static final SlimefunItemStack LEEK = Theme.themedSlimefunItemStack(
         "CLT_LEEK",
         Skins.LEEK.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Leek",
-        "for some reason it's dripping with water？",
-        "Perhaps it's sprung a leek？"
+        "韭葱",
+        "因为某些原因它在滴水？",
+        "也许是长出了韭菜？"
     );
 
     public static final SlimefunItemStack SHALLOT = Theme.themedSlimefunItemStack(
         "CLT_SHALLOT",
         Skins.ONION.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Shallot",
-        "I do love a lot of shallot。"
+        "青葱",
+        "我确实很喜欢葱。"
     );
 
     public static final SlimefunItemStack JALAPENO = Theme.themedSlimefunItemStack(
         "CLT_JALAPENO",
         Skins.PEPPERS.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Jalapeno",
-        "HOT HOT HOT。"
+        "墨西哥胡椒",
+        "辣辣辣。"
     );
 
     public static final SlimefunItemStack RADICCHIO = Theme.themedSlimefunItemStack(
         "CLT_RADICCHIO",
         Skins.RADDISH.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Radicchio",
-        "Writing all this lore takes so long。",
-        "It's radicchio-less。"
+        "菊苣",
+        "写这些物品描述真的花了很久。",
+        "我不需要菊苣。"
     );
 
     public static final SlimefunItemStack RHUBARB = Theme.themedSlimefunItemStack(
         "CLT_RHUBARB",
         Skins.LEEK.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Rhubarb",
-        "Just be sure to remove the leaves!"
+        "大黄",
+        "记得去掉叶子!"
     );
 
     public static final SlimefunItemStack CELERIAC = Theme.themedSlimefunItemStack(
         "CLT_CELERIAC",
         Skins.PARSNIP.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Celeriac",
-        "A hearty root that's rooted (heh) in many",
-        "traditional recipes。"
+        "块根芹",
+        "在许多传统食谱中都用到的根茎。"
     );
 
     public static final SlimefunItemStack PARSNIP = Theme.themedSlimefunItemStack(
         "CLT_PARSNIP",
         Skins.PARSNIP.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Parsnip",
-        "Requires roasting immediately。"
+        "欧洲防风草",
+        "需要马上烤干。"
     );
 
     public static final SlimefunItemStack RUTABAGA = Theme.themedSlimefunItemStack(
         "CLT_RUTABAGA",
         Skins.RUTABAGA.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Rutabaga",
-        "It actually hurts not calling this a swede。"
+        "芜菁甘蓝",
+        "不说这个是斯威德，其实是很痛苦的。"
     );
 
     public static final SlimefunItemStack RADDISH = Theme.themedSlimefunItemStack(
         "CLT_RADDISH",
         Skins.RADDISH.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Raddish",
-        "Little pockets of fresh, crisp, sunshine。"
+        "小红萝卜",
+        "新鲜、清脆、阳光。"
     );
 
     public static final SlimefunItemStack SWEET_POTATO = Theme.themedSlimefunItemStack(
         "CLT_SWEET_POTATO",
         new ItemStack(Material.BEETROOT),
         CultivationThemes.PRODUCE,
-        "Sweet Potato",
+        "甘薯",
         "Yam yam yam。"
     );
 
@@ -2902,68 +2904,68 @@ public final class CultivationStacks {
         "CLT_TURNIP",
         Skins.TURNIP.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Turnip",
-        "Will solve all of life's problems。"
+        "大头菜",
+        "将解决生活中的所有问题。"
     );
 
     public static final SlimefunItemStack SWEETCORN = Theme.themedSlimefunItemStack(
         "CLT_SWEETCORN",
         Skins.CORN.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Sweetcorn",
-        "Perhaps the best vegetable around。"
+        "甜玉米",
+        "也许是最好的蔬菜。"
     );
 
     public static final SlimefunItemStack COURGETTE = Theme.themedSlimefunItemStack(
         "CLT_COURGETTE",
         new ItemStack(Material.BAMBOO),
         CultivationThemes.PRODUCE,
-        "Courgette",
-        "Pro Tip: Grate this into any pasta sauce",
-        "for depth and texture。"
+        "西葫芦",
+        "专家建议：将其研磨到任何",
+        "意大利空心粉酱中",
+        "已获得深度和质感。"
     );
 
     public static final SlimefunItemStack CUCUMBER = Theme.themedSlimefunItemStack(
         "CLT_CUCUMBER",
         new ItemStack(Material.BAMBOO),
         CultivationThemes.PRODUCE,
-        "Cucumber",
-        "Water in a green shell, prove me",
-        "wrong。"
+        "黄瓜",
+        "就是水在绿色壳子中，",
+        "除非你证明我错了。"
     );
 
     public static final SlimefunItemStack MARROW = Theme.themedSlimefunItemStack(
         "CLT_MARROW",
         Skins.SQUASH.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Marrow",
-        "Did you know marrows are found within",
-        "your bones？",
-        "Yup, Sefi Smort。"
+        "嫩葫芦",
+        "你知道嫩葫芦可以在你骨头里吗？",
+        "（这单词还有髓的意思）"
     );
 
     public static final SlimefunItemStack AVOCADO = Theme.themedSlimefunItemStack(
         "CLT_AVOCADO",
         Skins.AVOCADO.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Avocado",
-        "What hipsters dream about。"
+        "鳄梨",
+        "潮人的梦乡。"
     );
 
     public static final SlimefunItemStack GREEN_ONION = Theme.themedSlimefunItemStack(
         "CLT_GREEN_ONION",
         Skins.GREEN_ONION.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Green Onion",
-        "Goes great on tacos!"
+        "嫩葱",
+        "很适合做玉米饼!"
     );
 
     public static final SlimefunItemStack BLACK_PEPPER = Theme.themedSlimefunItemStack(
         "CLT_PEPPER",
         Skins.BLACK_PEPPER.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Black Pepper",
-        "Spicier than salt。"
+        "黑胡椒",
+        "比盐辣一点。"
     );
 
     // endregion
@@ -2974,154 +2976,154 @@ public final class CultivationStacks {
         "CLT_PEANUT_BUTTER",
         Skins.PEANUT_BUTTER.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Peanut Butter",
-        "Akin only to liquid gold。"
+        "花生酱",
+        "类似于液体黄金。"
     );
 
     public static final SlimefunItemStack GRAPE_JELLY = Theme.themedSlimefunItemStack(
         "CLT_GRAPE_JELLY",
         Skins.JAM_JAR_BLUE.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Grape Jelly",
-        "Eating it with a spoon is a criminal offence。"
+        "葡萄酱",
+        "用勺子吃是犯罪。"
     );
 
     public static final SlimefunItemStack STRAWBERRY_JELLY = Theme.themedSlimefunItemStack(
         "CLT_STRAWBERRY_JELLY",
         Skins.JAM_JAR_RED.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Strawberry Jelly",
-        "Eating it with a spoon is a criminal offence。"
+        "草莓酱",
+        "用勺子吃是犯罪。"
     );
 
     public static final SlimefunItemStack OIL = Theme.themedSlimefunItemStack(
         "CLT_OIL",
         Skins.SPICE_YELLOW.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Oil",
-        "Oil. Need I say more？"
+        "油",
+        "容易滋生霉菌。"
     );
 
     public static final SlimefunItemStack MAYONNAISE = Theme.themedSlimefunItemStack(
         "CLT_MAYONNAISE",
         new ItemStack(Material.MILK_BUCKET),
         CultivationThemes.PRODUCE,
-        "Mayonnaise",
-        "A silky smooth mayo that can go with nearly anything。"
+        "蛋黄酱",
+        "丝滑的蛋黄酱，几乎可以搭配任何食物。"
     );
 
     public static final SlimefunItemStack EGG_SALAD = Theme.themedSlimefunItemStack(
         "CLT_EGG_SALAD",
         Skins.SPICE_YELLOW.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Egg Salad",
-        "Open this on a train, I dare you!"
+        "鸡蛋沙拉",
+        "你敢在火车上打开这个吗？"
     );
 
     public static final SlimefunItemStack PIE_CRUST = Theme.themedSlimefunItemStack(
         "CLT_PIE_CRUST",
         Skins.PIE_CRUST.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Pie Crust",
-        "If it were legal to eat this own it's own",
-        "it'd be my main food source。"
+        "馅饼皮",
+        "直接把这个当主食吃",
+        "应该也是可以的。"
     );
 
     public static final SlimefunItemStack PASTA = Theme.themedSlimefunItemStack(
         "CLT_PASTA",
         Skins.PASTA.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Pasta",
-        "Just plain pasta, simple yet wonderful。"
+        "意大利通心粉",
+        "只是普通的通心粉，简单但美味。"
     );
 
     public static final SlimefunItemStack BISCUIT_DOUGH = Theme.themedSlimefunItemStack(
         "CLT_BISCUIT_DOUGH",
         new ItemStack(Material.BROWN_DYE),
         CultivationThemes.PRODUCE,
-        "Biscuit Dough",
-        "Just remind yourself \"Don't eat it raw.\""
+        "饼干面团",
+        "记得提醒自己“不要生吃”"
     );
 
     public static final SlimefunItemStack BISCUIT_BASE = Theme.themedSlimefunItemStack(
         "CLT_BISCUIT_BASE",
         new ItemStack(Material.OAK_TRAPDOOR),
         CultivationThemes.PRODUCE,
-        "Biscuit Base",
-        "Just 'cause it's flat now doesnt mean",
-        "you can eat it raw。"
+        "定型的饼干",
+        "虽然现在是平的，",
+        "但你并不能吃。"
     );
 
     public static final SlimefunItemStack MEATBALLS = Theme.themedSlimefunItemStack(
         "CLT_MEATBALLS",
         new ItemStack(Material.BROWN_DYE),
         CultivationThemes.PRODUCE,
-        "Meatballs",
-        "Balls of meat, who'd-a-thunk it。"
+        "肉球",
+        "肉做成的球。"
     );
 
     public static final SlimefunItemStack PEPPERONI = Theme.themedSlimefunItemStack(
         "CLT_PEPPERONI",
         Skins.PEPPERONI.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Pepperoni",
-        "I could eat an entire log of this, easy。"
+        "意大利香肠",
+        "我可以请以吃掉一整根。"
     );
 
     public static final SlimefunItemStack DOUGH = Theme.themedSlimefunItemStack(
         "CLT_DOUGH",
         Skins.DOUGH.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Dough",
-        "Just plain ol' dough!"
+        "面团",
+        "只是普通的面团。"
     );
 
     public static final SlimefunItemStack CREAM_CHEESE = Theme.themedSlimefunItemStack(
         "CLT_CREAM_CHEESE",
         new ItemStack(Material.MILK_BUCKET),
         CultivationThemes.PRODUCE,
-        "Cream Cheese",
-        "More creamy than cheesy。"
+        "奶油芝士",
+        "奶油味比芝士味更重一些。"
     );
 
     public static final SlimefunItemStack KETCHUP = Theme.themedSlimefunItemStack(
         "CLT_KETCHUP",
         Skins.JAM_JAR_RED.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Ketchup",
-        "Just tomatoes in a creamy form。"
+        "蕃茄酱",
+        "奶油形态的西红柿。"
     );
 
     public static final SlimefunItemStack MUSTARD = Theme.themedSlimefunItemStack(
         "CLT_MUSTARD",
         Skins.JAM_JAR_YELLOW.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Mustard",
-        "Has a little kick to it!"
+        "芥末",
+        "有点刺激!"
     );
 
     public static final SlimefunItemStack TORTILLAS = Theme.themedSlimefunItemStack(
         "CLT_TORTILLAS",
         Skins.TORILLAS.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Tortillas",
-        "Corn-flour delights"
+        "玉米粉圆饼",
+        "玉米面点心"
     );
 
     public static final SlimefunItemStack PICO_DE_GALLO = Theme.themedSlimefunItemStack(
         "CLT_PICO_DE_GALLO",
         Skins.SALSA.getPlayerHead(),
         CultivationThemes.PRODUCE,
-        "Pico de Gallo",
-        "A mild salsa full of pure delicious。"
+        "墨西哥莎莎酱",
+        "充满纯正美味的温和莎莎酱。"
     );
 
     public static final SlimefunItemStack COOKED_BURGER_PATTY = Theme.themedSlimefunItemStack(
         "CLT_COOKED_BURGER_PATTY",
         new ItemStack(Material.COOKED_BEEF),
         CultivationThemes.PRODUCE,
-        "Cooked Burger Patty",
-        "Practically dripping"
+        "熟汉堡肉饼",
+        "正在流汁"
     );
 
     // endregion
@@ -3132,453 +3134,454 @@ public final class CultivationStacks {
         "CLT_PEANUT_BUTTER_JELLY_SANDWICH",
         Skins.PEANUT_BUTTER_JELLY_SANDWICH.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Peanut Butter Jelly Sandwich",
-        "It really is the pinnacle of sandwich technology。",
+        "花生酱果冻三明治",
+        "三明治的巅峰之作。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "5 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Power + 3")
+        Theme.CLICK_INFO.asTitle("治疗", "10 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "力量 + 3")
     );
 
     public static final SlimefunItemStack EGG_SALAD_SANDWICH = Theme.themedSlimefunItemStack(
         "CLT_EGG_SALAD_SANDWICH",
         Skins.CHEESY_SANDWICH.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Egg Salad Sandwich",
-        "Smells a bit, but tastes amazing!",
+        "鸡蛋沙拉三明治",
+        "闻起来有点怪，但是很好吃!",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "5 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Haste + 2")
+        Theme.CLICK_INFO.asTitle("恢复", "10 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "急迫 + 2")
     );
 
     public static final SlimefunItemStack BACON_SANDWICH = Theme.themedSlimefunItemStack(
         "CLT_BACON_SANDWICH",
         Skins.MEATY_SANDWICH.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Bacon Sandwich",
-        "A simple classic!",
+        "培根三明治",
+        "简单的经典!",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Power + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "4 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "力量 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 2", "速度 + 1")
     );
 
     public static final SlimefunItemStack SALMON_NIGIRI = Theme.themedSlimefunItemStack(
         "CLT_SALMON_NIGIRI",
         Skins.SUSHI_SALMON.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Salmon Nigiri",
-        "A delightful yet subtle flavour。",
+        "三文鱼寿司",
+        "令人愉悦又微妙的味道。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "4 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命恢复 + 1")
     );
 
     public static final SlimefunItemStack CAJUN_GARLIC_BUTTER_COD = Theme.themedSlimefunItemStack(
         "CLT_CAJUN_GARLIC_BUTTER_COD",
         Skins.MEAL_RED_GREEN_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Cajun Garlic Butter Cod",
-        "A very simple dish busting with flavour。",
+        "卡津大蒜黄油鳕鱼",
+        "一道非常简单的美味佳肴。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 2"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "8 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命恢复 + 2"),
+        Theme.CLICK_INFO.asTitle("效果 2", "速度 + 1")
     );
 
     public static final SlimefunItemStack SHAKSHUKA = Theme.themedSlimefunItemStack(
         "CLT_SHAKSHUKA",
         Skins.SHAKSHUKA.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Shakshuka",
-        "A heart warming dish with eggs for days。",
+        "沙卡蔬卡",
+        "一道温暖人心的菜，可以吃上好几天的鸡蛋。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Hero of the Village + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Luck + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "8 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "村庄英雄 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 2", "幸运 + 1")
     );
 
     public static final SlimefunItemStack FUGU = Theme.themedSlimefunItemStack(
         "CLT_FUGU",
         Skins.SUSHI_TUNA.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Fugu",
-        "Ready to roll the dice？",
+        "河豚",
+        "准备投掷骰子？",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "1 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Power + 5"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "33% Chance to just die!")
+        Theme.CLICK_INFO.asTitle("恢复", "2 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "力量 + 5"),
+        Theme.CLICK_INFO.asTitle("效果 2", "有 33% 几率直接死亡！")
     );
 
     public static final SlimefunItemStack SHEPHERDS_PIE = Theme.themedSlimefunItemStack(
         "CLT_SHEPHERDS_PIE",
         Skins.MEAL_YELLOW_RED_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Shepherds Pie",
-        "Warm, hearty and simply wonderful。",
+        "牧羊人派",
+        "温暖、丰盛、简单而美好。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "10 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 2")
+        Theme.CLICK_INFO.asTitle("恢复", "20 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命恢复 + 2")
     );
 
     public static final SlimefunItemStack CHICKEN_POT_PIE = Theme.themedSlimefunItemStack(
         "CLT_CHICKEN_POT_PIE",
         Skins.PIE_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Chicken Pot Pie",
-        "A warming meal that really hits home。",
+        "鸡肉馅饼",
+        "真正打动人心温暖之餐。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "10 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Jump + 2"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Saturation + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "20 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "跳跃提升 + 2"),
+        Theme.CLICK_INFO.asTitle("效果 2", "饱和 + 1")
     );
 
     public static final SlimefunItemStack CHICKEN_PASTA_BAKE = Theme.themedSlimefunItemStack(
         "CLT_CHICKEN_PASTA_BAKE",
         Skins.PASTA_BAKE.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Chicken Pasta Bake",
-        "A student staple。",
+        "烤鸡意大利面",
+        "学生的主食。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "5 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Night Vision + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Water Breathing + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "10 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "夜视 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 2", "水下呼吸 + 1")
     );
 
     public static final SlimefunItemStack CHICKEN_ALFREDO_MAC_AND_CHEESE = Theme.themedSlimefunItemStack(
         "CLT_CHICKEN_ALFREDO_MAC_AND_CHEESE",
         Skins.MAC_AND_CHEESE.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Chicken Alfredo Mac and Cheese",
-        "A posh twist on a common classic。",
+        "鸡肉白酱通心粉",
+        "普通经典的华丽转折。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "1 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Fire Resistance + 2"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Damage Resistance + 3")
+        Theme.CLICK_INFO.asTitle("恢复", "2 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "防火 + 2"),
+        Theme.CLICK_INFO.asTitle("效果 2", "抗性提升 + 3")
     );
 
     public static final SlimefunItemStack KEY_LIME_PIE = Theme.themedSlimefunItemStack(
         "CLT_KEY_LIME_PIE",
         Skins.PIE_LIME.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Key Lime Pie",
-        "Simply the best!",
+        "青柠派",
+        "最好的派。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "6 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Haste + 4")
+        Theme.CLICK_INFO.asTitle("恢复", "12 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "急迫 + 4")
     );
 
     public static final SlimefunItemStack FRUIT_SALAD = Theme.themedSlimefunItemStack(
         "CLT_FRUIT_SALAD",
         Skins.FRUIT_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Fruit Salad",
-        "If you call it a salad, you can eat as much",
-        "as you like, 'cause it's healthy。",
+        "水果沙拉",
+        "如果你觉得这是沙拉, ",
+        "你想吃多少就吃多少, ",
+        "因为它很健康。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 3")
+        Theme.CLICK_INFO.asTitle("恢复", "4 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "速度 + 3")
     );
 
     public static final SlimefunItemStack CAESAR_SALAD = Theme.themedSlimefunItemStack(
         "CLT_CAESAR_SALAD",
         Skins.FRUIT_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Caesar Salad",
-        "A healthy classic。",
+        "凯撒沙拉",
+        "健康经典。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Invisibility + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 3", "Slow Falling + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "8 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "速度 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 2", "隐身 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 3", "缓降 + 1")
     );
 
     public static final SlimefunItemStack BISCUIT = Theme.themedSlimefunItemStack(
         "CLT_BISCUIT",
         new ItemStack(Material.COOKIE),
         CultivationThemes.FOOD,
-        "Biscuit",
-        "A little snack with a huge taste。",
+        "饼干",
+        "味道不错的小点心。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Launches you into the air")
+        Theme.CLICK_INFO.asTitle("效果 1", "将你射向空中")
     );
 
     public static final SlimefunItemStack COMPRESSED_BISCUIT = Theme.themedSlimefunItemStack(
         "CLT_COMPRESSED_BISCUIT",
         new ItemStack(Material.COOKIE),
         CultivationThemes.FOOD,
-        "Compressed Biscuit",
-        "A little snack with a huge-er taste。",
+        "压缩饼干",
+        "味道更不错的小点心。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Launches you into the air")
+        Theme.CLICK_INFO.asTitle("效果 1", "将你射向空中")
     );
 
     public static final SlimefunItemStack LEMON_DROP = Theme.themedSlimefunItemStack(
         "CLT_LEMON_DROP",
         new ItemStack(Material.YELLOW_DYE),
         CultivationThemes.FOOD,
-        "Lemon Drop",
-        "A palette cleanser。",
+        "柠檬糖",
+        "调色盘清洗剂。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Clears all effects and makes you hungry again。")
+        Theme.CLICK_INFO.asTitle("效果 1", "清除所有的效果，让你可以再次食用。")
     );
 
     public static final SlimefunItemStack GRILLED_SALMON_SALAD = Theme.themedSlimefunItemStack(
         "CLT_GRILLED_SALMON_SALAD",
         Skins.MEAL_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Grilled Salmon Salad",
-        "Delightfully flaky and brilliantly seasoned。",
+        "烤三文鱼沙拉",
+        "酥脆可口，调料丰富。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Regeneration + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Health Boost + 5")
+        Theme.CLICK_INFO.asTitle("恢复", "8 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命恢复 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 2", "生命提升 + 5")
     );
 
     public static final SlimefunItemStack WITHER_ROSE_SALAD = Theme.themedSlimefunItemStack(
         "CLT_WITHER_ROSE_SALAD",
         Skins.MEAL_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Wither Rose Salad",
-        "Teeming with power but with a harsh side-effect。",
+        "凋灵玫瑰沙拉",
+        "充满力量但是有很大的副作用。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "Full"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 20"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Wither + 2")
+        Theme.CLICK_INFO.asTitle("恢复", "满"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 20"),
+        Theme.CLICK_INFO.asTitle("效果 2", "凋零 + 2")
     );
 
     public static final SlimefunItemStack ORANGE_JUICE = Theme.themedSlimefunItemStack(
         "CLT_ORANGE_JUICE",
         ItemStackGenerators.createPotion(Color.YELLOW),
         CultivationThemes.FOOD,
-        "Orange Juice",
-        "It really is the best way to start the day。",
+        "橙汁",
+        "这真是开始一天的最好方式。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 4")
+        Theme.CLICK_INFO.asTitle("效果 1", "速度 + 4")
     );
 
     public static final SlimefunItemStack LASAGNA = Theme.themedSlimefunItemStack(
         "CLT_LASAGNA",
         Skins.MEAL_YELLOW_RED_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Lasagna",
-        "Layers of awesomeness。",
+        "宽面",
+        "层层的美味。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "Full"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Regeneration + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Damage Reduction + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "满"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命恢复 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 2", "抗性提升 + 1")
     );
 
     public static final SlimefunItemStack SPAGHETTI = Theme.themedSlimefunItemStack(
         "CLT_SPAGHETTI",
         Skins.SPAGHETTI.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Spaghetti",
-        "Just keep slurping。",
+        "意大利面",
+        "真好吃。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "1 Heart")
+        Theme.CLICK_INFO.asTitle("恢复", "2 点血量")
     );
 
     public static final SlimefunItemStack SPAGHETTI_AND_MEATBALLS = Theme.themedSlimefunItemStack(
         "CLT_SPAGHETTI_AND_MEATBALLS",
         Skins.SPAGHETTI.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Spaghetti and Meatballs",
-        "Simple, classic and hearty。",
+        "肉球意大利面",
+        "简单，经典，丰盛。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Bad Omen + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "8 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "不祥之兆 + 1")
     );
 
     public static final SlimefunItemStack PIZZA_CHEESE = Theme.themedSlimefunItemStack(
         "CLT_PIZZA_CHEESE",
         Skins.PIZZA_CHEESE.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Cheese Pizza",
-        "Why anyone would order just cheese? I dont know。",
+        "芝士披萨",
+        "为什么有人会只要芝士？我不知道。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Slowness + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "8 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "缓慢 + 1")
     );
 
     public static final SlimefunItemStack PIZZA_MUSHROOM = Theme.themedSlimefunItemStack(
         "CLT_PIZZA_MUSHROOM",
         Skins.PIZZA_MUSHROOM.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Mushroom Pizza",
-        "A simple vegetarian pizza full of proteins。",
+        "蘑菇披萨",
+        "简单的富含蛋白质的素披萨。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "6 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Slowness + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Haste + 2")
+        Theme.CLICK_INFO.asTitle("恢复", "12 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "缓慢 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 1", "急迫 + 2")
     );
 
     public static final SlimefunItemStack PIZZA_PEPPERONI = Theme.themedSlimefunItemStack(
         "CLT_PIZZA_PEPPERONI",
         Skins.PIZZA_PEPPERONI.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Pepperoni Pizza",
-        "A New York classic full of flavour。",
+        "意大利香肠披萨",
+        "风味十足的纽约经典。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "6 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Haste + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Jump + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "12 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "速度 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 1", "急迫 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 1", "跳跃提升 + 1")
     );
 
     public static final SlimefunItemStack CHEESY_SCALLOPED_COURGETTE = Theme.themedSlimefunItemStack(
         "CLT_CHEESY_SCALLOPED_COURGETTE",
         Skins.MEAL_RED_GREEN_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Cheesy Scalloped Courgette",
-        "A low carb version of an amazing classic。",
+        "芝士西葫芦",
+        "经典美食的低碳版本。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Night Vision + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Invisibility + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "4 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "夜视 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 1", "隐身 + 1")
     );
 
     public static final SlimefunItemStack PECAN_PIE = Theme.themedSlimefunItemStack(
         "CLT_PECAN_PIE",
         Skins.PIE_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Pecan Pie",
-        "The only way to eat pure sugar without",
-        "being totally judged。",
+        "山核桃派",
+        "唯一一个不会被批判的",
+        "吃纯糖的方法。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Levitation + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "8 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "漂浮 + 1")
     );
 
     public static final SlimefunItemStack GARLIC_BUTTER_MUSHROOMS = Theme.themedSlimefunItemStack(
         "CLT_GARLIC_BUTTER_MUSHROOMS",
         new ItemStack(Material.MUSHROOM_STEW),
         CultivationThemes.FOOD,
-        "Garlic Butter Mushrooms",
-        "May easily be the best food item on earth。",
+        "蒜蓉黄油蘑菇",
+        "也许是全世界最好吃的。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "2 Hearts"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Glowing + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "4 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "发光 + 1")
     );
 
     public static final SlimefunItemStack RAMEN_BEEF = Theme.themedSlimefunItemStack(
         "CLT_RAMEN_BEEF",
         Skins.RAMEN_BEEF.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Ramen (Beef)",
-        "A not-so-healthy choice。",
+        "牛肉拉面",
+        "并不是健康的选择。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 1")
     );
 
     public static final SlimefunItemStack RAMEN_CHICKEN = Theme.themedSlimefunItemStack(
         "CLT_RAMEN_CHICKEN",
         Skins.RAMEN_CHICKEN.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Ramen (Chicken)",
-        "A not-so-filling choice。",
+        "鸡肉拉面",
+        "并不是充实的选择。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 1")
     );
 
     public static final SlimefunItemStack RAMEN_SEAFOOD = Theme.themedSlimefunItemStack(
         "CLT_RAMEN_SEAFOOD",
         Skins.RAMEN_SEAFOOD.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Ramen (Seafood)",
-        "A not-so-satisfying choice。",
+        "海鲜拉面",
+        "并不是令人满意的选择。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 1")
     );
 
     public static final SlimefunItemStack RAMEN_BEEF_HEARTY = Theme.themedSlimefunItemStack(
         "CLT_RAMEN_BEEF_HEARTY",
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Ramen (Beef) (Hearty)",
-        "A healthy choice。",
+        "丰盛的牛肉拉面",
+        "健康的选择。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "Full"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 2"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "满"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 2"),
+        Theme.CLICK_INFO.asTitle("效果 2", "速度 + 1")
     );
 
     public static final SlimefunItemStack RAMEN_CHICKEN_HEARTY = Theme.themedSlimefunItemStack(
         "CLT_RAMEN_CHICKEN_HEARTY",
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Ramen (Chicken) (Hearty)",
-        "A filling choice。",
+        "丰盛的鸡肉拉面",
+        "充实的选择。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "Full"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 2"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "满"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 2"),
+        Theme.CLICK_INFO.asTitle("效果 2", "速度 + 1")
     );
 
     public static final SlimefunItemStack RAMEN_SEAFOOD_HEARTY = Theme.themedSlimefunItemStack(
         "CLT_RAMEN_SEAFOOD_HEARTY",
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Ramen (Seafood) (Hearty)",
-        "A satisfying choice。",
+        "丰盛的海鲜拉面",
+        "令人满意的选择。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "Full"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 2"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "满"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 2"),
+        Theme.CLICK_INFO.asTitle("效果 2", "速度 + 1")
     );
 
     public static final SlimefunItemStack BAGEL = Theme.themedSlimefunItemStack(
         "CLT_BAGEL",
         Skins.BAGEL.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Bagel",
-        "Toasted? or…",
+        "贝果",
+        "是烤的？还是…",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "5")
+        Theme.CLICK_INFO.asTitle("恢复", "5 点血量")
     );
 
     public static final SlimefunItemStack BAGEL_BITE = Theme.themedSlimefunItemStack(
         "CLT_BAGEL_BITE",
         Skins.BAGEL_BITE.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Bagel Bite",
-        "Eat pizza anytime!",
+        "贝果零食",
+        "在任何时间都可以吃披萨！",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Burns your mouth with every bite!")
+        Theme.CLICK_INFO.asTitle("效果 1", "每吃一口都感觉烧起来了！")
     );
 
     public static final SlimefunItemStack BAGEL_CREAM_CHEESE = Theme.themedSlimefunItemStack(
         "CLT_BAGEL_CREAM_CHEESE",
         Skins.BAGEL_EVERYTHING.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Bagel (Cream Cheese)",
-        "It's so good you'll probably want another。",
+        "奶油芝士贝果",
+        "真的很好吃，你也许会想再来一个。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "10"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "10 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 1")
     );
 
     public static final SlimefunItemStack MEATLOAF = Theme.themedSlimefunItemStack(
         "CLT_MEATLOAF",
         Skins.MEATLOAF.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Meatloaf",
-        "Nothing like it! Let's go。",
+        "肉饼",
+        "没有什么比这更好了！",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "Full"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 4"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Damage Reduction + 3"),
-        Theme.CLICK_INFO.asTitle("Effect 3", "Haste + 2"),
-        Theme.CLICK_INFO.asTitle("Effect 4", "Slowness + 2")
+        Theme.CLICK_INFO.asTitle("恢复", "满"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命提升 + 4"),
+        Theme.CLICK_INFO.asTitle("效果 2", "抗性提升 + 3"),
+        Theme.CLICK_INFO.asTitle("效果 3", "急迫 + 2"),
+        Theme.CLICK_INFO.asTitle("效果 4", "缓慢 + 2")
     );
 
     public static final SlimefunItemStack SAUSAGE = Theme.themedSlimefunItemStack(
         "CLT_SAUSAGE",
         Skins.SAUSAGE.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Sausage",
-        "Bacon's brother。",
+        "香肠",
+        "培根的兄弟。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "2")
+        Theme.CLICK_INFO.asTitle("恢复", "2 点血量")
     );
 
     public static final SlimefunItemStack SOYLENT = Theme.themedSlimefunItemStack(
@@ -3586,110 +3589,111 @@ public final class CultivationStacks {
         ItemStackGenerators.createPotion(Color.WHITE),
         CultivationThemes.FOOD,
         "Soylent",
-        "Everything the body needs!",
+        "包含身体所需的所有营养！",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Bad Omen + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Weakness + 4")
+        Theme.CLICK_INFO.asTitle("效果 1", "不祥之兆 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 2", "虚弱 + 4")
     );
 
     public static final SlimefunItemStack TATER_TOTS = Theme.themedSlimefunItemStack(
         "CLT_TATER_TOTS",
         Skins.TATER_TOT.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Tater Tots",
-        "Little potato poppables。",
+        "土豆饼",
+        "小土豆烤饼。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "1"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 2")
+        Theme.CLICK_INFO.asTitle("恢复", "1 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "速度 + 2")
     );
 
     public static final SlimefunItemStack SWEET_BEEHIVE = Theme.themedSlimefunItemStack(
         "CLT_SWEET_BEEHIVE",
         Skins.BEEHIVE.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Sweet Beehive",
-        "Not sure what made you want to cook this!",
+        "甜蜂巢",
+        "不知道为什么你要做这个!",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Summons some bees!")
+        Theme.CLICK_INFO.asTitle("效果 1", "召唤蜜蜂")
     );
 
     public static final SlimefunItemStack TAQUITO = Theme.themedSlimefunItemStack(
         "CLT_TAQUITO",
         Skins.TAQUITO.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Taquito",
-        "Zim would be proud!",
+        "塔基托",
+        "Zim 会感到自豪的！",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Summons Gir to help (It's an Iron Golem, relax)。")
+        Theme.CLICK_INFO.asTitle("恢复", "4 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "召唤Gir来帮忙（放松，只是个铁傀儡）。")
     );
 
     public static final SlimefunItemStack BOWL_OF_STEVE = Theme.themedSlimefunItemStack(
         "CLT_BOWL_OF_STEVE",
         Skins.STEVE_HEAD_BOWL.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Bowl of… Steve？",
-        "What the actual &%£$",
+        "一碗…史蒂夫？",
+        "什么玩意 &%£$",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Reduces you to 1/2 heart"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Fatigue + 10"),
-        Theme.CLICK_INFO.asTitle("Effect 3", "Slow + 5"),
-        Theme.CLICK_INFO.asTitle("Effect 4", "Damage + 10")
+        Theme.CLICK_INFO.asTitle("效果 1", "血量减少至 1 点"),
+        Theme.CLICK_INFO.asTitle("效果 2", "挖掘疲劳 + 10"),
+        Theme.CLICK_INFO.asTitle("效果 3", "缓慢 + 5"),
+        Theme.CLICK_INFO.asTitle("效果 4", "力量 + 10")
     );
 
     public static final SlimefunItemStack CHEESE_BURGER = Theme.themedSlimefunItemStack(
         "CLT_CHEESE_BURGER",
         Skins.BURGER.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Burger",
-        "A simple cheese burger, but nothing beats it!",
+        "汉堡",
+        "一个很简单的芝士汉堡，",
+        "但没有什么比这更好的了！",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 3")
+        Theme.CLICK_INFO.asTitle("恢复", "4 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "生命恢复 + 3")
     );
 
     public static final SlimefunItemStack CINNAMON_ROLL = Theme.themedSlimefunItemStack(
         "CLT_CINNAMON_ROLL",
         Skins.CINNAMON_ROLL.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Cinnamon Roll",
-        "A sweet delight rolled up for fun。",
-        "Eating it turns the world on it's head!",
+        "肉桂卷",
+        "一种甜美的美食卷，让人感到愉悦。",
+        "食用后会让世界翻转！",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "4"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Levitation + 1"),
-        Theme.CLICK_INFO.asTitle("Effect 2", "Slow Falling + 1")
+        Theme.CLICK_INFO.asTitle("恢复", "4 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "漂浮 + 1"),
+        Theme.CLICK_INFO.asTitle("效果 2", "缓降 + 1")
     );
 
     public static final SlimefunItemStack BLUE_CANDY = Theme.themedSlimefunItemStack(
         "CLT_BLUE_CANDY",
         Skins.BLUE_CANDY.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Candy (Blue)",
-        "A delightfully sweet candy。",
+        "蓝色糖果",
+        "令人愉快的甜美糖果。",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Spawns an Allay")
+        Theme.CLICK_INFO.asTitle("效果 1", "召唤一只悦灵")
     );
 
     public static final SlimefunItemStack SOFT_BOILED_EGG = Theme.themedSlimefunItemStack(
         "CLT_SOFT_BOILED_EGG",
         Skins.BOILED_EGG.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Soft Boiled Egg",
-        "Just a boiled egg, what's more to say。",
+        "水煮蛋",
+        "只是普通的水煮蛋，没什么好说的。",
         "",
-        Theme.CLICK_INFO.asTitle("Healing", "1"),
-        Theme.CLICK_INFO.asTitle("Effect 1", "Can sometimes call a chicken to your aid。")
+        Theme.CLICK_INFO.asTitle("恢复", "1 点血量"),
+        Theme.CLICK_INFO.asTitle("效果 1", "有时会召唤出一只坤坤。")
     );
 
     public static final SlimefunItemStack SUGARED_SKULL = Theme.themedSlimefunItemStack(
         "CLT_SUGARED_SKULL",
         Skins.SUGARED_SKULL.getPlayerHead(),
         CultivationThemes.FOOD,
-        "Sugared Skull",
-        "Is this even food…？",
+        "加糖的骷髅头",
+        "这真的是食物吗…？",
         "",
-        Theme.CLICK_INFO.asTitle("Effect 1", "Darkness + 3")
+        Theme.CLICK_INFO.asTitle("效果 1", "黑暗 + 3")
     );
 
     // end region
