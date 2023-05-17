@@ -52,6 +52,7 @@
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.3.0</version>
                 <configuration>
+                    <minimizeJar>true</minimizeJar>
                     <relocations>
                         <relocation>
                             <pattern>org.bstats</pattern>
@@ -264,9 +265,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.Slimefun</groupId>
+            <groupId>com.github.StarWishsama</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-33</version>
+            <version>2023.02</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -310,6 +311,13 @@
             <groupId>co.aikar</groupId>
             <artifactId>acf-paper</artifactId>
             <version>0.5.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.guizhanss</groupId>
+            <artifactId>GuizhanLibPlugin</artifactId>
+            <version>1.2.1</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- Supported Plugins -->

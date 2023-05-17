@@ -17,6 +17,7 @@ import dev.sefiraat.cultivation.managers.TaskManager;
 import dev.sefiraat.sefilib.entity.display.DisplayGroupManager;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
+import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -24,6 +25,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.text.MessageFormat;
+import java.util.logging.Level;
 
 public class Cultivation extends JavaPlugin implements SlimefunAddon {
     private static Cultivation instance;
@@ -40,7 +42,7 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
     private Registry registry;
 
     public Cultivation() {
-        this.username = "Sefiraat";
+        this.username = "SlimefunGuguProject";
         this.repo = "Cultivation";
         this.branch = "main";
     }
@@ -49,9 +51,17 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
     public void onEnable() {
         instance = this;
 
+        if (!getServer().getPluginManager().isPluginEnabled("GuizhanLibPlugin")) {
+            getLogger().log(Level.SEVERE, "本插件需要 鬼斩前置库插件(GuizhanLibPlugin) 才能运行!");
+            getLogger().log(Level.SEVERE, "从此处下载: https://50l.cc/gzlib");
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+
         getLogger().info("########################################");
-        getLogger().info("               Cultivation              ");
+        getLogger().info("         Cultivation 农耕工艺            ");
         getLogger().info("         By Sefiraat and J3fftw         ");
+        getLogger().info("         粘液科技简中汉化组 汉化           ");
         getLogger().info("########################################");
 
         saveDefaultConfig();
@@ -83,14 +93,14 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onDisable() {
-        this.configManager.saveAll();
+        if (this.configManager != null) {
+            this.configManager.saveAll();
+        }
     }
 
     public void tryUpdate() {
-        if (configManager.isAutoUpdate() && getDescription().getVersion().startsWith("DEV")) {
-            String updateLocation = MessageFormat.format("{0}/{1}/{2}", this.username, this.repo, this.branch);
-            GitHubBuildsUpdater updater = new GitHubBuildsUpdater(this, getFile(), updateLocation);
-            updater.start();
+        if (configManager.isAutoUpdate() && getDescription().getVersion().startsWith("Build")) {
+            GuizhanUpdater.start(this, getFile(), this.username, this.repo, this.branch);
         }
     }
 

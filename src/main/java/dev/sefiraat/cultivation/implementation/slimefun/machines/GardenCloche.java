@@ -134,7 +134,7 @@ public class GardenCloche extends SlimefunItem implements DisplayInteractable, E
             public void init() {
                 ItemStack backgroundInput = new CustomItemStack(
                     Material.GREEN_STAINED_GLASS_PANE,
-                    Theme.PASSIVE.apply("Insert Plant")
+                    Theme.PASSIVE.apply("放入植物")
                 );
                 drawBackground(BACKGROUND);
                 drawBackground(backgroundInput, PLANT_SLOT_BACKGROUND);

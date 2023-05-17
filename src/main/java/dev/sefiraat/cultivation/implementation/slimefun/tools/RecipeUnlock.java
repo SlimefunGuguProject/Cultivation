@@ -47,7 +47,7 @@ public class RecipeUnlock extends SlimefunItem {
                 return;
             }
             StatisticUtils.unlockDiscovery(player, possibleId);
-            String message = "You have successfully learned how to breed: " + slimefunItem.getItemName();
+            String message = "你已经学习了如何培育: " + slimefunItem.getItemName();
             itemStack.setAmount(0);
             player.sendMessage(Theme.SUCCESS.apply(message));
         };
