@@ -111,7 +111,7 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "植物培育",
             List.of(
-                "该种子通过培育获得.",
+                "该种子通过培育获得。",
                 "",
                 "在两个种子中间",
                 "留一个空气方块",
@@ -345,7 +345,8 @@ public final class RecipeTypes {
         Material material = dropFrom.stream().findFirst().orElse(Material.DIRT);
         List<String> lore = dropFrom.stream()
             .map(material1 -> Theme.CLICK_INFO.apply(MaterialHelper.getName(material1)))
-            .toList();
+            .collect(Collectors.toList());
+        lore.add("");
         ItemStack itemStack = Theme.themedItemStack(material, CultivationThemes.RECIPE_TYPE, "从以下方块掉落：", lore);
         CustomDropListener.addBlockDrop(new CustomDropListener.BlockDrop(stackToDrop, dropFrom, dropChance));
         return new ItemStack[]{
@@ -426,7 +427,8 @@ public final class RecipeTypes {
         Set<EntityType> types = dropFrom.stream().map(LivingEntityDefinition::getType).collect(Collectors.toSet());
         List<String> lore = types.stream()
             .map(type -> Theme.CLICK_INFO.apply(EntityTypeHelper.getName(type)))
-            .toList();
+            .collect(Collectors.toList());
+        lore.add("");
         final ItemStack itemStack = Theme.themedItemStack(
             Material.SKELETON_SKULL,
             CultivationThemes.RECIPE_TYPE,
