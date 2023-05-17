@@ -66,7 +66,7 @@ public class PlantAnalyser extends SimpleSlimefunItem<ItemUseHandler> implements
             Player player = event.getPlayer();
             player.sendMessage(Theme.CLICK_INFO.apply(item.getItemName()));
             player.sendMessage(Theme.CLICK_INFO.asTitle("等级", profile.getLevel()));
-            player.sendMessage(Theme.CLICK_INFO.asTitle("生长速率", profile.getSpeed()));
+            player.sendMessage(Theme.CLICK_INFO.asTitle("速率", profile.getSpeed()));
             player.sendMessage(Theme.CLICK_INFO.asTitle("强度", profile.getStrength()));
         }
     }

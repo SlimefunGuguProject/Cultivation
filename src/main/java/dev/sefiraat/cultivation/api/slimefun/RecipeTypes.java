@@ -10,14 +10,14 @@ import dev.sefiraat.sefilib.entity.LivingEntityDefinition;
 import dev.sefiraat.sefilib.string.Theme;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.WordUtils;
+import net.guizhanss.guizhanlib.minecraft.helper.MaterialHelper;
+import net.guizhanss.guizhanlib.minecraft.helper.entity.EntityTypeHelper;
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 import java.util.List;
-import java.util.Locale;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -38,7 +38,8 @@ public final class RecipeTypes {
             "从灌木丛收获",
             List.of(
                 "该物品可从农耕工艺的",
-                "灌木丛收获"
+                "灌木收获。",
+                ""
             )
         )
     );
@@ -52,7 +53,8 @@ public final class RecipeTypes {
             "从树木收获",
             List.of(
                 "该物品可从农耕工艺的",
-                "树木收获"
+                "树木收获。",
+                ""
             )
         )
     );
@@ -66,7 +68,8 @@ public final class RecipeTypes {
             "村民交易",
             List.of(
                 "该物品可从",
-                "农夫村民购买"
+                "农夫村民购买。",
+                ""
             )
         )
     );
@@ -80,7 +83,8 @@ public final class RecipeTypes {
             "村民交易",
             List.of(
                 "该物品可从",
-                "制箭师购买"
+                "制箭师村民购买。",
+                ""
             )
         )
     );
@@ -93,7 +97,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "生物掉落",
             List.of(
-                "该物品有几率从指定生物掉落"
+                "该物品有几率从指定生物掉落。",
+                ""
             )
         )
     );
@@ -110,13 +115,14 @@ public final class RecipeTypes {
                 "",
                 "在两个种子中间",
                 "留一个空气方块",
-                "来进行培育.",
+                "来进行培育。",
                 "",
                 "植物宝典可用来记录",
-                "你目前的发现.",
+                "你目前的发现。",
                 "",
-                "提示: 黑色粒子表示",
-                "两株植物无法培育."
+                "提示：黑色粒子表示",
+                "两株植物无法培育。",
+                ""
             )
         )
     );
@@ -128,7 +134,7 @@ public final class RecipeTypes {
             Material.BROWN_DYE,
             CultivationThemes.RECIPE_TYPE,
             "方块掉落",
-            List.of("破坏方块时有几率掉落.")
+            List.of("破坏方块时有几率掉落。", "")
         )
     );
 
@@ -139,7 +145,7 @@ public final class RecipeTypes {
             Material.BUCKET,
             CultivationThemes.RECIPE_TYPE,
             "水桶掉落",
-            List.of("当使用水桶时掉落")
+            List.of("当使用水桶时掉落。", "")
         )
     );
 
@@ -151,7 +157,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "切碎",
             List.of(
-                "用刀来切碎!"
+                "用刀来切碎！",
+                ""
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_CHOPPING, itemStacks, itemStack)
@@ -165,7 +172,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "捣碎",
             List.of(
-                "捣!捣!捣!"
+                "捣！捣！捣！",
+                ""
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_MASHER, itemStacks, itemStack)
@@ -179,7 +187,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "搅拌",
             List.of(
-                "在搅拌机中制作"
+                "在搅拌机中制作。",
+                ""
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_BLENDER, itemStacks, itemStack)
@@ -193,7 +202,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "切片",
             List.of(
-                "如此薄而细腻"
+                "如此薄而细腻。",
+                ""
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_SLICING, itemStacks, itemStack)
@@ -207,7 +217,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "剁碎",
             List.of(
-                "精细处理"
+                "精细处理。",
+                ""
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_GRINDER, itemStacks, itemStack)
@@ -221,7 +232,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "煮熟",
             List.of(
-                "烫烫烫!"
+                "烫烫烫！",
+                ""
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_BOILING, itemStacks, itemStack)
@@ -235,7 +247,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "油炸",
             List.of(
-                "完美的酥脆."
+                "完美的酥脆。",
+                ""
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_FRYER, itemStacks, itemStack)
@@ -249,7 +262,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "烤制",
             List.of(
-                "鲜嫩多汁."
+                "鲜嫩多汁。",
+                ""
             )
         ),
         (itemStacks, itemStack) -> addRecipeToSimpleMachine(Machines.COUNTER_GRILL, itemStacks, itemStack)
@@ -263,7 +277,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "上菜",
             List.of(
-                "使用厨房的上菜柜台来制作该物品."
+                "使用厨房的上菜柜台来制作该物品。",
+                ""
             )
         ),
         RecipeTypes::createFoodFinishingRecipe
@@ -277,7 +292,8 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "烘焙",
             List.of(
-                "使用厨房的烘培柜台来制作该物品"
+                "使用厨房的烘培柜台来制作该物品。",
+                ""
             )
         ),
         RecipeTypes::createFoodBakingRecipe
@@ -328,9 +344,9 @@ public final class RecipeTypes {
     ) {
         Material material = dropFrom.stream().findFirst().orElse(Material.DIRT);
         List<String> lore = dropFrom.stream()
-            .map(material1 -> Theme.CLICK_INFO.apply(WordUtils.capitalize(material1.name().toLowerCase(Locale.ROOT))))
+            .map(material1 -> Theme.CLICK_INFO.apply(MaterialHelper.getName(material1)))
             .toList();
-        ItemStack itemStack = Theme.themedItemStack(material, CultivationThemes.RECIPE_TYPE, "Drops From", lore);
+        ItemStack itemStack = Theme.themedItemStack(material, CultivationThemes.RECIPE_TYPE, "从以下方块掉落：", lore);
         CustomDropListener.addBlockDrop(new CustomDropListener.BlockDrop(stackToDrop, dropFrom, dropChance));
         return new ItemStack[]{
             null, null, null,
@@ -409,12 +425,12 @@ public final class RecipeTypes {
     ) {
         Set<EntityType> types = dropFrom.stream().map(LivingEntityDefinition::getType).collect(Collectors.toSet());
         List<String> lore = types.stream()
-            .map(type -> Theme.CLICK_INFO.apply(WordUtils.capitalize(type.name().toLowerCase(Locale.ROOT))))
+            .map(type -> Theme.CLICK_INFO.apply(EntityTypeHelper.getName(type)))
             .toList();
         final ItemStack itemStack = Theme.themedItemStack(
             Material.SKELETON_SKULL,
             CultivationThemes.RECIPE_TYPE,
-            "从该生物掉落:",
+            "从以下生物掉落：",
             lore
         );
         MobDropListener.addDrop(new MobDropListener.MobDrop(stackToDrop, types, dropChance));

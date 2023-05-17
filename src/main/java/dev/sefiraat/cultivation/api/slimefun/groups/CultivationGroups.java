@@ -21,7 +21,7 @@ public final class CultivationGroups {
 
     public static final SimpleFlexGroup MAIN = new SimpleFlexGroup(
         Cultivation.getInstance(),
-        "Cultivation",
+        "农耕工艺",
         Keys.newKey("main"),
         new CustomItemStack(
             new ItemStack(Material.AZURE_BLUET),
@@ -34,7 +34,7 @@ public final class CultivationGroups {
         new CustomItemStack(
             Material.BARRIER,
             "隐藏物品",
-            "这些物品不应该被直接访问."
+            "这些物品不应该被直接访问。"
         )
     );
 

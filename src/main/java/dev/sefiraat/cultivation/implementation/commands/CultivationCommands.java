@@ -246,20 +246,20 @@ public class CultivationCommands extends BaseCommand {
         if (sender instanceof Player player) {
             ItemStack itemStack = player.getInventory().getItemInMainHand();
             if (itemStack == null || itemStack.getType().isAir()) {
-                player.sendMessage(Theme.WARNING.apply("你必须拿着一个种子袋"));
+                player.sendMessage(Theme.WARNING.apply("你必须拿着一个种子袋。"));
                 return;
             }
 
             SlimefunItem slimefunItem = SlimefunItem.getByItem(itemStack);
             if (!(slimefunItem instanceof SeedPack pack)) {
-                player.sendMessage(Theme.WARNING.apply("你必须拿着一个种子袋"));
+                player.sendMessage(Theme.WARNING.apply("你必须拿着一个种子袋。"));
                 return;
             }
 
             ItemMeta itemMeta = itemStack.getItemMeta();
             SeedPackInstance instance = PersistentDataAPI.get(itemMeta, SeedPackDataType.KEY, SeedPackDataType.TYPE);
             if (instance == null) {
-                player.sendMessage(Theme.WARNING.apply("这个种子袋是空的!"));
+                player.sendMessage(Theme.WARNING.apply("这个种子袋是空的！"));
                 return;
             }
 
@@ -269,9 +269,9 @@ public class CultivationCommands extends BaseCommand {
             for (Map.Entry<FloraLevelProfile, Integer> entry : instance.getAmountMap().entrySet()) {
                 FloraLevelProfile profile = entry.getKey();
                 String neatKey =
-                    " 等级: " + profile.getLevel() +
-                    " 生长速率: " + profile.getSpeed() +
-                    " 培育强度: " + profile.getStrength();
+                    " 等级：" + profile.getLevel() +
+                    " 速率：" + profile.getSpeed() +
+                    " 强度：" + profile.getStrength();
                 player.sendMessage(Theme.CLICK_INFO.asTitle(neatKey, entry.getValue()));
             }
         }

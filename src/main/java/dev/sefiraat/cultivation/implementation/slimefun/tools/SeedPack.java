@@ -142,14 +142,14 @@ public class SeedPack extends SlimefunItem {
                 setOutputStack();
                 return false;
             });
-            addItem(INCREMENT_SPEED_SLOT, getIncrementStack("生长速率", 1), (p, slot, item, action) -> {
+            addItem(INCREMENT_SPEED_SLOT, getIncrementStack("速率", 1), (p, slot, item, action) -> {
                 int value;
                 if (action.isRightClicked()) {
                     value = Math.max(speed - 1, 1);
                 } else {
                     value = Math.min(speed + 1, 10);
                 }
-                replaceExistingItem(INCREMENT_SPEED_SLOT, getIncrementStack("生长速率", value));
+                replaceExistingItem(INCREMENT_SPEED_SLOT, getIncrementStack("速率", value));
                 this.speed = value;
                 setOutputStack();
                 return false;
@@ -198,13 +198,13 @@ public class SeedPack extends SlimefunItem {
         private boolean onClickSeedGetSlot(Player player, int slot, ItemStack item, ClickAction action) {
             SlimefunItem slimefunItem = SlimefunItem.getById(instance.storedItemId);
             if (!(slimefunItem instanceof CultivationPlant plant)) {
-                player.sendMessage(Theme.WARNING.apply("你还没有设置植物."));
+                player.sendMessage(Theme.WARNING.apply("你还没有设置植物。"));
                 return false;
             }
 
             int amount = instance.getAmount(level, speed, strength);
             if (amount < 1) {
-                player.sendMessage(Theme.WARNING.apply("你当前没有任何这种种子."));
+                player.sendMessage(Theme.WARNING.apply("你当前没有任何这种种子。"));
                 return false;
             }
 
@@ -253,7 +253,7 @@ public class SeedPack extends SlimefunItem {
         private ItemStack getSeedDisplayStack(@Nonnull CultivationPlant plant) {
             ItemStack itemStack = plant.getItem().clone();
             ItemMeta itemMeta = itemStack.getItemMeta();
-            itemMeta.setDisplayName(Theme.CLICK_INFO.apply("存储的种子类型"));
+            itemMeta.setDisplayName(Theme.CLICK_INFO.apply("目前收集的种子：" + itemMeta.getDisplayName()));
             itemStack.setItemMeta(itemMeta);
             return itemStack;
         }
@@ -265,7 +265,7 @@ public class SeedPack extends SlimefunItem {
             }
             ItemStack itemStack = plant.getItem().clone();
             ItemMeta itemMeta = itemStack.getItemMeta();
-            itemMeta.setDisplayName(Theme.CLICK_INFO.apply("从种子袋种移除种子"));
+            itemMeta.setDisplayName(Theme.CLICK_INFO.apply("取出种子：" + itemMeta.getDisplayName()));
             itemStack.setItemMeta(itemMeta);
             itemStack.setAmount(Math.min(amount, 64));
             return itemStack;
@@ -275,8 +275,8 @@ public class SeedPack extends SlimefunItem {
             return new CustomItemStack(
                 Material.YELLOW_STAINED_GLASS_PANE,
                 Theme.CLICK_INFO.apply(name),
-                Theme.CLICK_INFO.asTitle("左键点击", "增加 " + name),
-                Theme.CLICK_INFO.asTitle("右键点击", "减少 " + name),
+                Theme.CLICK_INFO.asTitle("左键点击", "增加" + name),
+                Theme.CLICK_INFO.asTitle("右键点击", "减少" + name),
                 "",
                 Theme.CLICK_INFO.asTitle("当前", value)
             );
