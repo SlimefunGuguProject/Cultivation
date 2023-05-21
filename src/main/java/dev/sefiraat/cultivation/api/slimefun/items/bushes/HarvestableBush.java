@@ -1,5 +1,6 @@
 package dev.sefiraat.cultivation.api.slimefun.items.bushes;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.Cultivation;
 import dev.sefiraat.cultivation.api.interfaces.CultivationHarvestable;
 import dev.sefiraat.cultivation.api.slimefun.plant.Growth;
@@ -7,7 +8,6 @@ import dev.sefiraat.cultivation.implementation.utils.Keys;
 import io.github.bakedlibs.dough.collections.RandomizedSet;
 import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -108,7 +108,7 @@ public class HarvestableBush extends CultivationBush implements CultivationHarve
                 addItemsToDisplay(block.getLocation(), itemStack.clone());
             }
         }
-        BlockStorage.addBlockInfo(block, Keys.FLORA_GROWTH_STAGE, String.valueOf(growthStage));
+        StorageCacheUtils.setData(block.getLocation(), Keys.FLORA_GROWTH_STAGE, String.valueOf(growthStage));
     }
 
     @Nullable

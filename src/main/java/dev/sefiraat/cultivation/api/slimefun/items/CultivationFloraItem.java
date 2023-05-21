@@ -1,6 +1,8 @@
 package dev.sefiraat.cultivation.api.slimefun.items;
 
 import com.google.common.base.Preconditions;
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.api.events.CultivationBushGrowEvent;
 import dev.sefiraat.cultivation.api.events.CultivationGrowEvent;
 import dev.sefiraat.cultivation.api.events.CultivationPlantGrowEvent;
@@ -23,10 +25,10 @@ import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.core.handlers.BlockPlaceHandler;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockUseHandler;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
@@ -40,6 +42,7 @@ import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.inventory.ItemStack;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import javax.annotation.Nonnull;
@@ -82,7 +85,7 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
                 }
 
                 @Override
-                public void tick(Block block, SlimefunItem item, Config data) {
+                public void tick(Block block, SlimefunItem item, SlimefunBlockData data) {
                     if (item == null) {
                         return;
                     }
@@ -91,6 +94,12 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
                     } catch (ClassCastException exception) {
                         // TODO Do we need to handle or can we ignore?
                     }
+                }
+            },
+            new BlockPlaceHandler(false) {
+                @Override
+                public void onPlayerPlace(@NotNull BlockPlaceEvent blockPlaceEvent) {
+                    whenPlaced(blockPlaceEvent);
                 }
             },
             (BlockUseHandler) this::onBlockUse
@@ -119,7 +128,7 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
 
             @Override
             public void newInstance(@Nonnull BlockMenu menu, @Nonnull Block block) {
-                String owner = BlockStorage.getLocationInfo(block.getLocation(), Keys.FLORA_OWNER);
+                String owner = StorageCacheUtils.getData(block.getLocation(), Keys.FLORA_OWNER);
                 if (owner != null) {
                     UUID uuid = UUID.fromString(owner);
                     addOwner(block.getLocation(), uuid);
@@ -133,9 +142,9 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
     }
 
     @ParametersAreNonnullByDefault
-    protected void onTick(Block block, T flora, Config data) {
+    protected void onTick(Block block, T flora, SlimefunBlockData data) {
         Location location = block.getLocation();
-        int growthStage = Integer.parseInt(data.getString(Keys.FLORA_GROWTH_STAGE));
+        int growthStage = Integer.parseInt(data.getData(Keys.FLORA_GROWTH_STAGE));
         onTickAlways(location, flora, data);
         if (growthStage >= getMaxGrowthStages()) {
             onTickFullyGrown(location, flora, data);
@@ -159,7 +168,7 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
     }
 
     @ParametersAreNonnullByDefault
-    void tryGrow(Block block, T flora, Config data, Location location, int growthStage) {
+    void tryGrow(Block block, T flora, SlimefunBlockData data, Location location, int growthStage) {
         if (!canGrow(block, flora, data, location, growthStage)) {
             return;
         }
@@ -184,11 +193,11 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
     /**
      * Override this method to control when or if this plant can grow.
      *
-     * @return True if the {@link #tryGrow(Block, CultivationFloraItem, Config, Location, int)} method is allowed
+     * @return True if the {@link #tryGrow(Block, CultivationFloraItem, SlimefunBlockData, Location, int)} method is allowed
      * to function.
      */
     @ParametersAreNonnullByDefault
-    protected boolean canGrow(Block block, T flora, Config data, Location location, int growthStage) {
+    protected boolean canGrow(Block block, T flora, SlimefunBlockData data, Location location, int growthStage) {
         return true;
     }
 
@@ -251,7 +260,6 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
      *
      * @param event The {@link BlockPlaceEvent} triggered from the block placement
      */
-    @Override
     @OverridingMethodsMustInvokeSuper
     public void whenPlaced(@Nonnull BlockPlaceEvent event) {
         final Block block = event.getBlock();
@@ -260,13 +268,14 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
 
         if (getPlacements().contains(blockBelow.getType())) {
             final UUID uuid = event.getPlayer().getUniqueId();
-            BlockStorage.addBlockInfo(location, Keys.FLORA_GROWTH_STAGE, "0");
-            BlockStorage.addBlockInfo(location, Keys.FLORA_OWNER, uuid.toString());
+            StorageCacheUtils.setData(location, Keys.FLORA_GROWTH_STAGE, "0");
+            StorageCacheUtils.setData(location, Keys.FLORA_OWNER, uuid.toString());
             ownerCache.put(location, uuid);
             return;
         }
         // Can't be placed here so cancel the event
         event.setCancelled(true);
+        Slimefun.getDatabaseManager().getBlockDataController().removeBlock(location);
     }
 
     public boolean isMature(@Nonnull Block block) {
@@ -275,7 +284,7 @@ public abstract class CultivationFloraItem<T extends CultivationFloraItem<T>> ex
 
     @Override
     public boolean isMature(@Nonnull Location location) {
-        final String stage = BlockStorage.getLocationInfo(location, Keys.FLORA_GROWTH_STAGE);
+        final String stage = StorageCacheUtils.getData(location, Keys.FLORA_GROWTH_STAGE);
         if (stage == null) {
             return false;
         }

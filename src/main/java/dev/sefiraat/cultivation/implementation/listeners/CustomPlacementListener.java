@@ -1,10 +1,11 @@
 package dev.sefiraat.cultivation.implementation.listeners;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.api.interfaces.CustomPlacementBlock;
 import dev.sefiraat.cultivation.api.slimefun.items.bushes.CultivationBush;
 import dev.sefiraat.cultivation.api.slimefun.items.plants.CultivationPlant;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -48,7 +49,7 @@ public class CustomPlacementListener implements Listener {
     @EventHandler
     public void onWaterHitsPlant(@Nonnull BlockFromToEvent event) {
         Location location = event.getBlock().getLocation();
-        unsafelyKillItem(location, BlockStorage.check(location));
+        unsafelyKillItem(location, StorageCacheUtils.getSfItem(location));
     }
 
     @EventHandler
@@ -56,7 +57,7 @@ public class CustomPlacementListener implements Listener {
         for (Block block : event.getBlocks()) {
             Block issueBlock = block.getRelative(BlockFace.UP);
             Location location = issueBlock.getLocation();
-            unsafelyKillItem(location, BlockStorage.check(location));
+            unsafelyKillItem(location, StorageCacheUtils.getSfItem(location));
         }
     }
     @EventHandler
@@ -64,14 +65,14 @@ public class CustomPlacementListener implements Listener {
         for (Block block : event.getBlocks()) {
             Block issueBlock = block.getRelative(BlockFace.UP);
             Location location = issueBlock.getLocation();
-            unsafelyKillItem(location, BlockStorage.check(location));
+            unsafelyKillItem(location, StorageCacheUtils.getSfItem(location));
         }
     }
 
     @EventHandler
     public void onBlockSpread(@Nonnull BlockSpreadEvent event) {
         Location location = event.getBlock().getLocation();
-        unsafelyKillItem(location, BlockStorage.check(location));
+        unsafelyKillItem(location, StorageCacheUtils.getSfItem(location));
     }
     
     @EventHandler
@@ -79,14 +80,14 @@ public class CustomPlacementListener implements Listener {
         for (BlockState blockState : event.getBlocks()) {
             Block issueBlock = blockState.getBlock();
             Location location = issueBlock.getLocation();
-            unsafelyKillItem(location, BlockStorage.check(location));
+            unsafelyKillItem(location, StorageCacheUtils.getSfItem(location));
         }
     }
 
     @EventHandler
     public void onSnowmanBlockForm(@Nonnull EntityBlockFormEvent event) {
         Location location = event.getBlock().getLocation();
-        unsafelyKillItem(location, BlockStorage.check(location));
+        unsafelyKillItem(location, StorageCacheUtils.getSfItem(location));
     }
 
     @EventHandler
@@ -97,7 +98,7 @@ public class CustomPlacementListener implements Listener {
         ) {
             BlockFace face = directional.getFacing();
             Location location = block.getRelative(face).getLocation();
-            unsafelyKillItem(location, BlockStorage.check(location));
+            unsafelyKillItem(location, StorageCacheUtils.getSfItem(location));
         }
     }
 
@@ -106,12 +107,12 @@ public class CustomPlacementListener implements Listener {
             location.getWorld().dropItem(location, plant.getDroppedItemStack(location));
             plant.removeCropped(location);
             plant.removePlantDisplayGroup(location);
-            BlockStorage.clearBlockInfo(location);
+            Slimefun.getDatabaseManager().getBlockDataController().removeBlock(location);
             location.getBlock().setType(Material.AIR);
         } else if (slimefunItem instanceof CultivationBush bush) {
             location.getWorld().dropItem(location, bush.getItem().clone());
             bush.removeBushDisplayGroup(location);
-            BlockStorage.clearBlockInfo(location);
+            Slimefun.getDatabaseManager().getBlockDataController().removeBlock(location);
         }
     }
 

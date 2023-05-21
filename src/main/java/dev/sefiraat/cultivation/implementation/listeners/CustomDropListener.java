@@ -1,8 +1,8 @@
 package dev.sefiraat.cultivation.implementation.listeners;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.api.slimefun.RecipeTypes;
 import dev.sefiraat.sefilib.world.LocationUtils;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
@@ -33,7 +33,7 @@ public class CustomDropListener implements Listener {
 
     @EventHandler(priority = EventPriority.LOWEST, ignoreCancelled = true)
     public void onBlockBreak(@Nonnull BlockBreakEvent event) {
-        if (BlockStorage.hasBlockInfo(event.getBlock())) {
+        if (StorageCacheUtils.hasBlock(event.getBlock().getLocation())) {
             // Don't want to fire on SF Blocks
             return;
         }
@@ -46,7 +46,7 @@ public class CustomDropListener implements Listener {
 
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onBucketFill(@Nonnull PlayerBucketFillEvent event) {
-        if (BlockStorage.hasBlockInfo(event.getBlock())) {
+        if (StorageCacheUtils.hasBlock(event.getBlock().getLocation())) {
             // Don't want to fire on SF Blocks
             return;
         }

@@ -1,9 +1,9 @@
 package dev.sefiraat.cultivation.api.interfaces;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.implementation.utils.DisplayGroupGenerators;
 import dev.sefiraat.sefilib.entity.display.DisplayGroup;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
@@ -22,25 +22,25 @@ public interface CultivationBushHolder {
     }
 
     default boolean hasDisplayBush(@Nonnull Location location) {
-        String hasBush = BlockStorage.getLocationInfo(location, BUSH);
+        String hasBush = StorageCacheUtils.getData(location, BUSH);
         return Boolean.parseBoolean(hasBush);
     }
 
-    default boolean hasDisplayBush(@Nonnull Config config) {
-        String hasBush = config.getString(BUSH);
+    default boolean hasDisplayBush(@Nonnull SlimefunBlockData config) {
+        String hasBush = config.getData(BUSH);
         return Boolean.parseBoolean(hasBush);
     }
 
     default void removeBush(@Nonnull Location location) {
         removeBushDisplayGroup(location);
-        BlockStorage.addBlockInfo(location, BUSH, null);
-        BlockStorage.addBlockInfo(location, GROUP_PARENT, null);
+        StorageCacheUtils.removeData(location, BUSH);
+        StorageCacheUtils.removeData(location, GROUP_PARENT);
     }
 
     default void addDisplayBush(@Nonnull Location location) {
         DisplayGroup displayGroup = DisplayGroupGenerators.generateBush(location.clone().add(0.5, 0, 0.5));
-        BlockStorage.addBlockInfo(location, BUSH, "true");
-        BlockStorage.addBlockInfo(location, GROUP_PARENT, displayGroup.getParentUUID().toString());
+        StorageCacheUtils.setData(location, BUSH, "true");
+        StorageCacheUtils.setData(location, GROUP_PARENT, displayGroup.getParentUUID().toString());
     }
 
     default void setAge(@Nonnull Location location, int age) {
@@ -66,7 +66,7 @@ public interface CultivationBushHolder {
 
     @Nullable
     default UUID getBushDisplayGroupUUID(@Nonnull Location location) {
-        String uuid = BlockStorage.getLocationInfo(location, GROUP_PARENT);
+        String uuid = StorageCacheUtils.getData(location, GROUP_PARENT);
         if (uuid == null) {
             return null;
         }

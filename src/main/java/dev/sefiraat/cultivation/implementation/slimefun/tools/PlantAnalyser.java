@@ -1,5 +1,6 @@
 package dev.sefiraat.cultivation.implementation.slimefun.tools;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.api.datatypes.instances.FloraLevelProfile;
 import dev.sefiraat.cultivation.api.interfaces.CultivationBushHolder;
 import dev.sefiraat.cultivation.api.interfaces.CultivationLevelProfileHolder;
@@ -15,7 +16,6 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
 import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun4.implementation.items.SimpleSlimefunItem;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -44,7 +44,7 @@ public class PlantAnalyser extends SimpleSlimefunItem<ItemUseHandler> implements
         }
 
         Block block = playerRightClickEvent.getClickedBlock().get();
-        SlimefunItem item = BlockStorage.check(block);
+        SlimefunItem item = StorageCacheUtils.getSfItem(block.getLocation());
 
         if (item == null) {
             return;

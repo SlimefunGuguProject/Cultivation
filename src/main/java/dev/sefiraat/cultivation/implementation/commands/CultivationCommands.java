@@ -12,6 +12,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
 import com.google.gson.stream.JsonReader;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.Cultivation;
 import dev.sefiraat.cultivation.Registry;
 import dev.sefiraat.cultivation.api.datatypes.SeedPackDataType;
@@ -23,8 +24,8 @@ import dev.sefiraat.sefilib.entity.display.DisplayGroup;
 import dev.sefiraat.sefilib.string.Theme;
 import io.github.bakedlibs.dough.blocks.BlockPosition;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.FluidCollisionMode;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -198,7 +199,8 @@ public class CultivationCommands extends BaseCommand {
                     itemStack = slimefunItem.getItem();
                     Material material = itemStack.getType();
                     block.setType(material, true);
-                    BlockStorage.store(block, slimefunItem.getId());
+                    Slimefun.getDatabaseManager().getBlockDataController().createBlock(block.getLocation(),
+                        slimefunItem.getId());
                 } else {
                     itemStack = new ItemStack(Material.valueOf(idStrings[1]));
                     Material material = itemStack.getType();
@@ -216,7 +218,7 @@ public class CultivationCommands extends BaseCommand {
 
     private String getBlockId(Block block) {
         Material blockMaterial = block.getType();
-        SlimefunItem slimefunItem = BlockStorage.check(block);
+        SlimefunItem slimefunItem = StorageCacheUtils.getSfItem(block.getLocation());
         return slimefunItem == null
                ? "minecraft:" + blockMaterial.name()
                : "slimefun:" + slimefunItem.getId();

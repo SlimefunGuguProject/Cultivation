@@ -1,5 +1,7 @@
 package dev.sefiraat.cultivation.api.slimefun.items.plants;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.Registry;
 import dev.sefiraat.cultivation.api.datatypes.FloraLevelProfileDataType;
 import dev.sefiraat.cultivation.api.datatypes.instances.FloraLevelProfile;
@@ -28,9 +30,8 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.papermc.lib.PaperLib;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Color;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -120,11 +121,11 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
         for (BlockFace face : BREEDING_DIRECTIONS) {
             Block middleBlock = motherBlock.getRelative(face);
             // There must be space for the new block
-            if (middleBlock.getType() != Material.AIR || BlockStorage.check(middleBlock) != null) {
+            if (middleBlock.getType() != Material.AIR || StorageCacheUtils.hasBlock(middleBlock.getLocation())) {
                 continue;
             }
             Block potentialMate = middleBlock.getRelative(face);
-            SlimefunItem mateItem = BlockStorage.check(potentialMate);
+            SlimefunItem mateItem = StorageCacheUtils.getSfItem(potentialMate.getLocation());
 
             if (mateItem instanceof CultivationPlant mate) {
                 testBreed(plant, mate, middleBlock, motherBlock, potentialMate);
@@ -168,7 +169,7 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
 
     @Override
     @ParametersAreNonnullByDefault
-    protected boolean canGrow(Block block, CultivationPlant flora, Config data, Location location, int growthStage) {
+    protected boolean canGrow(Block block, CultivationPlant flora, SlimefunBlockData data, Location location, int growthStage) {
         return isCropped(data);
     }
 
@@ -242,13 +243,14 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
         }
 
         UUID owner = getOwner(motherLocation);
+        Location cloneBlockLocation = cloneBlock.getLocation();
 
         cloneBlock.setType(Material.PLAYER_HEAD);
         PlayerHead.setSkin(cloneBlock, theme.getSeed().getPlayerSkin(), false);
         PaperLib.getBlockState(cloneBlock, false).getState().update(true, false);
-        BlockStorage.store(cloneBlock, childSeed.getId());
-        BlockStorage.addBlockInfo(cloneBlock, Keys.FLORA_GROWTH_STAGE, "0");
-        BlockStorage.addBlockInfo(cloneBlock, Keys.FLORA_OWNER, owner.toString());
+        Slimefun.getDatabaseManager().getBlockDataController().createBlock(cloneBlockLocation, childSeed.getId());
+        StorageCacheUtils.setData(cloneBlockLocation, Keys.FLORA_GROWTH_STAGE, "0");
+        StorageCacheUtils.setData(cloneBlockLocation, Keys.FLORA_OWNER, owner.toString());
         StatisticUtils.unlockDiscovery(owner, childSeed.getId());
         breedSuccess(cloneBlock.getLocation());
     }
