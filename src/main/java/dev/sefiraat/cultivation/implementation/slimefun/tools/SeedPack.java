@@ -248,7 +248,7 @@ public class SeedPack extends SlimefunItem {
             ItemMeta itemMeta = this.packStack.getItemMeta();
             PersistentDataAPI.set(itemMeta, SeedPackDataType.KEY, SeedPackDataType.TYPE, this.instance);
             List<String> lore = itemMeta.getLore();
-            lore.set(3, Theme.CLICK_INFO.asTitle("Set to", plant.getItemName()));
+            lore.set(3, Theme.CLICK_INFO.asTitle("设置为", plant.getItemName()));
             itemMeta.setLore(lore);
             this.packStack.setItemMeta(itemMeta);
         }
