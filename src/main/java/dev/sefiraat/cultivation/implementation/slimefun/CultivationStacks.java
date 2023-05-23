@@ -1046,9 +1046,12 @@ public final class CultivationStacks {
         "CLT_PLANT_DARKNESS",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 黑暗",
+        "农耕工艺 - 原始植物: 黑暗",
         List.of(
-            "一种在无尽的愤怒中沸腾的植物。"
+            "一种在无尽的愤怒中沸腾的植物。",
+            "",
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅可进行培育。")
         )
     );
 
@@ -1056,9 +1059,12 @@ public final class CultivationStacks {
         "CLT_PLANT_LIGHT",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 光明",
+        "农耕工艺 - 原始植物: 光明",
         List.of(
-            "一种散发着纯爱气息的植物。"
+            "一种散发着纯爱气息的植物。",
+            "",
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅可进行培育。")
         )
     );
 
@@ -1066,9 +1072,12 @@ public final class CultivationStacks {
         "CLT_PLANT_EARTH",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 土地",
+        "农耕工艺 - 原始植物: 大地",
         List.of(
-            "一种能填充周围世界的植物。"
+            "一种能填充周围世界的植物。",
+            "",
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅可进行培育。")
         )
     );
 
@@ -1076,10 +1085,13 @@ public final class CultivationStacks {
         "CLT_PLANT_WATER",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 水",
+        "农耕工艺 - 原始植物: 水",
         List.of(
             "一种能滋养周边生物,",
-            "也能提供生命的植物。"
+            "也能提供生命的植物。",
+            "",
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅可进行培育。")
         )
     );
 
@@ -1087,10 +1099,13 @@ public final class CultivationStacks {
         "CLT_PLANT_FIRE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 火",
+        "农耕工艺 - 原始植物: 火",
         List.of(
             "一种同时提供了",
-            "毁灭与新生的植物。"
+            "毁灭与新生的植物。",
+            "",
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅可进行培育。")
         )
     );
 
@@ -1098,9 +1113,12 @@ public final class CultivationStacks {
         "CLT_PLANT_AIR",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 空气",
+        "农耕工艺 - 原始植物: 空气",
         List.of(
-            "一种静静地哼唱着周围自然旋律的植物。"
+            "一种静静地哼唱着周围自然旋律的植物。",
+            "",
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅可进行培育。")
         )
     );
 
@@ -1108,9 +1126,12 @@ public final class CultivationStacks {
         "CLT_PLANT_POWER",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 力量",
+        "农耕工艺 - 原始植物: 力量",
         List.of(
-            "一种积极地散发力量的植物。"
+            "一种积极地散发力量的植物。",
+            "",
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅可进行培育。")
         )
     );
 
@@ -1118,9 +1139,12 @@ public final class CultivationStacks {
         "CLT_PLANT_WEALTH",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 财富",
+        "农耕工艺 - 原始植物: 财富",
         List.of(
-            "一种彰显荣华富贵的植物。"
+            "一种彰显荣华富贵的植物。",
+            "",
+            Theme.WARNING.apply("Primal plants dont produce items"),
+            Theme.WARNING.apply("and are just for breeding.")
         )
     );
 
@@ -1128,9 +1152,12 @@ public final class CultivationStacks {
         "CLT_PLANT_SPECTRUM",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 光谱",
+        "农耕工艺 - 原始植物: 光谱",
         List.of(
-            "一种轻微改变着颜色的植物。"
+            "一种轻微改变着颜色的植物。",
+            "",
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅可进行培育。")
         )
     );
 
@@ -2074,7 +2101,11 @@ public final class CultivationStacks {
         Material.STRIPPED_DARK_OAK_LOG,
         CultivationThemes.MACHINE,
         "厨房柜台: 空",
-        "仅用于装饰!"
+        "仅用于装饰!",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_CHOPPING = Theme.themedSlimefunItemStack(
@@ -2082,7 +2113,11 @@ public final class CultivationStacks {
         Material.SMITHING_TABLE,
         CultivationThemes.MACHINE,
         "厨房柜台: 砧板",
-        "右键点击进行切碎。"
+        "右键点击进行切碎。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_SLICING = Theme.themedSlimefunItemStack(
@@ -2090,7 +2125,11 @@ public final class CultivationStacks {
         Material.CARTOGRAPHY_TABLE,
         CultivationThemes.MACHINE,
         "厨房柜台: 切片板",
-        "右键点击进行切片。"
+        "右键点击进行切片。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_MASHER = Theme.themedSlimefunItemStack(
@@ -2098,7 +2137,11 @@ public final class CultivationStacks {
         Material.CRAFTING_TABLE,
         CultivationThemes.MACHINE,
         "厨房柜台: 捣碎碗",
-        "右键点击进行捣碎。"
+        "右键点击进行捣碎。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_GRINDER = Theme.themedSlimefunItemStack(
@@ -2106,7 +2149,11 @@ public final class CultivationStacks {
         Material.CAULDRON,
         CultivationThemes.MACHINE,
         "厨房柜台: 研磨杵和研钵",
-        "右键点击进行剁碎。"
+        "右键点击进行剁碎。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_BLENDER = Theme.themedSlimefunItemStack(
@@ -2114,7 +2161,11 @@ public final class CultivationStacks {
         Material.FLETCHING_TABLE,
         CultivationThemes.MACHINE,
         "厨房柜台: 搅拌机",
-        "右键点击进行搅拌。"
+        "右键点击进行搅拌。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_OVEN = Theme.themedSlimefunItemStack(
@@ -2122,7 +2173,11 @@ public final class CultivationStacks {
         Material.FURNACE,
         CultivationThemes.MACHINE,
         "厨房柜台: 烤箱",
-        "可以进行烘焙。"
+        "可以进行烘焙。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_FRYER = Theme.themedSlimefunItemStack(
@@ -2130,7 +2185,11 @@ public final class CultivationStacks {
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
         "厨房柜台: 煎锅",
-        "可进行油炸。"
+        "可进行油炸。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_BOILING = Theme.themedSlimefunItemStack(
@@ -2138,7 +2197,11 @@ public final class CultivationStacks {
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
         "厨房柜台: 大锅",
-        "可以进行煮沸。"
+        "可以进行煮沸。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_GRILL = Theme.themedSlimefunItemStack(
@@ -2146,7 +2209,11 @@ public final class CultivationStacks {
         Material.CAMPFIRE,
         CultivationThemes.MACHINE,
         "厨房柜台: 烤架",
-        "可进行烧烤。"
+        "可进行烧烤。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     public static final SlimefunItemStack COUNTER_FINISHING = Theme.themedSlimefunItemStack(
@@ -2155,7 +2222,11 @@ public final class CultivationStacks {
         CultivationThemes.MACHINE,
         "厨房柜台: 上菜",
         "可将产品/副产品制作为",
-        "食物或其他副产品。"
+        "食物或其他副产品。",
+        "",
+        Theme.CLICK_INFO + "提示：放置后，可通过潜行+右键点击",
+        Theme.CLICK_INFO + "来将当前手持的物品作为厨房的新外观。",
+        Theme.CLICK_INFO + "快去试试吧！"
     );
 
     // endregion
