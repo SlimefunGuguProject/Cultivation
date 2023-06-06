@@ -1,10 +1,10 @@
 package dev.sefiraat.cultivation.implementation.slimefun.machines;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.sefilib.entity.display.DisplayGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.entity.Display;
 import org.bukkit.entity.ItemDisplay;
@@ -40,7 +40,7 @@ public abstract class KitchenRecipeMachineSimple extends KitchenObject {
     }
 
     public void setUUID(@Nonnull DisplayGroup displayGroup, @Nonnull Location location) {
-        BlockStorage.addBlockInfo(location, KEY_UUID, displayGroup.getParentUUID().toString());
+        StorageCacheUtils.setData(location, KEY_UUID, displayGroup.getParentUUID().toString());
     }
 
     public void addRecipe(@Nonnull String input, @Nonnull ItemStack output) {

@@ -1,8 +1,9 @@
 package dev.sefiraat.cultivation.api.interfaces;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.api.datatypes.instances.FloraLevelProfile;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 
@@ -26,21 +27,21 @@ public interface CultivationLevelProfileHolder {
         return Objects.requireNonNullElseGet(
             PROFILE_MAP.get(location),
             () -> {
-                String levelString = BlockStorage.getLocationInfo(location, FloraLevelProfile.BS_KEY_LEVEL);
-                String speedString = BlockStorage.getLocationInfo(location, FloraLevelProfile.BS_KEY_SPEED);
-                String strengthString = BlockStorage.getLocationInfo(location, FloraLevelProfile.BS_KEY_STRENGTH);
-                String analysedString = BlockStorage.getLocationInfo(location, FloraLevelProfile.BS_KEY_ANALYZED);
+                String levelString = StorageCacheUtils.getData(location, FloraLevelProfile.BS_KEY_LEVEL);
+                String speedString = StorageCacheUtils.getData(location, FloraLevelProfile.BS_KEY_SPEED);
+                String strengthString = StorageCacheUtils.getData(location, FloraLevelProfile.BS_KEY_STRENGTH);
+                String analysedString = StorageCacheUtils.getData(location, FloraLevelProfile.BS_KEY_ANALYZED);
                 return getLevelProfile(levelString, speedString, strengthString, analysedString);
             }
         );
     }
 
     @Nonnull
-    default FloraLevelProfile getLevelProfile(@Nonnull Config config) {
-        String levelString = config.getString(FloraLevelProfile.BS_KEY_LEVEL);
-        String speedString = config.getString(FloraLevelProfile.BS_KEY_SPEED);
-        String strengthString = config.getString(FloraLevelProfile.BS_KEY_STRENGTH);
-        String analyzedString = config.getString(FloraLevelProfile.BS_KEY_ANALYZED);
+    default FloraLevelProfile getLevelProfile(@Nonnull SlimefunBlockData config) {
+        String levelString = config.getData(FloraLevelProfile.BS_KEY_LEVEL);
+        String speedString = config.getData(FloraLevelProfile.BS_KEY_SPEED);
+        String strengthString = config.getData(FloraLevelProfile.BS_KEY_STRENGTH);
+        String analyzedString = config.getData(FloraLevelProfile.BS_KEY_ANALYZED);
         return getLevelProfile(levelString, speedString, strengthString, analyzedString);
     }
 
@@ -67,9 +68,9 @@ public interface CultivationLevelProfileHolder {
     }
 
     default void setLevelProfile(@Nonnull Location location, int level, int speed, int strength, boolean analyzed) {
-        BlockStorage.addBlockInfo(location, FloraLevelProfile.BS_KEY_LEVEL, String.valueOf(level));
-        BlockStorage.addBlockInfo(location, FloraLevelProfile.BS_KEY_SPEED, String.valueOf(speed));
-        BlockStorage.addBlockInfo(location, FloraLevelProfile.BS_KEY_STRENGTH, String.valueOf(strength));
-        BlockStorage.addBlockInfo(location, FloraLevelProfile.BS_KEY_ANALYZED, String.valueOf(analyzed));
+        StorageCacheUtils.setData(location, FloraLevelProfile.BS_KEY_LEVEL, String.valueOf(level));
+        StorageCacheUtils.setData(location, FloraLevelProfile.BS_KEY_SPEED, String.valueOf(speed));
+        StorageCacheUtils.setData(location, FloraLevelProfile.BS_KEY_STRENGTH, String.valueOf(strength));
+        StorageCacheUtils.setData(location, FloraLevelProfile.BS_KEY_ANALYZED, String.valueOf(analyzed));
     }
 }

@@ -1,9 +1,9 @@
 package dev.sefiraat.cultivation.api.interfaces;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.implementation.utils.DisplayGroupGenerators;
 import dev.sefiraat.sefilib.entity.display.DisplayGroup;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 
@@ -22,12 +22,12 @@ public interface CultivationCroppable {
     }
 
     default boolean isCropped(@Nonnull Location location) {
-        String cropped = BlockStorage.getLocationInfo(location, CROPPED);
+        String cropped = StorageCacheUtils.getData(location, CROPPED);
         return Boolean.parseBoolean(cropped);
     }
 
-    default boolean isCropped(@Nonnull Config config) {
-        String cropped = config.getString(CROPPED);
+    default boolean isCropped(@Nonnull SlimefunBlockData config) {
+        String cropped = config.getData(CROPPED);
         return Boolean.parseBoolean(cropped);
     }
 
@@ -36,12 +36,12 @@ public interface CultivationCroppable {
     }
 
     default boolean isCrossCropped(@Nonnull Location location) {
-        String cropped = BlockStorage.getLocationInfo(location, CROSS_CROPPED);
+        String cropped = StorageCacheUtils.getData(location, CROSS_CROPPED);
         return Boolean.parseBoolean(cropped);
     }
 
-    default boolean isCrossCropped(@Nonnull Config config) {
-        String cropped = config.getString(CROSS_CROPPED);
+    default boolean isCrossCropped(@Nonnull SlimefunBlockData config) {
+        String cropped = config.getData(CROSS_CROPPED);
         return Boolean.parseBoolean(cropped);
     }
 
@@ -59,8 +59,8 @@ public interface CultivationCroppable {
 
     default void setCropped(@Nonnull Location location) {
         DisplayGroup displayGroup = DisplayGroupGenerators.generateCropStickGroup(location.clone().add(0.5, 0, 0.5));
-        BlockStorage.addBlockInfo(location, CROPPED, "true");
-        BlockStorage.addBlockInfo(location, GROUP_PARENT, displayGroup.getParentUUID().toString());
+        StorageCacheUtils.setData(location, CROPPED, "true");
+        StorageCacheUtils.setData(location, GROUP_PARENT, displayGroup.getParentUUID().toString());
     }
 
     default void setCrossCropped(@Nonnull Location location) {
@@ -68,21 +68,21 @@ public interface CultivationCroppable {
             removeCropDisplayGroup(location);
         }
         DisplayGroup displayGroup = DisplayGroupGenerators.generateCrossedCropStickGroup(location.clone().add(0.5, 0, 0.5));
-        BlockStorage.addBlockInfo(location, CROPPED, "true");
-        BlockStorage.addBlockInfo(location, CROSS_CROPPED, "true");
-        BlockStorage.addBlockInfo(location, GROUP_PARENT, displayGroup.getParentUUID().toString());
+        StorageCacheUtils.setData(location, CROPPED, "true");
+        StorageCacheUtils.setData(location, CROSS_CROPPED, "true");
+        StorageCacheUtils.setData(location, GROUP_PARENT, displayGroup.getParentUUID().toString());
     }
 
     default void removeCropped(@Nonnull Location location) {
         removeCropDisplayGroup(location);
-        BlockStorage.addBlockInfo(location, CROPPED, null);
-        BlockStorage.addBlockInfo(location, CROSS_CROPPED, null);
-        BlockStorage.addBlockInfo(location, GROUP_PARENT, null);
+        StorageCacheUtils.removeData(location, CROPPED);
+        StorageCacheUtils.removeData(location, CROSS_CROPPED);
+        StorageCacheUtils.removeData(location, GROUP_PARENT);
     }
 
     @Nullable
     default UUID getCropDisplayGroupUUID(@Nonnull Location location) {
-        String uuid = BlockStorage.getLocationInfo(location, GROUP_PARENT);
+        String uuid = StorageCacheUtils.getData(location, GROUP_PARENT);
         if (uuid == null) {
             return null;
         }

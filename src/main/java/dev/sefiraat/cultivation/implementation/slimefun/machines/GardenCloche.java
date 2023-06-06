@@ -1,5 +1,7 @@
 package dev.sefiraat.cultivation.implementation.slimefun.machines;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.Cultivation;
 import dev.sefiraat.cultivation.api.datatypes.instances.FloraLevelProfile;
 import dev.sefiraat.cultivation.api.slimefun.items.plants.HarvestablePlant;
@@ -19,9 +21,7 @@ import io.github.thebusybiscuit.slimefun4.core.handlers.BlockPlaceHandler;
 import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
@@ -79,7 +79,7 @@ public class GardenCloche extends SlimefunItem implements DisplayInteractable, E
                     Location location = e.getBlock().getLocation();
                     removeDisplay(location);
                     e.getBlock().setType(Material.AIR);
-                    BlockMenu blockMenu = BlockStorage.getInventory(location);
+                    BlockMenu blockMenu = StorageCacheUtils.getMenu(location);
                     if (blockMenu != null) {
                         blockMenu.dropItems(location, PLANT_SLOT);
                         blockMenu.dropItems(location, OUTPUT_SLOTS);
@@ -93,8 +93,8 @@ public class GardenCloche extends SlimefunItem implements DisplayInteractable, E
                 }
 
                 @Override
-                public void tick(Block block, SlimefunItem item, Config data) {
-                    BlockMenu blockMenu = BlockStorage.getInventory(block);
+                public void tick(Block block, SlimefunItem item, SlimefunBlockData data) {
+                    BlockMenu blockMenu = StorageCacheUtils.getMenu(block.getLocation());
                     ItemStack possiblePlant = blockMenu.getItemInSlot(PLANT_SLOT);
                     SlimefunItem slimefunItem = SlimefunItem.getByItem(possiblePlant);
                     Location location = block.getLocation();
@@ -158,13 +158,13 @@ public class GardenCloche extends SlimefunItem implements DisplayInteractable, E
     }
 
     private boolean hasDisplayPlant(@Nonnull Location location) {
-        String hasPlant = BlockStorage.getLocationInfo(location, KEY_PLANT);
+        String hasPlant = StorageCacheUtils.getData(location, KEY_PLANT);
         return Boolean.parseBoolean(hasPlant);
     }
 
     private void setupDisplay(@Nonnull Location location) {
         DisplayGroup displayGroup = DisplayGroupGenerators.generateCloche(location.clone().add(0.5, 0, 0.5));
-        BlockStorage.addBlockInfo(location, KEY_UUID, displayGroup.getParentUUID().toString());
+        StorageCacheUtils.setData(location, KEY_UUID, displayGroup.getParentUUID().toString());
     }
 
     private void removeDisplay(@Nonnull Location location) {
@@ -175,7 +175,7 @@ public class GardenCloche extends SlimefunItem implements DisplayInteractable, E
     }
 
     private void addPlantToDisplay(@Nonnull Location location) {
-        BlockStorage.addBlockInfo(location, KEY_PLANT, "true");
+        StorageCacheUtils.setData(location, KEY_PLANT, "true");
         DisplayGroup group = getDisplayGroup(location);
         if (group != null) {
             DisplayGroupGenerators.addPlantToCloche(group);
@@ -186,13 +186,13 @@ public class GardenCloche extends SlimefunItem implements DisplayInteractable, E
         DisplayGroup displayGroup = getDisplayGroup(location);
         if (displayGroup != null) {
             DisplayGroupGenerators.removePlantFromCloche(displayGroup);
-            BlockStorage.addBlockInfo(location, KEY_PLANT, null);
+            StorageCacheUtils.setData(location, KEY_PLANT, null);
         }
     }
 
     @Nullable
     private UUID getDisplayGroupUUID(@Nonnull Location location) {
-        String uuid = BlockStorage.getLocationInfo(location, KEY_UUID);
+        String uuid = StorageCacheUtils.getData(location, KEY_UUID);
         if (uuid == null) {
             return null;
         }

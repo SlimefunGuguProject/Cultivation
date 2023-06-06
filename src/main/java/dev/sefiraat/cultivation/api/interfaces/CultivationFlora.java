@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * This interface represents a Cultivation Flora Object placed in a/the world.
  */
-public interface CultivationFlora extends CultivationGrower, CultivationTicking, CustomPlacementBlock {
+public interface CultivationFlora extends CultivationGrower, CultivationTicking {
 
     /**
      * Defines the flora's theme. Used for particle generation.

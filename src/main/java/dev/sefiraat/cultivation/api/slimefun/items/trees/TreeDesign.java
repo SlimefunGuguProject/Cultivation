@@ -8,7 +8,7 @@ import com.google.gson.stream.JsonReader;
 import dev.sefiraat.cultivation.Cultivation;
 import io.github.bakedlibs.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import org.bukkit.Axis;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -133,9 +133,11 @@ public enum TreeDesign {
                 applyBlock(tree, itemStack, blockFace, axis, block);
                 // temp setting tree item - for reusable trees.
                 if (slimefunItem.getItem().getType() == Material.PLAYER_HEAD) {
-                    BlockStorage.store(block, tree.getProduce().getId());
+                    Slimefun.getDatabaseManager().getBlockDataController().createBlock(block.getLocation(),
+                        tree.getProduce().getId());
                 } else {
-                    BlockStorage.store(block, slimefunItem.getId());
+                    Slimefun.getDatabaseManager().getBlockDataController().createBlock(block.getLocation(),
+                        slimefunItem.getId());
                 }
             } else {
                 itemStack = new ItemStack(Material.valueOf(idStrings[1]));
@@ -157,7 +159,8 @@ public enum TreeDesign {
         } else {
             block.setType(itemStack.getType(), true);
             if (Tag.LEAVES.isTagged(itemStack.getType())) {
-                BlockStorage.store(block, tree.getLeaves().getId());
+                Slimefun.getDatabaseManager().getBlockDataController().createBlock(block.getLocation(),
+                    tree.getLeaves().getId());
             }
         }
 

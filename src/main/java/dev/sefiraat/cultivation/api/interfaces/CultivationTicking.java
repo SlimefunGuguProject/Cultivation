@@ -1,7 +1,7 @@
 package dev.sefiraat.cultivation.api.interfaces;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import org.bukkit.Location;
 
 import javax.annotation.ParametersAreNonnullByDefault;
@@ -17,10 +17,10 @@ public interface CultivationTicking {
      *
      * @param location The location of the plant being ticked
      * @param flora    The {@link SlimefunItem} being ticked
-     * @param data     The {@link Config} from BlockStorage for the location
+     * @param data     The {@link SlimefunBlockData} from BlockStorage for the location
      */
     @ParametersAreNonnullByDefault
-    default void onTickAlways(Location location, SlimefunItem flora, Config data) {
+    default void onTickAlways(Location location, SlimefunItem flora, SlimefunBlockData data) {
 
     }
 
@@ -29,10 +29,10 @@ public interface CultivationTicking {
      *
      * @param location The location of the plant being ticked
      * @param flora    The {@link SlimefunItem} being ticked
-     * @param data     The {@link Config} from BlockStorage for the location
+     * @param data     The {@link SlimefunBlockData} from BlockStorage for the location
      */
     @ParametersAreNonnullByDefault
-    default void onTickFullyGrown(Location location, SlimefunItem flora, Config data) {
+    default void onTickFullyGrown(Location location, SlimefunItem flora, SlimefunBlockData data) {
 
     }
 }

@@ -1,5 +1,6 @@
 package dev.sefiraat.cultivation.implementation.slimefun.machines;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.api.slimefun.items.produce.ByProduct;
 import dev.sefiraat.cultivation.implementation.slimefun.items.Machines;
 import dev.sefiraat.sefilib.entity.display.DisplayGroup;
@@ -15,7 +16,6 @@ import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponen
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
@@ -70,7 +70,7 @@ public class PoweredKitchenMachineComplex extends KitchenRecipeMachineComplex im
                 return;
             }
 
-            BlockMenu blockMenu = BlockStorage.getInventory(block);
+            BlockMenu blockMenu = StorageCacheUtils.getMenu(block.getLocation());
 
             if (blockMenu == null || !blockMenu.canOpen(block, player)) {
                 return;

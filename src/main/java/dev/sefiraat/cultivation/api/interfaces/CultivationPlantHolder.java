@@ -1,9 +1,9 @@
 package dev.sefiraat.cultivation.api.interfaces;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
 import dev.sefiraat.cultivation.implementation.utils.DisplayGroupGenerators;
 import dev.sefiraat.sefilib.entity.display.DisplayGroup;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
@@ -22,25 +22,25 @@ public interface CultivationPlantHolder {
     }
 
     default boolean hasDisplayPlant(@Nonnull Location location) {
-        String hasPlant = BlockStorage.getLocationInfo(location, PLANT);
+        String hasPlant = StorageCacheUtils.getData(location, PLANT);
         return Boolean.parseBoolean(hasPlant);
     }
 
-    default boolean hasDisplayPlant(@Nonnull Config config) {
-        String hasPlant = config.getString(PLANT);
+    default boolean hasDisplayPlant(@Nonnull SlimefunBlockData config) {
+        String hasPlant = config.getData(PLANT);
         return Boolean.parseBoolean(hasPlant);
     }
 
     default void removePlant(@Nonnull Location location) {
         removePlantDisplayGroup(location);
-        BlockStorage.addBlockInfo(location, PLANT, null);
-        BlockStorage.addBlockInfo(location, GROUP_PARENT, null);
+        StorageCacheUtils.removeData(location, PLANT);
+        StorageCacheUtils.removeData(location, GROUP_PARENT);
     }
 
     default void addDisplayPlant(@Nonnull Location location) {
         DisplayGroup displayGroup = DisplayGroupGenerators.generatePlant(location.clone().add(0.5, 0, 0.5));
-        BlockStorage.addBlockInfo(location, PLANT, "true");
-        BlockStorage.addBlockInfo(location, GROUP_PARENT, displayGroup.getParentUUID().toString());
+        StorageCacheUtils.setData(location, PLANT, "true");
+        StorageCacheUtils.setData(location, GROUP_PARENT, displayGroup.getParentUUID().toString());
     }
 
     default void addItemsToDisplay(@Nonnull Location location, @Nonnull ItemStack itemStack) {
@@ -59,7 +59,7 @@ public interface CultivationPlantHolder {
 
     @Nullable
     default UUID getPlantDisplayGroupUUID(@Nonnull Location location) {
-        String uuid = BlockStorage.getLocationInfo(location, GROUP_PARENT);
+        String uuid = StorageCacheUtils.getData(location, GROUP_PARENT);
         if (uuid == null) {
             return null;
         }
