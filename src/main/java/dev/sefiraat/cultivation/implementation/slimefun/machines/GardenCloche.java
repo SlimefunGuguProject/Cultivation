@@ -186,7 +186,7 @@ public class GardenCloche extends SlimefunItem implements DisplayInteractable, E
         DisplayGroup displayGroup = getDisplayGroup(location);
         if (displayGroup != null) {
             DisplayGroupGenerators.removePlantFromCloche(displayGroup);
-            StorageCacheUtils.setData(location, KEY_PLANT, null);
+            StorageCacheUtils.removeData(location, KEY_PLANT);
         }
     }
 
