@@ -273,7 +273,7 @@
         <dependency>
             <groupId>com.github.StarWishsama.dough</groupId>
             <artifactId>dough-api</artifactId>
-            <version>65cfacbe4c</version>
+            <version>20dcab228c</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -316,7 +316,7 @@
         <dependency>
             <groupId>net.guizhanss</groupId>
             <artifactId>GuizhanLibPlugin</artifactId>
-            <version>1.2.1</version>
+            <version>1.7.0</version>
             <scope>provided</scope>
         </dependency>
 
