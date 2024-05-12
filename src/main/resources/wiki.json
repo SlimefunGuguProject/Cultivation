@@ -1,0 +1,6 @@
+{
+  "CLT_CROP_STICKS": "tools/crop-sticks",
+  "CLT_PLANT_ANALYSER": "tools/plant-analyzer",
+  "CLT_SEED_PACK": "tools/seed-pack",
+  "CLT_GARDEN_CLOCHE": "machines/garden-cloche"
+}

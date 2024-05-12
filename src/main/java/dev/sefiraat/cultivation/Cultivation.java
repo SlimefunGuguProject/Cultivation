@@ -18,6 +18,7 @@ import dev.sefiraat.sefilib.entity.display.DisplayGroupManager;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
+import net.guizhanss.slimefun4.utils.WikiUtils;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -60,7 +61,7 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
 
         getLogger().info("########################################");
         getLogger().info("         Cultivation 农耕工艺            ");
-        getLogger().info("         By Sefiraat and J3fftw         ");
+        getLogger().info("        By Sefiraat and J3fftw         ");
         getLogger().info("         粘液科技简中汉化组 汉化           ");
         getLogger().info("########################################");
 
@@ -89,6 +90,9 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
         Products.setup(this);
         Ingredients.setup(this);
         Foods.setup(this);
+
+        // wiki
+        WikiUtils.setupJson(this);
     }
 
     @Override
@@ -114,6 +118,11 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
     @Override
     public String getBugTrackerURL() {
         return MessageFormat.format("https://github.com/{0}/{1}/issues/", this.username, this.repo);
+    }
+
+    @Nonnull
+    public String getWikiURL() {
+        return "https://slimefun-addons-wiki.guizhanss.cn/cultivation/{0}";
     }
 
     private void setupStats() {

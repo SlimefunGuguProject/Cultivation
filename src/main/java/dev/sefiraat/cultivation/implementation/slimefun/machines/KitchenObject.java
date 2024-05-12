@@ -21,6 +21,8 @@ import java.util.function.Function;
 
 public abstract class KitchenObject extends DisplayGroupBlock {
 
+    private static final String WIKI_PAGE = "machines/cooking-work-stations";
+
     public static final Set<Material> BUCKET_ITEMS = Set.of(
         Material.BUCKET,
         Material.AXOLOTL_BUCKET,
@@ -55,6 +57,11 @@ public abstract class KitchenObject extends DisplayGroupBlock {
                 }
             }
         );
+    }
+
+    @Override
+    public void postRegister() {
+        addWikiPage(WIKI_PAGE);
     }
 
     protected void onRightClick(@Nonnull PlayerRightClickEvent event) {

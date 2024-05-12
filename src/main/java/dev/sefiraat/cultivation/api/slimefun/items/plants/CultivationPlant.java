@@ -61,6 +61,8 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
     implements CultivationFlora, CultivationLevelProfileHolder, CultivationCroppable, CultivationPlantHolder,
                DisplayInteractable {
 
+    private static final String WIKI_PAGE = "plants";
+
     @Nonnull
     public static final Set<BlockFace> BREEDING_DIRECTIONS = Set.of(
         BlockFace.NORTH,
@@ -108,6 +110,12 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
                 }
             }
         );
+    }
+
+    @Override
+    public void postRegister() {
+        super.postRegister();
+        addWikiPage(WIKI_PAGE);
     }
 
     @Override
