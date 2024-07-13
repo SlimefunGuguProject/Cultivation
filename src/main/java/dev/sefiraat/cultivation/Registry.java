@@ -8,7 +8,7 @@ import dev.sefiraat.cultivation.api.slimefun.items.trees.CultivationTree;
 import dev.sefiraat.cultivation.api.slimefun.plant.BreedResult;
 import dev.sefiraat.cultivation.api.slimefun.plant.BreedResultType;
 import dev.sefiraat.cultivation.api.slimefun.plant.BreedingPair;
-import io.github.bakedlibs.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
 import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;

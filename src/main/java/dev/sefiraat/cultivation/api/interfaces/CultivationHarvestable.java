@@ -1,6 +1,6 @@
 package dev.sefiraat.cultivation.api.interfaces;
 
-import io.github.bakedlibs.dough.collections.RandomizedSet;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
