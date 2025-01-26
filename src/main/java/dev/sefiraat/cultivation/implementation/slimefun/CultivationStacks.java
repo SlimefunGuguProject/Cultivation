@@ -1991,7 +1991,7 @@ public final class CultivationStacks {
         "CLT_PLANT_WITCH",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
-        "农耕工艺 - 植物: 凋灵",
+        "农耕工艺 - 植物: 女巫",
         List.of(
             "这种植物听起来像是",
             "在低声咕哝咒语。"
