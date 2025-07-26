@@ -698,7 +698,7 @@ public final class Foods {
 
     public static final Food SAUSAGE = new Food(
         CultivationStacks.SAUSAGE,
-        RecipeTypes.GRILLED,
+        RecipeTypes.BAKING,
         new ItemStack[]{
             new ItemStack(Material.SUGAR), SlimefunItems.SALT, Products.GARLIC.getChoppedItem(),
             Products.PORK.getGroundItem(), null, null,
