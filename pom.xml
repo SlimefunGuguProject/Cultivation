@@ -265,9 +265,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.StarWishsama</groupId>
+            <groupId>com.github.SlimefunGuguProject</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>2024.3</version>
+            <version>2024.3.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
