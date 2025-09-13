@@ -1051,7 +1051,7 @@ public final class CultivationStacks {
             "一种在无尽的愤怒中沸腾的植物。",
             "",
             Theme.WARNING.apply("原始植物不会生产物品，"),
-            Theme.WARNING.apply("仅可进行培育。")
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 
@@ -1064,7 +1064,7 @@ public final class CultivationStacks {
             "一种散发着纯爱气息的植物。",
             "",
             Theme.WARNING.apply("原始植物不会生产物品，"),
-            Theme.WARNING.apply("仅可进行培育。")
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 
@@ -1077,7 +1077,7 @@ public final class CultivationStacks {
             "一种能填充周围世界的植物。",
             "",
             Theme.WARNING.apply("原始植物不会生产物品，"),
-            Theme.WARNING.apply("仅可进行培育。")
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 
@@ -1091,7 +1091,7 @@ public final class CultivationStacks {
             "也能提供生命的植物。",
             "",
             Theme.WARNING.apply("原始植物不会生产物品，"),
-            Theme.WARNING.apply("仅可进行培育。")
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 
@@ -1105,7 +1105,7 @@ public final class CultivationStacks {
             "毁灭与新生的植物。",
             "",
             Theme.WARNING.apply("原始植物不会生产物品，"),
-            Theme.WARNING.apply("仅可进行培育。")
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 
@@ -1118,7 +1118,7 @@ public final class CultivationStacks {
             "一种静静地哼唱着周围自然旋律的植物。",
             "",
             Theme.WARNING.apply("原始植物不会生产物品，"),
-            Theme.WARNING.apply("仅可进行培育。")
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 
@@ -1131,7 +1131,7 @@ public final class CultivationStacks {
             "一种积极地散发力量的植物。",
             "",
             Theme.WARNING.apply("原始植物不会生产物品，"),
-            Theme.WARNING.apply("仅可进行培育。")
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 
@@ -1143,8 +1143,8 @@ public final class CultivationStacks {
         List.of(
             "一种彰显荣华富贵的植物。",
             "",
-            Theme.WARNING.apply("Primal plants dont produce items"),
-            Theme.WARNING.apply("and are just for breeding.")
+            Theme.WARNING.apply("原始植物不会生产物品，"),
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 
@@ -1157,7 +1157,7 @@ public final class CultivationStacks {
             "一种轻微改变着颜色的植物。",
             "",
             Theme.WARNING.apply("原始植物不会生产物品，"),
-            Theme.WARNING.apply("仅可进行培育。")
+            Theme.WARNING.apply("仅用于培育。")
         )
     );
 

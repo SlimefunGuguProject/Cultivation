@@ -155,7 +155,13 @@ public class PlantCodexFlexGroup extends FlexItemGroup {
                 boolean researched = StatisticUtils.isDiscovered(player, child.getId());
 
                 if (mode == SlimefunGuideMode.CHEAT_MODE || researched) {
-                    ItemStack itemStack = new ItemStack(child.getItem().clone());
+                    // fix for 1.21 ItemStack changes
+                    ItemStack tempItem = child.getItem();
+                    ItemStack itemStack = new ItemStack(tempItem.getType(), tempItem.getAmount());
+                    if (tempItem.hasItemMeta()) {
+                        itemStack.setItemMeta(tempItem.getItemMeta());
+                    }
+
                     if (child instanceof HarvestablePlant harvestablePlant) {
                         ItemStack possibleStack = harvestablePlant.getHarvestingResults().getRandom();
                         if (possibleStack != null) {
