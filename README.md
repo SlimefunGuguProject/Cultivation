@@ -7,7 +7,7 @@ Cultivation 农耕工艺 是一个 Slimefun4 附属插件，向MC添加了大量
 
 ## 下载 Cultivation
 
-[![构建状态](https://builds.guizhanss.net/f/SlimefunGuguProject/Cultivation/main/badge.svg)](https://builds.guizhanss.net/SlimefunGuguProject/Cultivation/main)
+[下载 Cultivation](https://resources.guizhanss.com/plugin/Cultivation)
 
 你可以在 [文档页面(英文)](https://sefiraat.dev) 找到完整的教程！
 
